@@ -29,7 +29,7 @@ No Mercy = 'l4d'
 
 # Using The Script
 
-The script is pretty self-explanatory. I have also included my personal expansive logging function which can log pretty much any data type in PD:TH (or 2) and which is used heavily in the converting script.
+The script is pretty self-explanatory. I have also included my personal expansive logging function which can log pretty much any data type in PD:TH (or 2) and which is used heavily in the converting script.  
 All the details about what element does what can be found in _(core/)lib/managers/mission_.
 
 
