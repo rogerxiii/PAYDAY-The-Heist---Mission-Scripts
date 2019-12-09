@@ -2,7 +2,7 @@
 
 Here a collection of all of PD:TH's mission scripts, converted to make reading and searching as easy as possible.
 
-In _levels [raw]_ are the original mission scripts, which are just LUA tables.
+In _levels [raw]_ are the original mission scripts, which are just LUA tables.  
 In _levels [compact]_ are the converted mission scripts. All elements that could be inlined are inlined and unreachable elements are removed.
 In _levels [full]_ are the converted missions scripts that are identical to the _compact_ ones, besides having added **every** element, in case something has been inlined but you need to find a reference to it.
 
