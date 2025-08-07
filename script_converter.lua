@@ -114,9 +114,24 @@ local function print_execution_list_no_recursion(list, group, path, indent)
 	end
 end
 
-_log_global_handle = io.open("mods/log.txt", "a")
-local scripts = managers.mission._scripts
 local print_compact_list = shift()
+local module = D and D:module("mission_dumper")
+if module then
+	local tag = print_compact_list and "compact" or "full"
+	local level_id = tablex.get(Global.game_settings, "level_id") or "apartment"
+	local current_level = tablex.get({
+		hospital = "l4d",
+		heat_street = "street",
+		diamond_heist = "diamondheist",
+		slaughter_house = "slaughterhouse",
+	}, level_id) or level_id
+	local path = string.format("%slevels [%s]/%s_%s.txt", module:path(), tag, current_level, tag)
+	_log_global_handle = io.open(path, "a")
+else
+	_log_global_handle = io.open("mods/log.txt", "a")
+end
+
+local scripts = managers.mission._scripts
 elements = {}
 unit_ids = {}
 
