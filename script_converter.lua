@@ -1156,6 +1156,68 @@ inline = {
 		_log_with_indent(indent, string.format("Change player look to style '%s'%s", values.style, get_delay(delay)))
 		print_execution_list(values.on_executed, indent)
 	end,
+	-----
+	--- DAHM custom element classes (from scriman/ovk_193)
+	---
+	["ElementDeleteUnit"] = function(element, delay, indent)
+		local unit_ids = element.values.unit_ids
+		local delay_str = get_delay(delay)
+
+		if #unit_ids == 0 then
+			_log_with_indent(indent, string.format("Delete Unit element with no assigned unit IDs%s", delay_str))
+		else
+			local suffix = #unit_ids == 1 and "" or "s"
+			_log_with_indent(indent, string.format("Delete %d unit%s by ID%s", #unit_ids, suffix, delay_str))
+			for i, id in ipairs(unit_ids) do
+				_log_with_indent(indent + 1, string.format("%d) Unit ID: %s", i, tostring(id)))
+			end
+		end
+
+		print_execution_list(element.values.on_executed, indent)
+	end,
+	["ElementSpawnSyncableUnit"] = function(element, delay, indent)
+		local values = element.values
+		local delay_str = get_delay(delay)
+		local unit_path = values.unit or "units/dummy_unit_1/dummy_unit_1"
+
+		local output = string.format(
+			"Spawn syncable unit '%s' at position %s and rotation %s%s",
+			unit_path,
+			vector_string(values.position),
+			vector_string(values.rotation),
+			delay_str
+		)
+
+		_log_with_indent(indent, output)
+
+		if values.sequence then
+			_log_with_indent(indent + 1, string.format("Run sequence '%s' after spawn", values.sequence))
+		end
+
+		if values.interactable then
+			_log_with_indent(indent + 1, "Enable interaction on unit")
+		end
+
+		print_execution_list(values.on_executed, indent)
+	end,
+	["ElementUnitProperty"] = function(element, delay, indent)
+		local values = element.values
+		local delay_str = get_delay(delay)
+
+		local value_str
+		if type(values.value) == "boolean" then
+			value_str = tostring(values.value)
+		elseif values.value == nil then
+			value_str = "null"
+		else
+			value_str = string.format("'%s'", tostring(values.value))
+		end
+
+		local output = string.format("Set property '%s' to %s on instigator%s", values.property, value_str, delay_str)
+
+		_log_with_indent(indent, output)
+		print_execution_list(values.on_executed, indent)
+	end,
 }
 
 -- Elements which (can) stand on their own
