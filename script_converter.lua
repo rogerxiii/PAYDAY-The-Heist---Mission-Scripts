@@ -155,9 +155,10 @@ inline = {
 	["ElementSpawnEnemyDummy"] = function(element, delay, indent)
 		local values = element.values
 		local output = string.format(
-			"Spawn enemy unit {%s} at position %s%s",
+			"Spawn enemy unit {%s} at position %s with rotation %s%s",
 			values.enemy,
 			vector_string(values.position),
+			rotation_string(values.rotation),
 			get_delay(delay)
 		)
 		_log_with_indent(indent, output)
@@ -166,9 +167,10 @@ inline = {
 	["ElementSpawnCivilian"] = function(element, delay, indent)
 		local values = element.values
 		local output = string.format(
-			"Spawn civilian unit {%s} at position %s%s",
+			"Spawn civilian unit {%s} at position %s with rotation %s%s",
 			values.enemy,
 			vector_string(values.position),
+			rotation_string(values.rotation),
 			get_delay(delay)
 		)
 		_log_with_indent(indent, output)
