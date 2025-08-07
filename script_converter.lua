@@ -1170,11 +1170,9 @@ inline = {
 			_log_with_indent(indent, string.format("Delete %d unit%s by ID%s", #units, suffix, delay_str))
 			for i, id in ipairs(units) do
 				local unit_data = unit_ids[id]
-				local output = string.format("%d) delete unit %s {%s} at position %s", i, unit_data.name, unit_data.position)
-				_log_with_indent(
-				indent + 1,
-					output
-				)
+				local output =
+					string.format("%d) delete unit %s {%s} at position %s", i, unit_data.name, unit_data.position)
+				_log_with_indent(indent + 1, output)
 			end
 		end
 
