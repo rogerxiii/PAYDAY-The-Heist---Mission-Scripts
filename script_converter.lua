@@ -131,7 +131,7 @@ inline = {
 	["ElementPlayerSpawner"] = function(element, delay, indent)
 		local values = element.values
 		local output =
-			string.format("Create player spawn at position %s%s", vector_string(values.position), get_delay(delay))
+			string.format("Create player spawn at position %s with rotation %s%s", vector_string(values.position), rotation_string(values.rotation), get_delay(delay))
 		_log_with_indent(indent, output)
 		print_execution_list(values.on_executed, indent)
 	end,
