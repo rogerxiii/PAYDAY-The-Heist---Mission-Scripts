@@ -1160,16 +1160,21 @@ inline = {
 	--- DAHM custom element classes (from scriman/ovk_193)
 	---
 	["ElementDeleteUnit"] = function(element, delay, indent)
-		local unit_ids = element.values.unit_ids
+		local units = element.values.unit_ids
 		local delay_str = get_delay(delay)
 
-		if #unit_ids == 0 then
+		if #units == 0 then
 			_log_with_indent(indent, string.format("Delete Unit element with no assigned unit IDs%s", delay_str))
 		else
-			local suffix = #unit_ids == 1 and "" or "s"
-			_log_with_indent(indent, string.format("Delete %d unit%s by ID%s", #unit_ids, suffix, delay_str))
-			for i, id in ipairs(unit_ids) do
-				_log_with_indent(indent + 1, string.format("%d) Unit ID: %s", i, tostring(id)))
+			local suffix = #units == 1 and "" or "s"
+			_log_with_indent(indent, string.format("Delete %d unit%s by ID%s", #units, suffix, delay_str))
+			for i, id in ipairs(units) do
+				local unit_data = unit_ids[id]
+				local output = string.format("%d) delete unit %s {%s} at position %s", i, unit_data.name, unit_data.position)
+				_log_with_indent(
+				indent + 1,
+					output
+				)
 			end
 		end
 
