@@ -114,10 +114,11 @@ local function print_execution_list_no_recursion(list, group, path, indent)
 	end
 end
 
+local print_raw_list = alt()
 local print_compact_list = shift()
 local module = D and D:module("mission_dumper")
 if module then
-	local tag = print_compact_list and "compact" or "full"
+	local tag = print_raw_list and "raw" or print_compact_list and "compact" or "full"
 	local level_id = tablex.get(Global.game_settings, "level_id") or "apartment"
 	local current_level = tablex.get({
 		hospital = "l4d",
@@ -125,13 +126,24 @@ if module then
 		diamond_heist = "diamondheist",
 		slaughter_house = "slaughterhouse",
 	}, level_id) or level_id
-	local path = string.format("%slevels [%s]/%s_%s.txt", module:path(), tag, current_level, tag)
+	local path = string.format(
+		"%slevels [%s]/%s_%s.txt",
+		module:path(),
+		tag,
+		current_level,
+		print_raw_list and "original" or tag
+	)
 	_log_global_handle = io.open(path, "w+")
 else
 	_log_global_handle = io.open("mods/log.txt", "w+")
 end
 
 local scripts = managers.mission._scripts
+if print_raw_list then
+	_log(scripts)
+	return
+end
+
 elements = {}
 unit_ids = {}
 
@@ -1169,9 +1181,9 @@ inline = {
 			local suffix = #units == 1 and "" or "s"
 			_log_with_indent(indent, string.format("Delete %d unit%s by ID%s", #units, suffix, delay_str))
 			for i, id in ipairs(units) do
-				local unit_data = unit_ids[id]
+				local u_data = unit_ids[id]
 				local output =
-					string.format("%d) Delete unit %s {%s} at position %s", i, id, unit_data.name, vector_string(unit_data.position))
+					string.format("%d) Delete unit %s {%s} at %s", i, id, u_data.name, vector_string(u_data.position))
 				_log_with_indent(indent + 1, output)
 			end
 		end
@@ -1184,7 +1196,7 @@ inline = {
 		local unit_path = values.unit or "units/dummy_unit_1/dummy_unit_1"
 
 		local output = string.format(
-			"Spawn syncable unit '%s' at position %s and rotation %s%s",
+			"Spawn syncable unit '%s' on position %s with rotation %s%s",
 			unit_path,
 			vector_string(values.position),
 			vector_string(values.rotation),
@@ -1217,6 +1229,27 @@ inline = {
 		end
 
 		local output = string.format("Set property '%s' to %s on instigator%s", values.property, value_str, delay_str)
+
+		_log_with_indent(indent, output)
+		print_execution_list(values.on_executed, indent)
+	end,
+	["ElementEquipmentFilter"] = function(element, delay, indent)
+		local values = element.values
+		local equipment = values.equipment or "unknown"
+		local amount = values.amount or "all"
+		local delay_str = get_delay(delay)
+
+		local output
+		if amount == "all" then
+			output = string.format("Check if all players have equipment '%s'%s", equipment, delay_str)
+		else
+			output = string.format(
+				"Check if the player(s) have at least %d of equipment '%s'%s",
+				amount,
+				equipment,
+				delay_str
+			)
+		end
 
 		_log_with_indent(indent, output)
 		print_execution_list(values.on_executed, indent)
@@ -1261,7 +1294,15 @@ noinline = {
 			elseif not unit_ids[vals.unit_id] then
 				_log(string.format("\t\t#TODO unit_id %s cannot be resolved to a unit!", vals.unit_id))
 			else
-				_log(string.format("\t\t%s) Unit %d {%s} runs '%s'", id, vals.unit_id, unit_ids[vals.unit_id].name, vals.sequence))
+				_log(
+					string.format(
+						"\t\t%s) Unit %d {%s} runs '%s'",
+						id,
+						vals.unit_id,
+						unit_ids[vals.unit_id].name,
+						vals.sequence
+					)
+				)
 			end
 		end
 		_log("\tThen perform:")
