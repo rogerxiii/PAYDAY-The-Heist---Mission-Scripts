@@ -126,9 +126,9 @@ if module then
 		slaughter_house = "slaughterhouse",
 	}, level_id) or level_id
 	local path = string.format("%slevels [%s]/%s_%s.txt", module:path(), tag, current_level, tag)
-	_log_global_handle = io.open(path, "a")
+	_log_global_handle = io.open(path, "w+")
 else
-	_log_global_handle = io.open("mods/log.txt", "a")
+	_log_global_handle = io.open("mods/log.txt", "w+")
 end
 
 local scripts = managers.mission._scripts
@@ -520,7 +520,7 @@ inline = {
 			local overkill_or_above = {
 				difficulty_map["overkill"],
 				difficulty_map["overkill_145"],
-				difficulty_map["overkill_193"],
+				-- difficulty_map["overkill_193"],
 			}
 			label = string.format("{%s}", table.concat(overkill_or_above, ", "))
 		end
