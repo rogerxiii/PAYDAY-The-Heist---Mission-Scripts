@@ -891,7 +891,7 @@
 	[INITIAL TRIGGER TIMES: 1]
 	If difficulty is Hard then perform:
 		Award achievement 'A bridge too far!' 
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'A bridge too far!' 
 	Complete objective 'bridge_jump' at position (-3375, -46925, 3575) 
 	Make teammates say 'bri_50'
@@ -2224,7 +2224,7 @@
 		Roll the dice with 35% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_099' [MissionScriptElement] 101464 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 65% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_099' [MissionScriptElement] 101464 from default
@@ -3196,7 +3196,7 @@
 	Create objective for instigator around position (-2050, -10575, 5795.6000976563) with action so_prisonvan3_4_5_to_pnc
  
 'func_diff_level_check_003' [ElementDifficultyLevelCheck] 101853 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'A bridge too far!' 
  
 'env_effect_play_019' [ElementPlayEffect] 101869 from default
@@ -6364,7 +6364,7 @@
 	Create navigation link for enemies from position (-1264.0100097656, -20065, 5778.7202148438) to (-2041.6199951172, -19236.900390625, 5780.3500976563) with action run_fwd_turn_r_var1
  
 'func_diff_level_check_005' [ElementDifficultyLevelCheck] 102058 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 65% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_099' [MissionScriptElement] 101464 from default

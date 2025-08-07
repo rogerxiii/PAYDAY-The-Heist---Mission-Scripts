@@ -1247,7 +1247,7 @@
 	If difficulty is Hard then perform:
 		Toggle ON element 'logic_link_120' [MissionScriptElement] 102132 from deafult
 		Toggle ON element 'logic_link_121' [MissionScriptElement] 102683 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Toggle ON element 'logic_link_119' [MissionScriptElement] 101253 from deafult
 		Toggle ON element 'logic_link_059' [MissionScriptElement] 102659 from deafult
 		Toggle ON element 'logic_link_021' [MissionScriptElement] 102646 from deafult
@@ -1606,7 +1606,7 @@
 		Run sequence 'hide' on unit 103631 {units/equipment/gas/gas_can} at (-8301.849609375, 7898.1098632813, 7.8739318847656) 
 		Run sequence 'hide' on unit 103632 {units/equipment/gas/gas_can} at (-6661.4599609375, 4421.9301757813, 15.898300170898) 
 		Toggle OFF element 'logic_link_122' [MissionScriptElement] 101549 from deafult	(DELAY 900)
-		If difficulty is Overkill then perform:	(DELAY 0.019999999552965)
+		If difficulty is {Overkill, Overkill 145+} then perform:	(DELAY 0.019999999552965)
 			Toggle ON element 'logic_random_sniperspawn01' [ElementRandom] 101179 from deafult
 		Run sequence 'hide' on unit 100413 {units/world/props/goal_units/goal_octagon} at (-23019, 8461, -72) 
 		Execute element 'logic_link_111' [MissionScriptElement] 102700 from deafult	(DELAY 10)
@@ -1622,7 +1622,7 @@
 								Forbid AI nav sections 50
 				Run sequence 'close_door' on unit 100387 {units/world/props/container/container_anim/container_anim} at (-18756, 5789, -79) 
 								Forbid AI nav sections 55
-		If difficulty is Overkill then perform:	(DELAY 0.019999999552965)
+		If difficulty is {Overkill, Overkill 145+} then perform:	(DELAY 0.019999999552965)
 			Roll the dice with 25% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_close2nd_floor' [MissionScriptElement] 101209 from alley_ambush	(DELAY 5)
@@ -1818,7 +1818,7 @@
 		Roll the dice with 50% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_137' [MissionScriptElement] 101734 from alley_ambush
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 80% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_137' [MissionScriptElement] 101734 from alley_ambush
@@ -2744,7 +2744,7 @@
 		On success, perform:
 			Create navigation link for enemies from position (-11595.299804688, 5156.4702148438, 2.9999899864197) to (-11528.400390625, 5245.259765625, 285.66500854492) with action so_container_jumpup
 			Create navigation link for enemies from position (-11666.5, 5317.0600585938, 12.003600120544) to (-11507.900390625, 5280.91015625, 285.05099487305) with action so_container_jumpup	(DELAY 3)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 100% chance to succeed.
 		On success, perform:
 			Create navigation link for enemies from position (-11595.299804688, 5156.4702148438, 2.9999899864197) to (-11528.400390625, 5245.259765625, 285.66500854492) with action so_container_jumpup
@@ -3656,7 +3656,7 @@
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-15087, 5473, -49.0248)	(DELAY 12)
 			Perform 'env_effect_stop_014':	(DELAY 90)
 				Stop effect {effects/particles/explosions/smoke_grenade_smoke} with fade-out
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-15087, 5473, -49.0248)	(DELAY 12)
@@ -3786,7 +3786,7 @@
 	Run sequence 'flyin_right_hover' on unit 100751 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-7876.83984375, 6536, -72.99299621582) 	(DELAY 100)
 	Run sequence 'hover_flyout_back' on unit 100751 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-7876.83984375, 6536, -72.99299621582) 	(DELAY 140)
 	Run sequence 'hidden' on unit 100751 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-7876.83984375, 6536, -72.99299621582) 	(DELAY 190)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
  
 'logic_counter_024' [ElementCounter] 103417 from deafult
@@ -3958,7 +3958,7 @@
 			Roll the dice with 50% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_040' [MissionScriptElement] 100647 from deafult
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 75% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_040' [MissionScriptElement] 100647 from deafult
@@ -5911,7 +5911,7 @@
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-15087, 5473, -49.0248)	(DELAY 12)
 			Perform 'env_effect_stop_014':	(DELAY 90)
 				Stop effect {effects/particles/explosions/smoke_grenade_smoke} with fade-out
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-15087, 5473, -49.0248)	(DELAY 12)
@@ -6726,7 +6726,7 @@
 	Create objective for instigator around position (-4050, 6775, 1054) with action AI_hunt
  
 'func_diff_level_check_002' [ElementDifficultyLevelCheck] 101621 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_close2nd_floor' [MissionScriptElement] 101209 from alley_ambush	(DELAY 5)
@@ -6776,7 +6776,7 @@
 	Execute element 'logic_link_126' [MissionScriptElement] 103953 from deafult	(DELAY 3.4000000953674)
  
 'func_diff_level_check_010' [ElementDifficultyLevelCheck] 102131 from alley_ambush
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 100% chance to succeed.
 		On success, perform:
 			Create navigation link for enemies from position (-11595.299804688, 5156.4702148438, 2.9999899864197) to (-11528.400390625, 5245.259765625, 285.66500854492) with action so_container_jumpup
@@ -7665,7 +7665,7 @@
 	Spawn enemy unit {units/characters/enemies/spooc/spooc} at position (-15437, 6028.259765625, -73) with rotation (-0, 0, 147.00003051758)
  
 'func_diff_level_check_018' [ElementDifficultyLevelCheck] 101733 from alley_ambush
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 80% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_137' [MissionScriptElement] 101734 from alley_ambush
@@ -7840,7 +7840,7 @@
 'func_execute_in_other_mission_032' [ElementExecuteInOtherMission] 103991 from deafult
  
 'func_diff_level_check_008' [ElementDifficultyLevelCheck] 104007 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-15087, 5473, -49.0248)	(DELAY 12)
@@ -7963,7 +7963,7 @@
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (-8833, 9180, 2) with rotation (-0, 0, -90)
  
 'func_diff_level_check_005' [ElementDifficultyLevelCheck] 100072 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
  
 'ai_spawn_enemy_001' [ElementSpawnEnemyDummy] 100665 from deafult
@@ -8030,7 +8030,7 @@
 'func_sequence_175' [ElementUnitSequence] 103096 from alley_ambush
  
 'func_diff_level_check_012' [ElementDifficultyLevelCheck] 103112 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Toggle ON element 'logic_random_sniperspawn01' [ElementRandom] 101179 from deafult
  
 'point_special_objective_145' [ElementSpecialObjective] 103626 from deafult
@@ -8335,7 +8335,7 @@
 	Add preferred spawn point for {units/characters/enemies/swat/swat} with action so_run_fwd_low at (-9138, 3840, -72)
  
 'func_diff_level_check_overkill' [ElementDifficultyLevelCheck] 101119 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Toggle ON element 'logic_link_119' [MissionScriptElement] 101253 from deafult
 		Toggle ON element 'logic_link_059' [MissionScriptElement] 102659 from deafult
 		Toggle ON element 'logic_link_021' [MissionScriptElement] 102646 from deafult
@@ -8543,7 +8543,7 @@
 'env_effect_stop_001' [ElementStopEffect] 101338 from deafult
  
 'func_diff_level_check_004' [ElementDifficultyLevelCheck] 103980 from deafult
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_040' [MissionScriptElement] 100647 from deafult

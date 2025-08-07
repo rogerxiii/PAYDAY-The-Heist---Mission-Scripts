@@ -139,7 +139,7 @@
 			Set difficulty to 0.5 
 		If difficulty is Hard then perform:
 			Set difficulty to 0.5 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
 		If difficulty is Easy then perform:
 			Set difficulty to 0.25 
@@ -311,7 +311,7 @@
 	Create navigation link for enemies from position (-16694, -8081, 1050) to (-16659.099609375, -7817, 860.89300537109) with action so_climbover1_5m_drop3m	(DELAY 7)
 	Create navigation link for enemies from position (-17079, -9297, 1050) to (-17111.80078125, -8725.1201171875, 1050) with action jump_over_1_5m_var4	(DELAY 5)
 	Execute element 'logic_link_026' [MissionScriptElement] 102752 from default	(DELAY 3)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Set difficulty to 1 
 	If difficulty is Hard then perform:
 		Set difficulty to 1 
@@ -967,7 +967,7 @@
 				Execute at random 1 of the following elements:
 					1) 'logic_link_054' [MissionScriptElement] 100852 from default
 					2) 'logic_link_005' [MissionScriptElement] 103025 from default
-			If difficulty is Overkill then perform:
+			If difficulty is {Overkill, Overkill 145+} then perform:
 				Execute at random 1 of the following elements:
 					1) 'logic_link_054' [MissionScriptElement] 100852 from default
 					2) 'logic_link_005' [MissionScriptElement] 103025 from default
@@ -1398,7 +1398,7 @@
 			Set difficulty to 0.40000000596046 
 		If difficulty is Hard then perform:
 			Set difficulty to 0.40000000596046 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
  
 'trigger_area_039' [ElementAreaTrigger] 103397 from default
@@ -1463,7 +1463,7 @@
 			Set difficulty to 0.75 
 		If difficulty is Hard then perform:
 			Set difficulty to 0.75 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
 		Toggle ON element 'trigger_area_008' [ElementAreaTrigger] 101962 from default
 		Play dialogue 'str_ban_25'
@@ -1633,7 +1633,7 @@
 			Set difficulty to 0.5 
 		If difficulty is Hard then perform:
 			Set difficulty to 0.5 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
 		Create navigation link for enemies from position (-8377.099609375, -2852.2099609375, 37.975200653076) to (-7907, -2675, 50.011299133301) with action so_hood_slide
 		Create navigation link for enemies from position (-8064.5498046875, -2405.7099609375, 37.975200653076) to (-8123, -3323, 37.975200653076) with action so_jump_over_car_front
@@ -1814,7 +1814,7 @@
 		Set difficulty to 0.25 
 	If difficulty is Hard then perform:
 		Set difficulty to 0.5 
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Set difficulty to 1 
 	Perform 'func_sequence_064': 	(DELAY 2)
 		Run sequence 'flickering' on unit 101934 {units/world/props/apartment/facade_light/facade_light} at (-14550, -4569, 786.56298828125) 
@@ -1938,7 +1938,7 @@
 			Set difficulty to 0 
 		If difficulty is Hard then perform:
 			Set difficulty to 0 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
 		Execute element 'logic_link_059' [MissionScriptElement] 100292 from default	(DELAY 1.5)
 		Run sequence 'enable_interaction' on unit 102516 {units/world/architecture/street/consulate_exit/consulate_door} at (13349.299804688, 12820, -123.15899658203) 
@@ -2472,7 +2472,7 @@
 		Create navigation link for enemies from position (-13926, -15231, 50) to (-13928.700195313, -14683, 50) with action jump_over_1_5m_var5
 		Create navigation link for enemies from position (-14085, -15231, 50) to (-14090.599609375, -14594.099609375, 50) with action jump_over_1_5m_var4
 		Remove all preferred spawn points associated with 'ai_enemy_prefered_add_006' 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Set difficulty to 1 
 		If difficulty is Hard then perform:
 			Set difficulty to 0.5 

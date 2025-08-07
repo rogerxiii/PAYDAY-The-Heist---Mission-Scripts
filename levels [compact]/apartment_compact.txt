@@ -1800,7 +1800,7 @@
 			1) 'logic_link_021' [MissionScriptElement] 104031 from default
 			2) 'logic_link_017' [MissionScriptElement] 103505 from default
 			3) 'logic_link_022' [MissionScriptElement] 104032 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute element 'logic_link_021' [MissionScriptElement] 104031 from default
  
 'logic_link_141' [MissionScriptElement] 103394 from default
@@ -2613,7 +2613,7 @@
 			Execute at random 1 of the following elements:
 				1) 'logic_link_071' [MissionScriptElement] 101818 from default
 				2) 'logic_link_101' [MissionScriptElement] 101819 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 30% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_111' [MissionScriptElement] 102362 from default
@@ -2641,7 +2641,7 @@
 			Execute element 'logic_link_102' [MissionScriptElement] 102126 from default
 		If difficulty is Hard then perform:
 			Execute element 'logic_link_102' [MissionScriptElement] 102126 from default
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Execute element 'logic_link_102' [MissionScriptElement] 102126 from default
 		Execute element 'yshort logic_link_099' [MissionScriptElement] 102673 from default
 		Execute element 'logic_link_099' [MissionScriptElement] 102681 from default
@@ -2807,7 +2807,7 @@
 			Roll the dice with 25% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_087' [MissionScriptElement] 102656 from default
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 50% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_087' [MissionScriptElement] 102656 from default
@@ -2874,7 +2874,7 @@
 			1) 'balcony' [ElementUnitSequence] 101591 from default
 			2) 'roof' [ElementUnitSequence] 101573 from default
 			3) 'alley' [ElementUnitSequence] 100350 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'alley' [ElementUnitSequence] 100350 from default
 			2) 'balcony' [ElementUnitSequence] 101591 from default
@@ -3155,7 +3155,7 @@
 			Toggle ON element 'trigger_area_031' [ElementAreaTrigger] 102687 from default
 		If difficulty is Hard then perform:
 			Execute element 'logic_link_110' [MissionScriptElement] 102311 from default
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Execute element 'logic_link_110' [MissionScriptElement] 102311 from default
 		Play dialogue 'apa_ban_45x_any'	(DELAY 2)
 		Toggle OFF element 'func_dialogue_013 44x' [ElementDialogue] 102113 from default
@@ -3349,7 +3349,7 @@
 	If difficulty is Hard then perform:
 		Award achievement 'Hot lava' 
 		Print debug string 'success hot lava'
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'Hot lava' 
 		Print debug string 'success hot lava'
  

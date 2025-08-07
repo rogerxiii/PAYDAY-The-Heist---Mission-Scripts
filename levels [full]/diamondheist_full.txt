@@ -113,7 +113,7 @@
 	Run sequence 'hide' on unit 100721 {units/equipment/c4_charge/c4_plantable} at (-712, -444, 1195.7800292969) 
 	Create flee point at position (-4250, -3775, 375)
 	Execute element 'logic_link_149' [MissionScriptElement] 101136 from default	(DELAY 2)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute element 'logic_link_141' [MissionScriptElement] 101052 from default
 	If difficulty is Hard then perform:
 		Execute element 'logic_link_141' [MissionScriptElement] 101052 from default
@@ -299,7 +299,7 @@
 	When counter target 7 is reached, perform:
 		If difficulty is Hard then perform:
 			Award achievement 'Are you ready yet?' 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Are you ready yet?' 
 		Play dialogue 'dia_ban_98x_any'	(DELAY 4)
 		Execute element 'this_will_be_pointofnoreturn' [MissionScriptElement] 101040 from escape
@@ -490,7 +490,7 @@
 'logic_link_060' [MissionScriptElement] 100487 from default
 	Perform 'func_sequence_033': 	(DELAY 2)
 		Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 70% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -1762,7 +1762,7 @@
  
 'logic_counter_006' [ElementCounter] 101134 from default
 	When counter target 10 is reached, perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Are those the blue ones?' 
 		If difficulty is Hard then perform:
 			Award achievement 'Are those the blue ones?' 
@@ -2399,7 +2399,7 @@
  
 'logic_link_139' [MissionScriptElement] 100498 from default
 	Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -2867,7 +2867,7 @@
 	Execute element 'logic_link_146' [MissionScriptElement] 102033 from default
  
 'logic_link_213spoocOn' [MissionScriptElement] 102196 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'logic_link_214' [MissionScriptElement] 102201 from default
 			2) 'logic_link_213' [MissionScriptElement] 102200 from default
@@ -7249,7 +7249,7 @@
 	Spawn enemy unit {units/characters/enemies/swat_kevlar1/swat_kevlar1} at position (-3192.3601074219, 780.59497070313, 237.5) with rotation (-0, -0, 90)
  
 'func_diff_level_check_009' [ElementDifficultyLevelCheck] 100622 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -7446,7 +7446,7 @@
 	Spawn civilian unit {units/characters/civilians/escort_guy_3/escort_guy_3} at position (-2850, 1250, 244.02099609375) with rotation (-0, 0, 0)
  
 'func_diff_level_check_008' [ElementDifficultyLevelCheck] 101167 from escape
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'Are you ready yet?' 
  
 'alarm_box1' [ElementUnitSequence] 101199 from default
@@ -7669,7 +7669,7 @@
 	Run sequence 'close' on unit 101091 {units/world/props/diamond_stand/diamond_stand_05} at (-700, -1075, 375) 
  
 'func_diff_level_check_012' [ElementDifficultyLevelCheck] 102256 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'logic_link_214' [MissionScriptElement] 102201 from default
 			2) 'logic_link_213' [MissionScriptElement] 102200 from default
@@ -8514,7 +8514,7 @@
 	Run sequence 'open_door' on unit 101328 {units/world/props/hack_box/hack_box} at (-5650, -5107, 458.99099731445) 
  
 'func_diff_level_check_010' [ElementDifficultyLevelCheck] 101397 from heli_drops
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute element 'logic_link_205' [MissionScriptElement] 102096 from heli_drops	(DELAY 60)
  
 'point_special_objective_097_patrolNAV003' [ElementSpecialObjective] 101461 from default
@@ -9444,7 +9444,7 @@
 	Play dialogue 'dia_ban_58x_any'
  
 'func_diff_level_check_003' [ElementDifficultyLevelCheck] 101050 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute element 'logic_link_141' [MissionScriptElement] 101052 from default
  
 'logic_toggle_006' [ElementToggle] 101210 from default
@@ -9586,7 +9586,7 @@
  
 'func_sequence_033' [ElementUnitSequence] 100379 from default
 	Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -10885,7 +10885,7 @@
 	Create objective for instigator around position (-6480.4702148438, -2760.2399902344, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'func_diff_level_check_004' [ElementDifficultyLevelCheck] 101057 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'Are those the blue ones?' 
  
 'alarm_box6' [ElementUnitSequence] 101185 from default

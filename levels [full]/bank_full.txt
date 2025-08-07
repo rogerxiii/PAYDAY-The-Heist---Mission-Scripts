@@ -2387,7 +2387,7 @@
 		Roll the dice with 80% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_165' [MissionScriptElement] 102693 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_165' [MissionScriptElement] 102693 from default
@@ -2413,7 +2413,7 @@
 	If event 'death' gets executed by any of:
 		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_042_cafeteriaPlanter'
 	Then perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Windowlicker' 
 		If difficulty is Hard then perform:
 			Award achievement 'Windowlicker' 
@@ -2704,7 +2704,7 @@
 		Toggle OFF element 'logic_link_125' [MissionScriptElement] 103320 from default
 		Toggle OFF element 'func_dialogue_077_bain' [ElementDialogue] 103317 from default
 		Make teammates say 'fwb_14'
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 25% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_179_spawn_civsnguard' [MissionScriptElement] 103902 from default
@@ -2787,7 +2787,7 @@
 	Trigger instigator: player
 	When trigger condition 'on_enter' is met, perform:
 		Make teammates close to instigator say 'fwb_10'
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 65% chance to succeed.
 			On success, perform:
 				Execute at random 1 of the following elements:
@@ -3244,7 +3244,7 @@
 	Trigger shape (WxHxD): 500 x 500 x 500 at position (4864, 304, -735.69299316406)
 	Trigger instigator: player
 	When trigger condition 'on_enter' is met, perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Execute at random 2 of the following elements:
 				1) 'ai_spawn_enemy_134' [ElementSpawnEnemyDummy] 103908 from default
 				2) 'ai_spawn_enemy_147' [ElementSpawnEnemyDummy] 103909 from default
@@ -3568,7 +3568,7 @@
 		Roll the dice with 10% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
@@ -3639,7 +3639,7 @@
 	If any of the following sequences get triggered:
 		1) {units/equipment/vault_drill/vault_drill} runs 'first_interact'
 	Then perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Create navigation link for enemies from position (-700, 2700, -24.974800109863) to (-1275, 2525, -24.974800109863) with action so_jump_over_1_5m
 			Create navigation link for enemies from position (-700, 2300, -24.974700927734) to (-875, 2300, -24.974800109863) with action so_jump_over_1_5m
 			Create navigation link for enemies from position (-1171, 1798, -24.974700927734) to (-1175, 2250, -24.974700927734) with action so_jump_over_1_5m
@@ -4410,7 +4410,7 @@
 	Trigger instigator: player
 	When trigger condition 'on_enter' is met, perform:
 		Make teammates close to instigator say 'fwb_10'
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 65% chance to succeed.
 			On success, perform:
 				Execute at random 1 of the following elements:
@@ -4598,7 +4598,7 @@
  
 'logic_link_165' [MissionScriptElement] 102693 from default
 	[INITIAL TRIGGER TIMES: 1]
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'ai_spawn_enemy_139' [ElementSpawnEnemyDummy] 103129 from default
 			2) 'ai_spawn_enemy_140' [ElementSpawnEnemyDummy] 103135 from default
@@ -4764,7 +4764,7 @@
 	If event 'death' gets executed by any of:
 		1) {units/characters/bank_manager/bank_manager2} from element 'ai_civilian_group_manager'
 	Then perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Toggle ON element 'logic_link_163' [MissionScriptElement] 101953 from default
 			Print debug string 'tank will spawn because u killed bew'
  
@@ -4902,7 +4902,7 @@
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_177' [MissionScriptElement] 103675 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 49% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_177' [MissionScriptElement] 103675 from default
@@ -5535,7 +5535,7 @@
 	If difficulty is Hard then perform:
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action repel_through_wndw_short at (5848, -3025, 464.30899047852)
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action none at (5850, -3250, 464.30899047852)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action repel_through_wndw_short at (5848, -3025, 464.30899047852)
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action none at (5850, -3250, 464.30899047852)
 	Run sequence 'open' on unit 103736 {units/world/architecture/bank/bank_elevator_shaft/bank_elevator_shaft} at (5968.91015625, -3019.2199707031, 464.30899047852) 
@@ -6094,7 +6094,7 @@
 	If event 'death' gets executed by any of:
 		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_002globePlanter'
 	Then perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Windowlicker' 
 		If difficulty is Hard then perform:
 			Award achievement 'Windowlicker' 
@@ -6637,13 +6637,13 @@
 	Play effect {effects/particles/dest/smoke_pocket} at position Vector3(-3125, 2646, 114)
  
 'func_diff_level_check_022' [ElementDifficultyLevelCheck] 103899 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_179_spawn_civsnguard' [MissionScriptElement] 103902 from default
  
 'func_diff_level_check_023' [ElementDifficultyLevelCheck] 103915 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 2 of the following elements:
 			1) 'ai_spawn_enemy_134' [ElementSpawnEnemyDummy] 103908 from default
 			2) 'ai_spawn_enemy_147' [ElementSpawnEnemyDummy] 103909 from default
@@ -6816,7 +6816,7 @@
 	Toggle OFF element 'logic_link_125' [MissionScriptElement] 103320 from default
 	Toggle OFF element 'func_dialogue_077_bain' [ElementDialogue] 103317 from default
 	Make teammates say 'fwb_14'
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_179_spawn_civsnguard' [MissionScriptElement] 103902 from default
@@ -6837,7 +6837,7 @@
 	Create navigation link for enemies from position (300, 1350, -24.993900299072) to (1500, 1375, -24.895299911499) with action so_run_fwd
  
 'func_diff_level_check_015' [ElementDifficultyLevelCheck] 103660 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 49% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_177' [MissionScriptElement] 103675 from default
@@ -7264,7 +7264,7 @@
 		Roll the dice with 10% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
@@ -7702,7 +7702,7 @@
 	Create killzone for instigator of damage type 'gas'
  
 'func_diff_level_check_010' [ElementDifficultyLevelCheck] 102783 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_165' [MissionScriptElement] 102693 from default
@@ -7825,7 +7825,7 @@
 	Toggle OFF element 'point_teammate_comment_052' [ElementTeammateComment] 103361 from default
  
 'func_diff_level_check_014' [ElementDifficultyLevelCheck] 103439 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 65% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
@@ -7876,7 +7876,7 @@
 	Spawn civilian unit {units/characters/civilians/suit_male_3/suit_male_3} at position (800.01202392578, -1290.8699951172, 475) with rotation (-0, 0, -122.17318725586)
  
 'func_diff_level_check_019' [ElementDifficultyLevelCheck] 103743 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action repel_through_wndw_short at (5848, -3025, 464.30899047852)
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action none at (5850, -3250, 464.30899047852)
  
@@ -9946,11 +9946,11 @@
 	Toggle OFF element 'func_award_achievement_003' [ElementAwardAchievment] 100854 from default
  
 'func_diff_level_check_003' [ElementDifficultyLevelCheck] 100966 from event_cafeteria_window
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'Windowlicker' 
  
 'func_diff_level_check_001' [ElementDifficultyLevelCheck] 100928 from event_globe_window
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Award achievement 'Windowlicker' 
  
 'ai_spawn_enemy_142' [ElementSpawnEnemyDummy] 103141 from default
@@ -10060,7 +10060,7 @@
 		Roll the dice with 10% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
@@ -10106,7 +10106,7 @@
 	Create objective for instigator around position (-1350, 2100, -25) with action AI_search
  
 'func_diff_level_check_007' [ElementDifficultyLevelCheck] 101942 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Toggle ON element 'logic_link_163' [MissionScriptElement] 101953 from default
 		Print debug string 'tank will spawn because u killed bew'
  
@@ -10529,7 +10529,7 @@
 	Run sequence 'flyin_left_hover' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 
  
 'func_diff_level_check_008' [ElementDifficultyLevelCheck] 102423 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
@@ -10755,7 +10755,7 @@
 	Set difficulty to 0 
  
 'func_diff_level_check_005' [ElementDifficultyLevelCheck] 101832 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Create navigation link for enemies from position (-700, 2700, -24.974800109863) to (-1275, 2525, -24.974800109863) with action so_jump_over_1_5m
 		Create navigation link for enemies from position (-700, 2300, -24.974700927734) to (-875, 2300, -24.974800109863) with action so_jump_over_1_5m
 		Create navigation link for enemies from position (-1171, 1798, -24.974700927734) to (-1175, 2250, -24.974700927734) with action so_jump_over_1_5m
@@ -10977,7 +10977,7 @@
 		Roll the dice with 10% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 75% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_164' [MissionScriptElement] 102422 from default
@@ -11786,7 +11786,7 @@
 	Create navigation link for enemies from position (-4017.9099121094, 1215.6700439453, -87) to (-4029.7700195313, 1028.2399902344, -84.996101379395) with action so_move_under_low_obj_right
  
 'func_diff_level_check_012' [ElementDifficultyLevelCheck] 103162 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'ai_spawn_enemy_139' [ElementSpawnEnemyDummy] 103129 from default
 			2) 'ai_spawn_enemy_140' [ElementSpawnEnemyDummy] 103135 from default

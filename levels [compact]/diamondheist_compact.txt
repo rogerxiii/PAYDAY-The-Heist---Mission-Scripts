@@ -113,7 +113,7 @@
 	Run sequence 'hide' on unit 100721 {units/equipment/c4_charge/c4_plantable} at (-712, -444, 1195.7800292969) 
 	Create flee point at position (-4250, -3775, 375)
 	Execute element 'logic_link_149' [MissionScriptElement] 101136 from default	(DELAY 2)
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute element 'logic_link_141' [MissionScriptElement] 101052 from default
 	If difficulty is Hard then perform:
 		Execute element 'logic_link_141' [MissionScriptElement] 101052 from default
@@ -299,7 +299,7 @@
 	When counter target 7 is reached, perform:
 		If difficulty is Hard then perform:
 			Award achievement 'Are you ready yet?' 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Are you ready yet?' 
 		Play dialogue 'dia_ban_98x_any'	(DELAY 4)
 		Execute element 'this_will_be_pointofnoreturn' [MissionScriptElement] 101040 from escape
@@ -490,7 +490,7 @@
 'logic_link_060' [MissionScriptElement] 100487 from default
 	Perform 'func_sequence_033': 	(DELAY 2)
 		Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 70% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -1762,7 +1762,7 @@
  
 'logic_counter_006' [ElementCounter] 101134 from default
 	When counter target 10 is reached, perform:
-		If difficulty is Overkill then perform:
+		If difficulty is {Overkill, Overkill 145+} then perform:
 			Award achievement 'Are those the blue ones?' 
 		If difficulty is Hard then perform:
 			Award achievement 'Are those the blue ones?' 
@@ -2399,7 +2399,7 @@
  
 'logic_link_139' [MissionScriptElement] 100498 from default
 	Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
@@ -2867,7 +2867,7 @@
 	Execute element 'logic_link_146' [MissionScriptElement] 102033 from default
  
 'logic_link_213spoocOn' [MissionScriptElement] 102196 from default
-	If difficulty is Overkill then perform:
+	If difficulty is {Overkill, Overkill 145+} then perform:
 		Execute at random 1 of the following elements:
 			1) 'logic_link_214' [MissionScriptElement] 102201 from default
 			2) 'logic_link_213' [MissionScriptElement] 102200 from default
