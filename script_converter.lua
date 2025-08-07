@@ -130,8 +130,12 @@ local elements_done = {}
 inline = {
 	["ElementPlayerSpawner"] = function(element, delay, indent)
 		local values = element.values
-		local output =
-			string.format("Create player spawn at position %s with rotation %s%s", vector_string(values.position), rotation_string(values.rotation), get_delay(delay))
+		local output = string.format(
+			"Create player spawn at position %s with rotation %s%s",
+			vector_string(values.position),
+			rotation_string(values.rotation),
+			get_delay(delay)
+		)
 		_log_with_indent(indent, output)
 		print_execution_list(values.on_executed, indent)
 	end,
@@ -493,10 +497,18 @@ inline = {
 			hard = "Hard",
 			overkill = "Overkill",
 			overkill_145 = "Overkill 145+",
-			overkill_193 = "Death Sentence",
+			overkill_193 = "Overkill 193+",
 		}
 
 		local label = difficulty_map[values.difficulty] or values.difficulty
+		if values.difficulty == "overkill" then
+			local overkill_or_above = {
+				difficulty_map["overkill"],
+				difficulty_map["overkill_145"],
+				difficulty_map["overkill_193"],
+			}
+			label = string.format("{%s}", table.concat(overkill_or_above, ", "))
+		end
 		_log_with_indent(indent, "If difficulty is " .. label .. " then perform:" .. get_delay(delay))
 
 		print_execution_list(values.on_executed, indent + 1)
