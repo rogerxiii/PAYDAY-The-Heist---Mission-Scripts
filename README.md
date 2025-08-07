@@ -115,3 +115,13 @@ ElementWaypoint
 ElementWhisperState
 MissionScriptElement
 ```
+
+
+
+# List of Custom Element Classes Implemented By The DAHM Framework
+```
+ElementDeleteUnit
+ElementSpawnSyncableUnit
+ElementUnitProperty
+ElementEquipmentFilter
+```
