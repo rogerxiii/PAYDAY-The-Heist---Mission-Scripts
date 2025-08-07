@@ -1171,7 +1171,7 @@ inline = {
 			for i, id in ipairs(units) do
 				local unit_data = unit_ids[id]
 				local output =
-					string.format("%d) delete unit %s {%s} at position %s", i, unit_data.name, unit_data.position)
+					string.format("%d) Delete unit %s {%s} at position %s", i, id, unit_data.name, vector_string(unit_data.position))
 				_log_with_indent(indent + 1, output)
 			end
 		end
@@ -1253,7 +1253,7 @@ noinline = {
 			if vals.unit_id == 0 then
 				_log(
 					string.format(
-						"\t\t%s) no unit runs '%s'\t\t(probably deprecated or for debugging only)",
+						"\t\t%s) No unit runs '%s'\t\t(probably deprecated or for debugging only)",
 						id,
 						vals.sequence
 					)
@@ -1261,7 +1261,7 @@ noinline = {
 			elseif not unit_ids[vals.unit_id] then
 				_log(string.format("\t\t#TODO unit_id %s cannot be resolved to a unit!", vals.unit_id))
 			else
-				_log(string.format("\t\t%s) {%s} runs '%s'", id, unit_ids[vals.unit_id].name, vals.sequence))
+				_log(string.format("\t\t%s) Unit %d {%s} runs '%s'", id, vals.unit_id, unit_ids[vals.unit_id].name, vals.sequence))
 			end
 		end
 		_log("\tThen perform:")
