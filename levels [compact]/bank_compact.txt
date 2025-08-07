@@ -248,7 +248,7 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 102027 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_01_finished'
+		1) Unit 101957 {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_01_finished'
 	Then perform:
 		Execute element 'logic_link_038' [MissionScriptElement] 102034 from default
 		Execute element 'logic_link_086' [MissionScriptElement] 103904 from default
@@ -264,7 +264,7 @@
 'func_sequence_trigger_095' [ElementUnitSequenceTrigger] 104202 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200218 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -272,7 +272,7 @@
 'func_sequence_trigger_111' [ElementUnitSequenceTrigger] 104218 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200152 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -312,28 +312,28 @@
 'func_sequence_trigger_127' [ElementUnitSequenceTrigger] 104234 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200302 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_142' [ElementUnitSequenceTrigger] 104250 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200267 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_166' [ElementUnitSequenceTrigger] 104282 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200331 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_178' [ElementUnitSequenceTrigger] 104298 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200253 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -361,7 +361,7 @@
 'func_sequence_trigger_064' [ElementUnitSequenceTrigger] 100556 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100855 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -382,7 +382,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 100668 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'first_interact'
+		1) Unit 102154 {units/equipment/vault_drill/vault_drill} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_link_drill_used' [MissionScriptElement] 101703 from default
 		Complete objective 'bank_apply_drill' at position (-325, 1850, 75) 
@@ -405,7 +405,7 @@
 'func_sequence_trigger_083' [ElementUnitSequenceTrigger] 102811 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/computer/computer_projector} runs 'destroy_projector'
+		1) Unit 103266 {units/world/props/office/computer/computer_projector} runs 'destroy_projector'
 	Then perform:
 		Run sequence 'destroy_projector_picture' on unit 103267 {units/world/props/office/computer/computer_projectorcloth_01} at (5248, -4100, 453.30899047852) 
  
@@ -416,7 +416,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 100956 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
+		1) Unit 100272 {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
 	Then perform:
 		Trigger global AI event 'besiege'
  
@@ -520,7 +520,7 @@
 'func_sequence_trigger_074' [ElementUnitSequenceTrigger] 101884 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 107027 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -528,7 +528,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 102028 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_04_finished'
+		1) Unit 101961 {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_04_finished'
 	Then perform:
 		Execute element 'logic_link_037' [MissionScriptElement] 102033 from default
 		Execute element 'logic_link_086' [MissionScriptElement] 103904 from default
@@ -576,7 +576,7 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 102172 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_02_finished'
+		1) Unit 101956 {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_02_finished'
 	Then perform:
 		Execute element 'logic_link_041' [MissionScriptElement] 102174 from default
 		Execute element 'logic_link_086' [MissionScriptElement] 103904 from default
@@ -588,28 +588,28 @@
 'func_sequence_trigger_128' [ElementUnitSequenceTrigger] 104235 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200289 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_143' [ElementUnitSequenceTrigger] 104251 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200265 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_167' [ElementUnitSequenceTrigger] 104283 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200221 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_179' [ElementUnitSequenceTrigger] 104299 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200251 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -635,7 +635,7 @@
 'func_sequence_trigger_065' [ElementUnitSequenceTrigger] 100557 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100847 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -695,14 +695,14 @@
 'func_sequence_trigger_067' [ElementUnitSequenceTrigger] 100653 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102622 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 100669 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'timer_done'
+		1) Unit 102154 {units/equipment/vault_drill/vault_drill} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_067' [MissionScriptElement] 101705 from default
 		Execute element 'logic_link_069' [MissionScriptElement] 101290 from default
@@ -826,7 +826,7 @@
 'func_sequence_trigger_036' [ElementUnitSequenceTrigger] 101645 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 107028 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_01' on unit 100708 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2800, 1536, 75) 
  
@@ -840,7 +840,7 @@
 'func_sequence_trigger_075' [ElementUnitSequenceTrigger] 101885 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 106996 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -890,21 +890,21 @@
 'func_sequence_trigger_129' [ElementUnitSequenceTrigger] 104236 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200291 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_144' [ElementUnitSequenceTrigger] 104252 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200263 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_153' [ElementUnitSequenceTrigger] 104268 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200316 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -920,7 +920,7 @@
 'func_sequence_trigger_180' [ElementUnitSequenceTrigger] 104300 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200252 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -945,7 +945,7 @@
 'func_sequence_trigger_069' [ElementUnitSequenceTrigger] 100846 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102620 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -1058,7 +1058,7 @@
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 101646 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100081 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_02' on unit 100708 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2800, 1536, 75) 
  
@@ -1133,7 +1133,7 @@
 'func_sequence_trigger_098' [ElementUnitSequenceTrigger] 104205 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200207 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -1145,28 +1145,28 @@
 'func_sequence_trigger_130' [ElementUnitSequenceTrigger] 104237 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200292 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_154' [ElementUnitSequenceTrigger] 104269 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200318 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_181' [ElementUnitSequenceTrigger] 104301 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200261 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 100271 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100273 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 100863 {units/equipment/money_bag/money_bag_small} at (7662, 1214, -358.91598510742) 
 		Execute element 'logic_counter_020' [ElementCounter] 103424 from default
@@ -1180,7 +1180,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 100431 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102624 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -1224,10 +1224,10 @@
 'func_sequence_trigger_183' [ElementUnitSequenceTrigger] 104306 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
-		2) {units/world/props/security_camera/security_camera} runs 'stop'
-		3) {units/world/props/security_camera/security_camera} runs 'stop'
-		4) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100076 {units/world/props/security_camera/security_camera} runs 'stop'
+		2) Unit 107027 {units/world/props/security_camera/security_camera} runs 'stop'
+		3) Unit 106996 {units/world/props/security_camera/security_camera} runs 'stop'
+		4) Unit 100075 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Toggle OFF element 'logic_mask_filter_001' [ElementMaskFilter] 103962 from default
 		Toggle OFF element 'func_activate_script_003' [ElementActivateScript] 104167 from default
@@ -1284,7 +1284,7 @@
 'func_sequence_trigger_052' [ElementUnitSequenceTrigger] 101471 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/laptop_objective/laptop_objective} runs 'interact'
+		1) Unit 101361 {units/equipment/laptop_objective/laptop_objective} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_030' [ElementCounter] 101458 from default
 		Remove waypoint with text 'Security Footage' and icon wp_standard from (-2350, -2125, 575) 
@@ -1292,14 +1292,14 @@
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 101631 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 106996 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_03' on unit 103713 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2725, 1536, 75) 
  
 'func_sequence_trigger_038' [ElementUnitSequenceTrigger] 101647 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100080 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_03' on unit 100708 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2800, 1536, 75) 
  
@@ -1342,7 +1342,7 @@
 'func_sequence_trigger_076' [ElementUnitSequenceTrigger] 101887 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100075 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -1524,7 +1524,7 @@
 'func_sequence_trigger_099' [ElementUnitSequenceTrigger] 104206 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200205 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -1564,28 +1564,28 @@
 'func_sequence_trigger_115' [ElementUnitSequenceTrigger] 104222 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200283 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_131' [ElementUnitSequenceTrigger] 104238 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200304 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_155' [ElementUnitSequenceTrigger] 104270 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200276 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_182' [ElementUnitSequenceTrigger] 104302 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200260 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -1655,7 +1655,7 @@
 'func_sequence_trigger_066' [ElementUnitSequenceTrigger] 100592 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102621 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -1671,14 +1671,14 @@
 'func_sequence_trigger_068' [ElementUnitSequenceTrigger] 100656 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102695 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
 'func_sequence_trigger_060' [ElementUnitSequenceTrigger] 101713 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102625 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -1704,7 +1704,7 @@
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 100976 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
+		1) Unit 100478 {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
 	Then perform:
 		Trigger global AI event 'besiege'
  
@@ -1794,7 +1794,7 @@
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 101568 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102624 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_02' on unit 101975 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (-893, 1847, 47) 
  
@@ -1818,14 +1818,14 @@
 'func_sequence_trigger_086' [ElementUnitSequenceTrigger] 103679 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/bank/bank_window/bank_window_vault} runs 'destroy_dmg_02'
+		1) Unit 103894 {units/world/architecture/bank/bank_window/bank_window_vault} runs 'destroy_dmg_02'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 103683 from default
  
 'func_sequence_trigger_039' [ElementUnitSequenceTrigger] 101648 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100082 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_04' on unit 100708 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2800, 1536, 75) 
  
@@ -1848,7 +1848,7 @@
 'func_sequence_trigger_078' [ElementUnitSequenceTrigger] 101888 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100076 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -1856,7 +1856,7 @@
 'func_sequence_trigger_081' [ElementUnitSequenceTrigger] 101920 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100083 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -1876,14 +1876,14 @@
 'func_sequence_trigger_113' [ElementUnitSequenceTrigger] 104175 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200285 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_100' [ElementUnitSequenceTrigger] 104207 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200201 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -1923,28 +1923,28 @@
 'func_sequence_trigger_116' [ElementUnitSequenceTrigger] 104223 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200299 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_145' [ElementUnitSequenceTrigger] 104255 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200262 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_156' [ElementUnitSequenceTrigger] 104271 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200277 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_168' [ElementUnitSequenceTrigger] 104287 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200223 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -1964,7 +1964,7 @@
 'func_sequence_trigger_073' [ElementUnitSequenceTrigger] 101883 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 107028 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -2027,7 +2027,7 @@
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 101627 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 107027 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_02' on unit 103713 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2725, 1536, 75) 
  
@@ -2133,7 +2133,7 @@
 'func_sequence_trigger_079' [ElementUnitSequenceTrigger] 101889 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100081 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -2148,7 +2148,7 @@
 'func_sequence_trigger_091' [ElementUnitSequenceTrigger] 104188 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200215 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -2192,7 +2192,7 @@
 'func_sequence_trigger_101' [ElementUnitSequenceTrigger] 104208 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200200 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -2232,28 +2232,28 @@
 'func_sequence_trigger_117' [ElementUnitSequenceTrigger] 104224 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200298 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_132' [ElementUnitSequenceTrigger] 104240 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200303 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_146' [ElementUnitSequenceTrigger] 104256 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200310 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_157' [ElementUnitSequenceTrigger] 104272 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200278 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -2311,7 +2311,7 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 101567 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100937 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_01' on unit 101975 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (-893, 1847, 47) 
  
@@ -2358,14 +2358,14 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 100962 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
+		1) Unit 100275 {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
 	Then perform:
 		Trigger global AI event 'besiege'
  
 'func_sequence_trigger_041' [ElementUnitSequenceTrigger] 100978 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
+		1) Unit 102307 {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
 	Then perform:
 		Execute element 'logic_counter_017' [ElementCounter] 101024 from default
  
@@ -2469,7 +2469,7 @@
 'func_sequence_trigger_040' [ElementUnitSequenceTrigger] 101650 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/computer/computer_projector} runs 'destroy_projector'
+		1) Unit 101113 {units/world/props/office/computer/computer_projector} runs 'destroy_projector'
 	Then perform:
 		Run sequence 'destroy_projector_picture' on unit 101203 {units/world/props/office/computer/computer_projectorcloth_01} at (-2541, -1575, 484.81900024414) 
  
@@ -2492,7 +2492,7 @@
 'func_sequence_trigger_177' [ElementUnitSequenceTrigger] 104297 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200254 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -2514,7 +2514,7 @@
 'func_sequence_trigger_080' [ElementUnitSequenceTrigger] 101906 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100080 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
@@ -2533,7 +2533,7 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 102018 from event_cafeteria_chopper
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		100% base chance with 0% increase to use spawn event with task 'any' 2 times at position (-1550, -1100, -24.999399185181)
 		Execute element 'logic_link_031' [MissionScriptElement] 101913 from event_cafeteria_chopper
@@ -2553,21 +2553,21 @@
 'func_sequence_trigger_118' [ElementUnitSequenceTrigger] 104225 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200297 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_133' [ElementUnitSequenceTrigger] 104241 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200305 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_158' [ElementUnitSequenceTrigger] 104273 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200279 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -2619,7 +2619,7 @@
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 100627 from event_globe_chopper
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/chair/office_chair_briefing} runs 'stop'
+		1) Unit 100626 {units/world/props/office/chair/office_chair_briefing} runs 'stop'
 	Then perform:
 		100% base chance with 0% increase to use spawn event with task 'any' 1 time at position (-1525, 1125, 5.0006098747253)
 		Execute element 'logic_link_010' [MissionScriptElement] 100620 from event_globe_chopper
@@ -2738,7 +2738,7 @@
 'func_sequence_trigger_055' [ElementUnitSequenceTrigger] 101702 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102620 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -2754,7 +2754,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 102170 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_03_finished'
+		1) Unit 101960 {units/vehicles/animated_cars/police_ny_bank_anim} runs 'bank_drive_in_03_finished'
 	Then perform:
 		Execute element 'logic_link_040' [MissionScriptElement] 102173 from default
 		Execute element 'logic_link_086' [MissionScriptElement] 103904 from default
@@ -2766,7 +2766,7 @@
 'func_sequence_trigger_057' [ElementUnitSequenceTrigger] 101708 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102695 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -2842,7 +2842,7 @@
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 101712 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102622 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -2851,7 +2851,7 @@
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 101459 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/laptop_objective/laptop_objective} runs 'interact'
+		1) Unit 101360 {units/equipment/laptop_objective/laptop_objective} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_030' [ElementCounter] 101458 from default
 		Remove waypoint with text 'Security Footage' and icon wp_standard from (1089, -2450, 584.93798828125) 
@@ -2918,7 +2918,7 @@
 'func_sequence_trigger_061' [ElementUnitSequenceTrigger] 101715 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102078 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -2927,7 +2927,7 @@
 'func_sequence_trigger_071' [ElementUnitSequenceTrigger] 101717 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100937 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -2945,7 +2945,7 @@
 'func_sequence_trigger_087' [ElementUnitSequenceTrigger] 103970 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/security_door/security_door_02} runs 'close_door'
+		1) Unit 102632 {units/world/props/bank/security_door/security_door_02} runs 'close_door'
 	Then perform:
 		Remove element 'point_special_objective_167' [ElementSpecialObjective] 103966 from default
 		Remove element 'point_special_objective_168' [ElementSpecialObjective] 103971 from default
@@ -2961,7 +2961,7 @@
 'func_sequence_trigger_103' [ElementUnitSequenceTrigger] 104210 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200195 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -2969,35 +2969,35 @@
 'func_sequence_trigger_119' [ElementUnitSequenceTrigger] 104226 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200296 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_134' [ElementUnitSequenceTrigger] 104242 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200271 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_147' [ElementUnitSequenceTrigger] 104258 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200313 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_159' [ElementUnitSequenceTrigger] 104274 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200280 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_171' [ElementUnitSequenceTrigger] 104290 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200239 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -3114,7 +3114,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 100660 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/copy_machine/copy_machine_smuggle} runs 'open_sesame'
+		1) Unit 100013 {units/world/props/office/copy_machine/copy_machine_smuggle} runs 'open_sesame'
 	Then perform:
 		Give instigator 1 of equipment 'drill' 	(DELAY 1)
 		Complete objective 'bank_get_drill' at position (1750, -2375, 500) 
@@ -3174,7 +3174,7 @@
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 103283 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/garbage_truck/garbage_truck_animated} runs 'getaway_bank_short_animation_finnished'
+		1) Unit 103243 {units/vehicles/animated_cars/garbage_truck/garbage_truck_animated} runs 'getaway_bank_short_animation_finnished'
 	Then perform:
 		Spawn civilian unit {units/characters/driver/driver} at position (2900, -365, -735.69201660156) with rotation (-0, 0, 179.99998474121)
 		Create objective for instigator around position (2950, -550, -735.69299316406) with action so_car_sit_come_here_enter
@@ -3207,7 +3207,7 @@
 'func_sequence_trigger_050' [ElementUnitSequenceTrigger] 101460 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/laptop_objective/laptop_objective} runs 'interact'
+		1) Unit 101366 {units/equipment/laptop_objective/laptop_objective} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_030' [ElementCounter] 101458 from default
 		Remove waypoint with text 'Security Footage' and icon wp_standard from (139, -3632, 600.01702880859) 
@@ -3227,7 +3227,7 @@
 'func_sequence_trigger_035' [ElementUnitSequenceTrigger] 101636 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100076 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_04' on unit 103713 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2725, 1536, 75) 
  
@@ -3272,7 +3272,7 @@
 'func_sequence_trigger_082' [ElementUnitSequenceTrigger] 101924 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100082 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
@@ -3284,7 +3284,7 @@
 'func_sequence_trigger_104' [ElementUnitSequenceTrigger] 104211 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200194 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -3324,35 +3324,35 @@
 'func_sequence_trigger_120' [ElementUnitSequenceTrigger] 104227 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200294 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_135' [ElementUnitSequenceTrigger] 104243 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200269 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_148' [ElementUnitSequenceTrigger] 104259 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200314 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_160' [ElementUnitSequenceTrigger] 104275 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200281 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_172' [ElementUnitSequenceTrigger] 104291 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200248 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -3396,7 +3396,7 @@
 'func_sequence_trigger_070' [ElementUnitSequenceTrigger] 101716 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102624 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -3443,7 +3443,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 100901 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100275 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'interact_enable' on unit 100274 {units/world/props/bank/money_wrap/money_wrap} at (7694, 1375, -359) 
 		Run sequence 'money_bag_half' on unit 102307 {units/equipment/money_bag/money_bag_small} at (7673, 1324, -358.91598510742) 
@@ -3463,14 +3463,14 @@
 'func_sequence_trigger_186' [ElementUnitSequenceTrigger] 101061 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_boombox/suburbia_boombox} runs 'bullet_hit'
+		1) Unit 101056 {units/world/props/suburbia_boombox/suburbia_boombox} runs 'bullet_hit'
 	Then perform:
 		Play sound 'creepy_organ_1_stop'
  
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 100452 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102625 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -3630,14 +3630,14 @@
 'func_sequence_trigger_170' [ElementUnitSequenceTrigger] 104289 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200230 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_084' [ElementUnitSequenceTrigger] 101826 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'first_interact'
+		1) Unit 102154 {units/equipment/vault_drill/vault_drill} runs 'first_interact'
 	Then perform:
 		If difficulty is {Overkill, Overkill 145+} then perform:
 			Create navigation link for enemies from position (-700, 2700, -24.974800109863) to (-1275, 2525, -24.974800109863) with action so_jump_over_1_5m
@@ -3691,7 +3691,7 @@
 'func_sequence_trigger_105' [ElementUnitSequenceTrigger] 104212 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200178 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -3731,35 +3731,35 @@
 'func_sequence_trigger_121' [ElementUnitSequenceTrigger] 104228 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200293 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_136' [ElementUnitSequenceTrigger] 104244 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200270 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_149' [ElementUnitSequenceTrigger] 104260 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200272 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_161' [ElementUnitSequenceTrigger] 104276 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200323 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_173' [ElementUnitSequenceTrigger] 104292 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200249 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -3859,7 +3859,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 101321 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/thermite/thermite_02} runs 'interact'
+		1) Unit 102888 {units/equipment/thermite/thermite_02} runs 'interact'
 	Then perform:
 		Run sequence 'set_visible' on unit 100005 {units/equipment/thermite/thermite_02} at (6892, 1599, -25) 
 		Run sequence 'light_on' on unit 700061 {units/lights/light_omni_shadow_projection_01_seq/light_omni_shadow_projection_01_seq} at (6921, 1730, -223.95300292969) 
@@ -3947,7 +3947,7 @@
 'func_sequence_trigger_043' [ElementUnitSequenceTrigger] 100998 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
+		1) Unit 100863 {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
 	Then perform:
 		Execute element 'logic_counter_017' [ElementCounter] 101024 from default
  
@@ -3964,7 +3964,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 100165 from default
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100478 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_half' on unit 100872 {units/equipment/money_bag/money_bag_small} at (7746, 1219, -358.91598510742) 
 		Run sequence 'interact_enable' on unit 100631 {units/world/props/bank/money_wrap/money_wrap} at (7754.580078125, 1167.2299804688, -359) 
@@ -4015,7 +4015,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 100167 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100631 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 100872 {units/equipment/money_bag/money_bag_small} at (7746, 1219, -358.91598510742) 
 		Make teammates say 'fwb_75'
@@ -4103,7 +4103,7 @@
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 100924 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100842 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 101678 {units/equipment/money_bag/money_bag_small} at (7748, 1317, -358.91598510742) 
 		Make teammates say 'fwb_75'
@@ -4157,7 +4157,7 @@
 'func_sequence_trigger_088' [ElementUnitSequenceTrigger] 104181 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_drill_2h/s_drill_2h} runs 'timer_done'
+		1) Unit 104176 {units/equipment/s_drill_2h/s_drill_2h} runs 'timer_done'
 	Then perform:
 		Run sequence 's_open_door' on unit 200066 {units/world/architecture/bank/bank_vault/bank_vault_entrance} at (550.0009765625, 1099.5, -25) 
 		Run sequence 'show' on unit 104195 {units/world/props/bank/vault/vault_door_set_hidable/vault_door_set_hidable} at (8430, 950, -24.395299911499) 
@@ -4219,14 +4219,14 @@
 'func_sequence_trigger_114' [ElementUnitSequenceTrigger] 104197 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200284 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_106' [ElementUnitSequenceTrigger] 104213 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200179 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -4234,31 +4234,31 @@
 'func_sequence_trigger_122' [ElementUnitSequenceTrigger] 104229 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200286 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_137' [ElementUnitSequenceTrigger] 104245 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200307 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_150' [ElementUnitSequenceTrigger] 104261 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200274 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_184' [ElementUnitSequenceTrigger] 104309 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
-		2) {units/world/props/security_camera/security_camera} runs 'stop'
-		3) {units/world/props/security_camera/security_camera} runs 'stop'
-		4) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 106996 {units/world/props/security_camera/security_camera} runs 'stop'
+		2) Unit 107027 {units/world/props/security_camera/security_camera} runs 'stop'
+		3) Unit 100075 {units/world/props/security_camera/security_camera} runs 'stop'
+		4) Unit 100076 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Toggle OFF element 'trigger_area_101' [ElementAreaTrigger] 103958 from baldwin
 		Toggle OFF element 'trigger_area_099' [ElementAreaTrigger] 101293 from baldwin
@@ -4273,7 +4273,7 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 100964 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
+		1) Unit 100840 {units/world/props/bank/money_wrap/money_wrap} runs 'interact'
 	Then perform:
 		Trigger global AI event 'besiege'
  
@@ -4300,7 +4300,7 @@
 'func_sequence_trigger_053' [ElementUnitSequenceTrigger] 102183 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/vault/vault_hall_bar_door} runs 'open_door'
+		1) Unit 100600 {units/world/props/bank/vault/vault_hall_bar_door} runs 'open_door'
 	Then perform:
 		Play sound 'security_door_close'
 		Toggle ON element 'trigger_area_073' [ElementAreaTrigger] 100079 from default
@@ -4334,7 +4334,7 @@
 'func_sequence_trigger_044' [ElementUnitSequenceTrigger] 101015 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
+		1) Unit 100872 {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
 	Then perform:
 		Execute element 'logic_counter_017' [ElementCounter] 101024 from default
  
@@ -4437,7 +4437,7 @@
 'func_sequence_trigger_077' [ElementUnitSequenceTrigger] 101735 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100847 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -4539,7 +4539,7 @@
 'func_sequence_trigger_107' [ElementUnitSequenceTrigger] 104214 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200190 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -4547,28 +4547,28 @@
 'func_sequence_trigger_123' [ElementUnitSequenceTrigger] 104230 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200287 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_138' [ElementUnitSequenceTrigger] 104246 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200308 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_162' [ElementUnitSequenceTrigger] 104278 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200324 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_174' [ElementUnitSequenceTrigger] 104294 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200250 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -4582,7 +4582,7 @@
 'func_sequence_trigger_185' [ElementUnitSequenceTrigger] 104342 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_drill_2h/s_drill_2h} runs 'first_interact'
+		1) Unit 104176 {units/equipment/s_drill_2h/s_drill_2h} runs 'first_interact'
 	Then perform:
 		Make teammates say 'g21'
 		Make teammates say 'g16'	(DELAY 6)
@@ -4642,7 +4642,7 @@
 'func_sequence_trigger_097' [ElementUnitSequenceTrigger] 104204 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200212 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -4724,7 +4724,7 @@
 'func_sequence_trigger_062' [ElementUnitSequenceTrigger] 100552 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100841 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -4816,7 +4816,7 @@
 'func_sequence_trigger_042' [ElementUnitSequenceTrigger] 100984 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
+		1) Unit 101678 {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
 	Then perform:
 		Execute element 'logic_counter_017' [ElementCounter] 101024 from default
  
@@ -4854,7 +4854,7 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 101320 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/thermite/thermite_02} runs 'interact'
+		1) Unit 100005 {units/equipment/thermite/thermite_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_020' [MissionScriptElement] 101325 from default
 		Play sound 'thermite_pour'
@@ -4923,7 +4923,7 @@
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 101576 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102078 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_03' on unit 101975 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (-893, 1847, 47) 
  
@@ -4939,14 +4939,14 @@
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 101624 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100075 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_01' on unit 103713 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (2725, 1536, 75) 
  
 'func_sequence_trigger_072' [ElementUnitSequenceTrigger] 101720 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100841 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -4993,7 +4993,7 @@
 'func_sequence_trigger_092' [ElementUnitSequenceTrigger] 104199 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200216 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5033,7 +5033,7 @@
 'func_sequence_trigger_108' [ElementUnitSequenceTrigger] 104215 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200192 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5073,14 +5073,14 @@
 'func_sequence_trigger_124' [ElementUnitSequenceTrigger] 104231 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200288 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_139' [ElementUnitSequenceTrigger] 104247 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200309 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -5091,14 +5091,14 @@
 'func_sequence_trigger_163' [ElementUnitSequenceTrigger] 104279 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200325 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_175' [ElementUnitSequenceTrigger] 104295 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200257 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -5161,7 +5161,7 @@
 'func_sequence_trigger_063' [ElementUnitSequenceTrigger] 100553 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 103416 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -5178,14 +5178,14 @@
 'func_sequence_trigger_046' [ElementUnitSequenceTrigger] 100448 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102078 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 100460 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100937 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -5195,7 +5195,7 @@
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 101682 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 106630 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_004' [ElementCounter] 101683 from default
 		Execute element 'logic_counter_019' [ElementCounter] 100778 from default
@@ -5218,7 +5218,7 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 100905 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100274 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 102307 {units/equipment/money_bag/money_bag_small} at (7673, 1324, -358.91598510742) 
 		Make teammates say 'fwb_75'
@@ -5227,7 +5227,7 @@
 'func_sequence_trigger_058' [ElementUnitSequenceTrigger] 101711 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102621 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -5333,7 +5333,7 @@
 'func_sequence_trigger_031' [ElementUnitSequenceTrigger] 101577 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102625 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Run sequence 'destroy_camera_04' on unit 101975 {units/world/props/gym/stn_prop_monitor/stn_prop_monitor} at (-893, 1847, 47) 
  
@@ -5390,7 +5390,7 @@
 'func_sequence_trigger_093' [ElementUnitSequenceTrigger] 104200 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200220 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5430,7 +5430,7 @@
 'func_sequence_trigger_109' [ElementUnitSequenceTrigger] 104216 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200118 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5470,35 +5470,35 @@
 'func_sequence_trigger_125' [ElementUnitSequenceTrigger] 104232 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200300 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_140' [ElementUnitSequenceTrigger] 104248 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200268 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_151' [ElementUnitSequenceTrigger] 104264 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200275 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_164' [ElementUnitSequenceTrigger] 104280 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200330 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_176' [ElementUnitSequenceTrigger] 104296 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200258 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -5515,7 +5515,7 @@
 'func_sequence_trigger_085' [ElementUnitSequenceTrigger] 103677 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/bank/bank_window/bank_window_vault} runs 'destroy_dmg_01'
+		1) Unit 103894 {units/world/architecture/bank/bank_window/bank_window_vault} runs 'destroy_dmg_01'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 103683 from default
  
@@ -5658,7 +5658,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 101681 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 102277 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_004' [ElementCounter] 101683 from default
 		Execute element 'logic_counter_019' [ElementCounter] 100778 from default
@@ -5748,7 +5748,7 @@
 'func_sequence_trigger_051' [ElementUnitSequenceTrigger] 101466 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/laptop_objective/laptop_objective} runs 'interact'
+		1) Unit 101377 {units/equipment/laptop_objective/laptop_objective} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_030' [ElementCounter] 101458 from default
 		Remove waypoint with text 'Security Footage' and icon wp_standard from (-737, -3636, 594.28002929688) 
@@ -5819,7 +5819,7 @@
 'func_sequence_trigger_089' [ElementUnitSequenceTrigger] 104185 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200213 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5859,7 +5859,7 @@
 'func_sequence_trigger_094' [ElementUnitSequenceTrigger] 104201 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200219 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 104187 from baldwin
 		Play sound 'server_room_door_open'
@@ -5867,7 +5867,7 @@
 'func_sequence_trigger_110' [ElementUnitSequenceTrigger] 104217 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200125 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -5907,28 +5907,28 @@
 'func_sequence_trigger_126' [ElementUnitSequenceTrigger] 104233 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200301 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_141' [ElementUnitSequenceTrigger] 104249 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200266 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_152' [ElementUnitSequenceTrigger] 104265 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200315 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
 'func_sequence_trigger_165' [ElementUnitSequenceTrigger] 104281 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200333 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -5953,7 +5953,7 @@
 'func_sequence_trigger_045' [ElementUnitSequenceTrigger] 102426 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/control_panel/control_panel} runs 'interact'
+		1) Unit 103496 {units/world/props/bank/control_panel/control_panel} runs 'interact'
 	Then perform:
 		Run sequence 'interact_on' on unit 100013 {units/world/props/office/copy_machine/copy_machine_smuggle} at (1700, -2177, 475) 
 		Run sequence 'open_out' on unit 101919 {units/world/architecture/apartment/door/apartment_door_04} at (958, -2732, 473.99996948242) 	(DELAY 2)
@@ -5966,7 +5966,7 @@
 'func_sequence_trigger_090' [ElementUnitSequenceTrigger] 104186 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200214 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -6011,7 +6011,7 @@
 'func_sequence_trigger_102' [ElementUnitSequenceTrigger] 104209 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200199 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -6080,7 +6080,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 100843 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100272 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'interact_enable' on unit 100273 {units/world/props/bank/money_wrap/money_wrap} at (7689.0400390625, 1156.0899658203, -359) 
 		Run sequence 'money_bag_half' on unit 100863 {units/equipment/money_bag/money_bag_small} at (7662, 1214, -358.91598510742) 
@@ -6102,7 +6102,7 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 100923 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
+		1) Unit 100840 {units/world/props/bank/money_wrap/money_wrap} runs 'money_wrap_1'
 	Then perform:
 		Run sequence 'money_bag_half' on unit 101678 {units/equipment/money_bag/money_bag_small} at (7748, 1317, -358.91598510742) 
 		Run sequence 'interact_enable' on unit 100842 {units/world/props/bank/money_wrap/money_wrap} at (7751.7202148438, 1367.3900146484, -358.91598510742) 
@@ -6119,7 +6119,7 @@
 'func_sequence_trigger_096' [ElementUnitSequenceTrigger] 104203 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200217 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -6165,7 +6165,7 @@
 'func_sequence_trigger_112' [ElementUnitSequenceTrigger] 104219 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/s_cube/s_cube} runs 'interact'
+		1) Unit 200175 {units/equipment/s_cube/s_cube} runs 'interact'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 200118 {units/equipment/s_cube/s_cube} at (8046.310546875, 1254.2299804688, -24.896087646484) 
 		Run sequence 'disable_interaction' on unit 200125 {units/equipment/s_cube/s_cube} at (8010.7407226563, 1218.6500244141, -24.896087646484) 
@@ -6205,7 +6205,7 @@
 'func_sequence_trigger_169' [ElementUnitSequenceTrigger] 104288 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 200229 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
@@ -6250,7 +6250,7 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 101675 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 102278 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_004' [ElementCounter] 101683 from default
 		Execute element 'logic_counter_019' [ElementCounter] 100778 from default
@@ -6258,7 +6258,7 @@
 'func_sequence_trigger_056' [ElementUnitSequenceTrigger] 101707 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 103416 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default

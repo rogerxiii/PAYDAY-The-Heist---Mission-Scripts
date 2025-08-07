@@ -309,7 +309,7 @@
 'interact ball a3' [ElementUnitSequenceTrigger] 100294 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102019 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part4' on unit 100120 {units/equipment/garden_tap_interactive/hose1_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'show' on unit 102020 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} at (-4462.41015625, 3137.5698242188, -506.1969909668) 
@@ -333,7 +333,7 @@
  
 'a1 cb interact' [ElementUnitSequenceTrigger] 100902 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 100600 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
 		Remove waypoint with text 'Turn on the Power' and icon wp_powersupply from (-1818, 876, 282.13900756836) 
@@ -422,7 +422,7 @@
 'func_sequence_trigger_061' [ElementUnitSequenceTrigger] 102534 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
+		1) Unit 600656 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
 	Then perform:
 		Toggle OFF element 'func_sequence_131' [ElementUnitSequence] 100542 from default
 		Toggle OFF element 'func_sequence_135' [ElementUnitSequence] 102537 from default
@@ -456,7 +456,7 @@
 'interact ball a2' [ElementUnitSequenceTrigger] 100775 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102018 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part3' on unit 100120 {units/equipment/garden_tap_interactive/hose1_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'state2' on unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-4763.5498046875, -420.7568359375, 25) 
@@ -544,7 +544,7 @@
 'func_sequence_trigger_062' [ElementUnitSequenceTrigger] 102535 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
+		1) Unit 600637 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
 	Then perform:
 		Toggle OFF element 'func_sequence_130' [ElementUnitSequence] 100405 from default
 		Toggle OFF element 'func_sequence_134' [ElementUnitSequence] 102536 from default
@@ -833,14 +833,14 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 102312 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/window_suburban/window_suburban_big_01} runs 'destroy'
+		1) Unit 100130 {units/world/props/window_suburban/window_suburban_big_01} runs 'destroy'
 	Then perform:
 				Allow AI nav sections 265
  
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 102376 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102200 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_097': 	(DELAY 0.10000000149012)
 			Run sequence 'take_1' on unit 102200 {units/world/props/moneyprinter/money_printed} at (-4292, 3388, -574.4990234375) 
@@ -889,7 +889,7 @@
 'interact ball b1' [ElementUnitSequenceTrigger] 100745 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102023 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state1' on unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-5874.62890625, 3744.4501953125, 25) 
 		Run sequence 'show_part2' on unit 100679 {units/equipment/garden_tap_interactive/hose2_interactive_suburbia} at (-5913, 3769, 25) 
@@ -941,7 +941,7 @@
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 102313 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/window_suburban/window_suburban_big_01} runs 'destroy'
+		1) Unit 100131 {units/world/props/window_suburban/window_suburban_big_01} runs 'destroy'
 	Then perform:
 				Allow AI nav sections 264
  
@@ -949,7 +949,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102200 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_098': 	(DELAY 0.10000000149012)
 			Run sequence 'take_2' on unit 102200 {units/world/props/moneyprinter/money_printed} at (-4292, 3388, -574.4990234375) 
@@ -960,7 +960,7 @@
 'func_sequence_trigger_042' [ElementUnitSequenceTrigger] 102409 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102196 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_109': 	(DELAY 0.10000000149012)
 			Run sequence 'take_1' on unit 102196 {units/world/props/moneyprinter/money_printed} at (-4300, 3215, -572) 
@@ -972,7 +972,7 @@
 'func_sequence_trigger_046' [ElementUnitSequenceTrigger] 102441 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 100409 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-5912.9995117188, 3769, 25) 
 		Run sequence 'show_part1' on unit 102429 {units/equipment/garden_tap_interactive/hose2b_interactive_suburbia} at (-5913, 3769, 25) 
@@ -1064,7 +1064,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102200 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_099': 	(DELAY 0.10000000149012)
 			Run sequence 'take_3' on unit 102200 {units/world/props/moneyprinter/money_printed} at (-4292, 3388, -574.4990234375) 
@@ -1076,7 +1076,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102196 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_110': 	(DELAY 0.10000000149012)
 			Run sequence 'take_2' on unit 102196 {units/world/props/moneyprinter/money_printed} at (-4300, 3215, -572) 
@@ -1087,7 +1087,7 @@
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 102442 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102431 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state1' on unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-5874.62890625, 3744.4501953125, 25) 
 		Run sequence 'show_part2' on unit 102429 {units/equipment/garden_tap_interactive/hose2b_interactive_suburbia} at (-5913, 3769, 25) 
@@ -1126,7 +1126,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 100523 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_door_secret/suburbia_door_secret} runs 'interact'
+		1) Unit 100399 {units/world/props/suburbia_door_secret/suburbia_door_secret} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 100399 {units/world/props/suburbia_door_secret/suburbia_door_secret} at (-3423, 1268, -324.5) 
 				Allow AI nav sections 73, 60
@@ -1138,7 +1138,7 @@
 'interact ball b2' [ElementUnitSequenceTrigger] 100747 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102024 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state2' on unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-5874.62890625, 3744.4501953125, 25) 
 		Run sequence 'show_part3' on unit 100679 {units/equipment/garden_tap_interactive/hose2_interactive_suburbia} at (-5913, 3769, 25) 
@@ -1156,7 +1156,7 @@
  
 'interact' [ElementUnitSequenceTrigger] 101131 from default
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
+		1) Unit 101470 {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Open the Valve' and icon wp_watersupply from (-2412, -1132, 78.867797851563) 
 		Start timer 'timer'
@@ -1165,7 +1165,7 @@
 'interact' [ElementUnitSequenceTrigger] 101227 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_drill/suburbia_drill} runs 'interact'
+		1) Unit 100506 {units/equipment/suburbia_drill/suburbia_drill} runs 'interact'
 	Then perform:
 		Run sequence 'power_off' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
 		Execute element 'logic_link_027' [MissionScriptElement] 100527 from default
@@ -1227,7 +1227,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102200 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_100': 	(DELAY 0.10000000149012)
 			Run sequence 'take_4' on unit 102200 {units/world/props/moneyprinter/money_printed} at (-4292, 3388, -574.4990234375) 
@@ -1239,7 +1239,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102196 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_111': 	(DELAY 0.10000000149012)
 			Run sequence 'take_3' on unit 102196 {units/world/props/moneyprinter/money_printed} at (-4300, 3215, -572) 
@@ -1250,7 +1250,7 @@
 'func_sequence_trigger_053' [ElementUnitSequenceTrigger] 102443 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102432 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state2' on unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-5874.62890625, 3744.4501953125, 25) 
 		Run sequence 'show_part3' on unit 102429 {units/equipment/garden_tap_interactive/hose2b_interactive_suburbia} at (-5913, 3769, 25) 
@@ -1375,7 +1375,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102196 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_112': 	(DELAY 0.10000000149012)
 			Run sequence 'take_4' on unit 102196 {units/world/props/moneyprinter/money_printed} at (-4300, 3215, -572) 
@@ -1417,7 +1417,7 @@
 'interact garden tap a' [ElementUnitSequenceTrigger] 100301 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
+		1) Unit 100734 {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission5' at position (-4000, 4200, 2900) 
 		Activate objective 'xsub_mission8' at position (-4000, 4000, 2900) 
@@ -1453,7 +1453,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 100685 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
+		1) Unit 101439 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_051': 	(DELAY 2)
 			Run sequence 'show_gui' on unit 101439 {units/world/props/suburbia_hackbox/suburbia_hackbox} at (-4253, 1427, -209.35299682617) 
@@ -1590,7 +1590,7 @@
 'interact garden tap b' [ElementUnitSequenceTrigger] 101454 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
+		1) Unit 100409 {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission5' at position (-4000, 4200, 2900) 
 		Activate objective 'xsub_mission8' at position (-4000, 4000, 2900) 
@@ -1644,7 +1644,7 @@
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 102446 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102438 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part4' on unit 102429 {units/equipment/garden_tap_interactive/hose2b_interactive_suburbia} at (-5913, 3769, 25) 
 		Run sequence 'show' on unit 102444 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} at (-4599.759765625, 2976.8601074219, -571.80499267578) 
@@ -1688,7 +1688,7 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 101231 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 101405 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c44' at position (-5092, 3150, -361.46701049805) 
@@ -1956,7 +1956,7 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 102064 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/suburbia/suburbia_cellar_gate} runs 'interact'
+		1) Unit 102045 {units/world/architecture/suburbia/suburbia_cellar_gate} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 102045 {units/world/architecture/suburbia/suburbia_cellar_gate} at (-3711, 3400, -300.49899291992) 
 		Execute element 'logic_counter_022' [ElementCounter] 102069 from default
@@ -2115,7 +2115,7 @@
  
 'a2 cb interact' [ElementUnitSequenceTrigger] 100465 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 100425 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'turn_on' on unit 100425 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} at (-4675, -297, 178.62800598145) 
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -2189,7 +2189,7 @@
  
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 101937 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
+		1) Unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Override the System' and icon wp_hack from (-3050, 3503, -134.09599304199) 
  
@@ -2264,7 +2264,7 @@
  
 'a3 cb interact' [ElementUnitSequenceTrigger] 100466 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 100426 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'turn_on' on unit 100426 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} at (-3068, -375, 164.67100524902) 
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -2322,14 +2322,14 @@
  
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 101938 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'jammed_trigger'
+		1) Unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'jammed_trigger'
 	Then perform:
 		Add waypoint with text 'Override the System' and icon wp_hack at (-3050, 3503, -134.09599304199) 
  
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 102002 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
+		1) Unit 102000 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
 	Then perform:
 		Run sequence 'a_break_180' on unit 102000 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} at (-1875, 3545, 75) 
 		Execute element 'logic_counter_019' [ElementCounter] 102006 from default
@@ -2422,7 +2422,7 @@
 'interact ball e' [ElementUnitSequenceTrigger] 100307 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102022 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission11' at position (-3500, 4300, 2902.5) 
 		Activate objective 'xsub_mission5' at position (-3500, 4100, 2902.5) 
@@ -2475,7 +2475,7 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 100595 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102033 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c43' at position (-5092, 3306, -361.46701049805) 
@@ -2585,7 +2585,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 102003 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
+		1) Unit 100206 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
 	Then perform:
 		Run sequence 'a_break_90' on unit 100206 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} at (-1875, 3245, 75) 
 		Execute element 'logic_counter_020' [ElementCounter] 102011 from default
@@ -2594,7 +2594,7 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 102067 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/suburbia/suburbia_cellar_gate} runs 'interact'
+		1) Unit 102066 {units/world/architecture/suburbia/suburbia_cellar_gate} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 102066 {units/world/architecture/suburbia/suburbia_cellar_gate} at (-4344, 2432, -350.49899291992) 
 		Execute element 'logic_counter_022' [ElementCounter] 102069 from default
@@ -2632,7 +2632,7 @@
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 102387 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102197 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_101': 	(DELAY 0.10000000149012)
 			Run sequence 'take_1' on unit 102197 {units/world/props/moneyprinter/money_printed} at (-4474, 3394, -572) 
@@ -2674,7 +2674,7 @@
 'interact reel' [ElementUnitSequenceTrigger] 100596 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100159 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 100409 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-5912.9995117188, 3769, 25) 
 		Run sequence 'show_part1' on unit 100679 {units/equipment/garden_tap_interactive/hose2_interactive_suburbia} at (-5913, 3769, 25) 
@@ -2688,7 +2688,7 @@
  
 'interact' [ElementUnitSequenceTrigger] 101044 from default
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
+		1) Unit 100221 {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
 	Then perform:
 		Start timer 'timer'
 		Remove waypoint with text 'Open the Valve' and icon wp_watersupply from (-6399, 1543, 90.064002990723) 
@@ -2748,7 +2748,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102197 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_102': 	(DELAY 0.10000000149012)
 			Run sequence 'take_2' on unit 102197 {units/world/props/moneyprinter/money_printed} at (-4474, 3394, -572) 
@@ -2835,7 +2835,7 @@
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 101109 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
+		1) Unit 100364 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} runs 'interact'
 	Then perform:
 		Run sequence 'b_break_90' on unit 100364 {units/equipment/suburbia_door_crowbar_interaction/suburbia_door_crowbar_interaction} at (-2241, 2800, 75) 
 		Run sequence 'enable_interaction' on unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} at (-3059, 3503, -205) 
@@ -2912,7 +2912,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102197 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_104': 	(DELAY 0.10000000149012)
 			Run sequence 'take_4' on unit 102197 {units/world/props/moneyprinter/money_printed} at (-4474, 3394, -572) 
@@ -2944,7 +2944,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 100310 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_safe/suburbia_safe_bomb} runs 'interact'
+		1) Unit 100285 {units/world/props/suburbia_safe/suburbia_safe_bomb} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission7' at position (-4242, 3395, -525) 	(DELAY 6)
 		Activate objective 'xsub_mission6' at position (-4112, 3402, -525) 
@@ -3049,7 +3049,7 @@
 'interact ball d1' [ElementUnitSequenceTrigger] 101462 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102026 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state1' on unit 100504 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-1387.4500732422, 3980.3696289063, 25) 
 		Run sequence 'show_part2' on unit 100681 {units/equipment/garden_tap_interactive/hose4_interactive_suburbia} at (-1412, 3942, 25) 
@@ -3087,7 +3087,7 @@
 'func_sequence_trigger_038' [ElementUnitSequenceTrigger] 102198 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102199 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_105': 	(DELAY 0.10000000149012)
 			Run sequence 'take_1' on unit 102199 {units/world/props/moneyprinter/money_printed} at (-4479, 3289, -572) 
@@ -3100,7 +3100,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102197 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_103': 	(DELAY 0.10000000149012)
 			Run sequence 'take_3' on unit 102197 {units/world/props/moneyprinter/money_printed} at (-4474, 3394, -572) 
@@ -3180,7 +3180,7 @@
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 100279 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102032 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c42' at position (-4767, 3782, -361.46701049805) 
@@ -3227,7 +3227,7 @@
 'interact ball d2' [ElementUnitSequenceTrigger] 101463 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102027 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state2' on unit 100504 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-1387.4500732422, 3980.3696289063, 25) 
 		Run sequence 'show_part3' on unit 100681 {units/equipment/garden_tap_interactive/hose4_interactive_suburbia} at (-1412, 3942, 25) 
@@ -3254,7 +3254,7 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 102039 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102036 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c41' at position (-4141, 3782, -361.46701049805) 
@@ -3350,9 +3350,9 @@
  
 'all tb interact' [ElementUnitSequenceTrigger] 100920 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
-		2) {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
-		3) {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
+		1) Unit 101015 {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
+		2) Unit 100992 {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
+		3) Unit 100085 {units/world/props/suburbia_transformer_box/suburbia_transformer_box} runs 'interact'
 	Then perform:
 		Toggle ON element 'power box spawn' [MissionScriptElement] 100928 from default
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -3392,7 +3392,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 101240 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102038 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c46' at position (-3946, 2258, -361.46701049805) 
@@ -3427,7 +3427,7 @@
 'interact garden tap c' [ElementUnitSequenceTrigger] 101464 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
+		1) Unit 101282 {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission5' at position (-4000, 4200, 2900) 
 		Activate objective 'xsub_mission8' at position (-4000, 4000, 2900) 
@@ -3567,7 +3567,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 101241 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102037 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c47' at position (-3653, 2683, -361.46701049805) 
@@ -3667,7 +3667,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 100698 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_manhole/suburbia_manhole} runs 'interact'
+		1) Unit 100700 {units/world/props/suburbia_manhole/suburbia_manhole} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 100700 {units/world/props/suburbia_manhole/suburbia_manhole} at (-840, -10, 34) 
 		Add waypoint with text 'Escape!' and icon wp_standard at (-753, -93, -253.41700744629) 
@@ -3972,7 +3972,7 @@
  
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 101947 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
+		1) Unit 101439 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Override the System' and icon wp_hack from (-4256, 1430, -143.79200744629) 
  
@@ -4012,7 +4012,7 @@
 'func_sequence_trigger_055' [ElementUnitSequenceTrigger] 102459 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 100734 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-4739, -384, 27) 
 		Run sequence 'show' on unit 102449 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} at (-4832.080078125, 752.79797363281, 33.924598693848) 
@@ -4054,7 +4054,7 @@
  
 'interact' [ElementUnitSequenceTrigger] 100188 from default
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
+		1) Unit 100217 {units/equipment/garden_tap_interactive/main_water_valve_suburbia} runs 'interact'
 	Then perform:
 		Start timer 'timer'
 		Execute element 'logic_link_023' [MissionScriptElement] 100952 from default
@@ -4118,7 +4118,7 @@
  
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 101948 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'jammed_trigger'
+		1) Unit 101439 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'jammed_trigger'
 	Then perform:
 		Add waypoint with text 'Override the System' and icon wp_hack at (-4256, 1430, -143.79200744629) 
  
@@ -4218,7 +4218,7 @@
 'func_sequence_trigger_056' [ElementUnitSequenceTrigger] 102460 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102449 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part2' on unit 102428 {units/equipment/garden_tap_interactive/hose1b_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'state1' on unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-4763.5498046875, -420.7568359375, 25) 
@@ -4264,7 +4264,7 @@
 'timer done' [ElementUnitSequenceTrigger] 100509 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_drill/suburbia_drill} runs 'timer_done'
+		1) Unit 100506 {units/equipment/suburbia_drill/suburbia_drill} runs 'timer_done'
 	Then perform:
 		Complete objective 'xsub_mission10' at position (-3100, 3400, 2902.5) 
 		Execute element 'ball a5' [ElementCounter] 100510 from default
@@ -4363,7 +4363,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 101565 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_drill/suburbia_drill_cord1} runs 'interact'
+		1) Unit 100682 {units/equipment/suburbia_drill/suburbia_drill_cord1} runs 'interact'
 	Then perform:
 		Execute element 'drill power on' [MissionScriptElement] 100995 from default
 		Remove waypoint with text 'Plug into Power Outlet' and icon wp_powersupply from (-3029, 1889, -262.48999023438) 
@@ -4390,7 +4390,7 @@
 'func_sequence_trigger_057' [ElementUnitSequenceTrigger] 102461 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102450 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part3' on unit 102428 {units/equipment/garden_tap_interactive/hose1b_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'state2' on unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-4763.5498046875, -420.7568359375, 25) 
@@ -4439,7 +4439,7 @@
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 100702 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_manhole/suburbia_manhole} runs 'interact'
+		1) Unit 100125 {units/world/props/suburbia_manhole/suburbia_manhole} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 100125 {units/world/props/suburbia_manhole/suburbia_manhole} at (-5955, -331, 46) 
 		Add waypoint with text 'Escape!' and icon wp_standard at (-5891, -397, -272.70401000977) 
@@ -4510,7 +4510,7 @@
 'interact reel d' [ElementUnitSequenceTrigger] 101406 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100504 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 100372 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-1412, 3942, 25) 
 		Run sequence 'show_part1' on unit 100681 {units/equipment/garden_tap_interactive/hose4_interactive_suburbia} at (-1412, 3942, 25) 
@@ -4522,7 +4522,7 @@
 'func_sequence_trigger_051' [ElementUnitSequenceTrigger] 101438 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'timer_done'
+		1) Unit 101439 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'timer_done'
 	Then perform:
 		Complete objective 'xsub_mission2' with sub-objective 'hack2' at position (-3548, 1407, 1045) 
 		Execute element 'logic_counter_002' [ElementCounter] 100378 from default
@@ -4532,7 +4532,7 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 101566 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/suburbia_drill/suburbia_drill_cord2} runs 'interact'
+		1) Unit 100683 {units/equipment/suburbia_drill/suburbia_drill_cord2} runs 'interact'
 	Then perform:
 		Execute element 'drill power on' [MissionScriptElement] 100995 from default
 		Remove waypoint with text 'Plug into Power Outlet' and icon wp_powersupply from (-3050, 3320, -278.08801269531) 
@@ -4594,7 +4594,7 @@
 'func_sequence_trigger_058' [ElementUnitSequenceTrigger] 102462 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102451 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part4' on unit 102428 {units/equipment/garden_tap_interactive/hose1b_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'show' on unit 102463 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} at (-4623.1098632813, 3018.6201171875, -572.17199707031) 
@@ -4643,7 +4643,7 @@
 'interact reel' [ElementUnitSequenceTrigger] 100287 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 100734 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-4739, -384, 27) 
 		Run sequence 'show' on unit 101886 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} at (-4831.259765625, 756.75402832031, 33.842697143555) 
@@ -4658,16 +4658,16 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 100351 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		2) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		3) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		4) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		5) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		6) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		7) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		8) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		9) {units/world/props/printing_plates/printing_plates} runs 'interact'
-		10) {units/world/props/printing_plates/printing_plates} runs 'interact'
+		1) Unit 100435 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		2) Unit 100371 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		3) Unit 100338 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		4) Unit 100309 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		5) Unit 100280 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		6) Unit 102749 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		7) Unit 102748 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		8) Unit 102747 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		9) Unit 102745 {units/world/props/printing_plates/printing_plates} runs 'interact'
+		10) Unit 102746 {units/world/props/printing_plates/printing_plates} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100354 from default
 		Make teammates close to instigator say 'cft_b_dia_23'
@@ -4828,7 +4828,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102199 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_106': 	(DELAY 0.10000000149012)
 			Run sequence 'take_2' on unit 102199 {units/world/props/moneyprinter/money_printed} at (-4479, 3289, -572) 
@@ -5093,7 +5093,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102199 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_107': 	(DELAY 0.10000000149012)
 			Run sequence 'take_3' on unit 102199 {units/world/props/moneyprinter/money_printed} at (-4479, 3289, -572) 
@@ -5259,7 +5259,7 @@
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 100641 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
+		1) Unit 100373 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'attach_hose' on unit 101282 {units/equipment/garden_tap_interactive/garden_tap_interactive} at (-1690, 1057, 25) 
 		Run sequence 'show_part1' on unit 100680 {units/equipment/garden_tap_interactive/hose3_interactive_suburbia} at (-1686, 1057, 25) 
@@ -5293,7 +5293,7 @@
  
 'b1 cb interact' [ElementUnitSequenceTrigger] 101217 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 101188 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'turn_on' on unit 101188 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} at (-3028, 3000, 219.27900695801) 
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -5349,7 +5349,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/moneyprinter/money_printed} runs 'interact'
+		1) Unit 102199 {units/world/props/moneyprinter/money_printed} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_108': 	(DELAY 0.10000000149012)
 			Run sequence 'take_4' on unit 102199 {units/world/props/moneyprinter/money_printed} at (-4479, 3289, -572) 
@@ -5397,7 +5397,7 @@
 'interact garden tap d' [ElementUnitSequenceTrigger] 100450 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
+		1) Unit 100372 {units/equipment/garden_tap_interactive/garden_tap_interactive} runs 'interact'
 	Then perform:
 		Complete objective 'xsub_mission5' at position (-4000, 4200, 2900) 
 		Activate objective 'xsub_mission8' at position (-4000, 4000, 2900) 
@@ -5440,7 +5440,7 @@
 'func_sequence_trigger_052' [ElementUnitSequenceTrigger] 101442 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'timer_done'
+		1) Unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'timer_done'
 	Then perform:
 		Complete objective 'xsub_mission2' with sub-objective 'hack1' at position (-3558, 1692, 1052.4499511719) 
 		Execute element 'logic_counter_002' [ElementCounter] 100378 from default
@@ -5529,7 +5529,7 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 101251 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_diffusible} runs 'interact'
+		1) Unit 102035 {units/equipment/c4_charge/c4_diffusible} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_035' [ElementCounter] 101248 from default
 		Complete objective 'xsub_mission3' with sub-objective 'c45' at position (-3671, 2868, -361.46701049805) 
@@ -5601,7 +5601,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 101827 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
+		1) Unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_049': 	(DELAY 2)
 			Run sequence 'show_gui' on unit 100155 {units/world/props/suburbia_hackbox/suburbia_hackbox} at (-3059, 3503, -205) 
@@ -5849,7 +5849,7 @@
 'interact ball a1' [ElementUnitSequenceTrigger] 100292 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 101886 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'show_part2' on unit 100120 {units/equipment/garden_tap_interactive/hose1_interactive_suburbia} at (-4739, -384, 25) 
 		Run sequence 'state1' on unit 100199 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-4763.5498046875, -420.7568359375, 25) 
@@ -5901,7 +5901,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 100740 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102029 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state1' on unit 100373 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-1665.4500732422, 1095.3696289063, 25) 
 		Run sequence 'show_part2' on unit 100680 {units/equipment/garden_tap_interactive/hose3_interactive_suburbia} at (-1686, 1057, 25) 
@@ -5913,7 +5913,7 @@
  
 'b2 cb interact' [ElementUnitSequenceTrigger] 101220 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 101189 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'turn_on' on unit 101189 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} at (-5786, 3799, 194.61099243164) 
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -5963,7 +5963,7 @@
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 102532 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
+		1) Unit 600520 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
 	Then perform:
 		Toggle OFF element 'func_sequence_133' [ElementUnitSequence] 101316 from default
 		Toggle OFF element 'func_sequence_137' [ElementUnitSequence] 102539 from default
@@ -6002,7 +6002,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 100741 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
+		1) Unit 102030 {units/equipment/garden_tap_interactive/hose_end_interactive_suburbia} runs 'interact'
 	Then perform:
 		Run sequence 'state2' on unit 100373 {units/equipment/garden_tap_interactive/garden_hose_reel_suburbia} at (-1665.4500732422, 1095.3696289063, 25) 
 		Run sequence 'show_part3' on unit 100680 {units/equipment/garden_tap_interactive/hose3_interactive_suburbia} at (-1686, 1057, 25) 
@@ -6052,7 +6052,7 @@
  
 'b3 cb interact' [ElementUnitSequenceTrigger] 101221 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
+		1) Unit 101190 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} runs 'interact'
 	Then perform:
 		Run sequence 'turn_on' on unit 101190 {units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker} at (-1790, 2300, 187.21099853516) 
 		Run sequence 'power_on' on unit 100506 {units/equipment/suburbia_drill/suburbia_drill} at (-4780, 2963, -403.11499023438) 
@@ -6120,7 +6120,7 @@
 'func_sequence_trigger_060' [ElementUnitSequenceTrigger] 102533 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
+		1) Unit 600657 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'broken_slow'
 	Then perform:
 		Toggle OFF element 'func_sequence_132' [ElementUnitSequence] 100988 from default
 		Toggle OFF element 'func_sequence_136' [ElementUnitSequence] 102538 from default

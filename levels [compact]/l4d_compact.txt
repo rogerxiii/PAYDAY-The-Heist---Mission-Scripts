@@ -118,7 +118,7 @@
 'func_sequence_trigger_057' [ElementUnitSequenceTrigger] 702415 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_bri_06'
  
@@ -141,7 +141,7 @@
  
 'doneFail006' [ElementUnitSequenceTrigger] 701392 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101723 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup006': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101723 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (359, 1224, 79.750999450684) 
@@ -191,7 +191,7 @@
 'func_sequence_trigger_058' [ElementUnitSequenceTrigger] 702417 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_bri_06'
  
@@ -286,7 +286,7 @@
  
 'pickedUpValidatedSample006' [ElementUnitSequenceTrigger] 701395 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 102014 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 102014 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (358.31399536133, 1226.9799804688, 91.44580078125) 
 		Run sequence 'state_cleanup' on unit 101723 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (359, 1224, 79.750999450684) 
@@ -315,7 +315,7 @@
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 702420 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_bri_06'
  
@@ -441,7 +441,7 @@
 'elevatorHasBeenCalled' [ElementUnitSequenceTrigger] 701145 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Run sequence 'resume' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
 		Start timer 'startCallElevatorTimer'
@@ -467,7 +467,7 @@
  
 'doneFail' [ElementUnitSequenceTrigger] 700122 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101728 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101728 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-153, 3564, 79.764198303223) 
@@ -500,26 +500,26 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'enable_interaction'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'enable_interaction'
 	Then perform:
 		Add waypoint with text 'Call the Elevator' and icon wp_standard at (-2205, 2974, 100) 
  
 'func_sequence_trigger_060' [ElementUnitSequenceTrigger] 702428 from default
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'enable_interaction'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'enable_interaction'
 	Then perform:
 		Add waypoint with text 'Call the Elevator' and icon wp_standard at (-2205, 2974, 100) 
  
 'func_sequence_trigger_061' [ElementUnitSequenceTrigger] 702429 from default
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Call the Elevator' and icon wp_standard from (-2205, 2974, 100) 
  
 'func_sequence_trigger_046' [ElementUnitSequenceTrigger] 702174 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 701128 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Remove waypoint with text 'Open the Hatch' and icon wp_standard from (-2675, 2825, 75) 
 		Run sequence 'disable_interaction' on unit 200050 {units/world/architecture/hospital/hospital_elevator} at (-2282.919921875, 2732.5600585938, -0.0050048800185323) 
@@ -553,7 +553,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_container_01/hospital_veil_container_01} runs 'interact'
+		1) Unit 100213 {units/world/props/hospital_veil_container_01/hospital_veil_container_01} runs 'interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_fwb_10'
  
@@ -636,7 +636,7 @@
  
 'answeredPhone' [ElementUnitSequenceTrigger] 700387 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_phone/hospital_phone} runs 'interact'
+		1) Unit 100171 {units/world/props/hospital_phone/hospital_phone} runs 'interact'
 	Then perform:
 		Execute element 'phoneAnswered' [MissionScriptElement] 700385 from default
 		Toggle OFF element 'hos_ban_16b' [ElementDialogue] 701652 from default
@@ -1107,7 +1107,7 @@
  
 'doneComplete' [ElementUnitSequenceTrigger] 700137 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101728 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated': 	(DELAY 1.5)
 			Run sequence 'show' on unit 701311 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-152.90800476074, 3560.9499511719, 91.459297180176) 
@@ -1129,13 +1129,13 @@
  
 'powerBackUp' [ElementUnitSequenceTrigger] 701162 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		2) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		3) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		4) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		5) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		6) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
-		7) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100479 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		2) Unit 100478 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		3) Unit 100477 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		4) Unit 100476 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		5) Unit 100474 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		6) Unit 100396 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		7) Unit 100475 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Perform 'lightsON': 	(DELAY 1)
 			Run sequence 'light_on' on unit 300000 {units/lights/light_omni_shadow_projection_01_seq/light_omni_shadow_projection_01_seq} at (-2099, 2843, 200) 
@@ -1933,9 +1933,9 @@
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 702206 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
-		2) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
-		3) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		2) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		3) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
  
 'phoneCounter' [ElementCounter] 700415 from default
@@ -2061,18 +2061,18 @@
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 702211 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons_roof_top_access} runs 'interact'
+		1) Unit 100080 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons_roof_top_access} runs 'interact'
 	Then perform:
  
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 700164 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		2) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		3) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		4) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		5) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		6) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		7) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		1) Unit 200022 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		2) Unit 200018 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		3) Unit 200002 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		4) Unit 200019 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		5) Unit 200024 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		6) Unit 200025 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		7) Unit 200016 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 700169 from default
 		Execute element 'logic_counter_002' [ElementCounter] 700170 from default
@@ -2081,9 +2081,9 @@
 'drewBloodAtLeastOnce' [ElementUnitSequenceTrigger] 701700 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
-		2) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
-		3) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		1) Unit 100112 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		2) Unit 100117 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		3) Unit 100113 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
 	Then perform:
 		Play dialogue 'hos_ban_067'	(DELAY 1)
  
@@ -2095,12 +2095,12 @@
  
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 700166 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		2) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		3) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		4) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		5) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		6) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		1) Unit 200037 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		2) Unit 200036 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		3) Unit 200035 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		4) Unit 200027 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		5) Unit 200033 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		6) Unit 200032 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 700169 from default
 		Execute element 'logic_counter_002' [ElementCounter] 700170 from default
@@ -2126,13 +2126,13 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 700167 from default
 	If any of the following sequences get triggered:
 		#TODO unit_id 200029 cannot be resolved to a unit!
-		2) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		3) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		2) Unit 200031 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		3) Unit 200048 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 		#TODO unit_id 200049 cannot be resolved to a unit!
 		#TODO unit_id 200038 cannot be resolved to a unit!
 		#TODO unit_id 200039 cannot be resolved to a unit!
-		7) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		8) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		7) Unit 200046 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		8) Unit 200047 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 700169 from default
 		Execute element 'logic_counter_002' [ElementCounter] 700170 from default
@@ -2150,12 +2150,12 @@
  
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 700168 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
-		2) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		1) Unit 200040 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		2) Unit 200041 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 		#TODO unit_id 200042 cannot be resolved to a unit!
 		#TODO unit_id 200045 cannot be resolved to a unit!
 		#TODO unit_id 200044 cannot be resolved to a unit!
-		6) {units/world/props/security_camera/security_camera_hospital} runs 'stop'
+		6) Unit 200043 {units/world/props/security_camera/security_camera_hospital} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 700169 from default
 		Execute element 'logic_counter_002' [ElementCounter] 700170 from default
@@ -2244,7 +2244,7 @@
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 701708 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300022 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Play dialogue 'hos_ban_070'	(DELAY 3)
  
@@ -2349,7 +2349,7 @@
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 701205 from default
 	[INITIAL TRIGGER TIMES: 4]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_phone/hospital_phone} runs 'interaction_on'
+		1) Unit 100171 {units/world/props/hospital_phone/hospital_phone} runs 'interaction_on'
 	Then perform:
 		Add waypoint with text 'Answer the Phone' and icon wp_phone at (699, 430, 120) 
  
@@ -2482,7 +2482,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 701206 from default
 	[INITIAL TRIGGER TIMES: 4]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_phone/hospital_phone} runs 'interact'
+		1) Unit 100171 {units/world/props/hospital_phone/hospital_phone} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Answer the Phone' and icon wp_phone from (699, 430, 120) 
 		Create objective for friendlies around position (650, 650, 0) with radius 10000 with action AI_defend
@@ -2503,16 +2503,16 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 700695 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700682 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700680 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700678 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700676 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700674 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700673 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700675 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700677 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700679 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700681 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2526,16 +2526,16 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 700696 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700692 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700690 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700688 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700686 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700684 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700683 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700685 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700687 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700689 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700691 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2549,16 +2549,16 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 700697 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700642 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700640 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700638 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700636 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700634 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700633 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700635 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700637 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700639 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700641 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2579,16 +2579,16 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 700698 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700632 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700630 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700628 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700626 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700624 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700623 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700625 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700627 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700629 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700631 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2599,16 +2599,16 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 700699 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700592 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700594 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700595 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700596 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700597 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700598 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700599 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700600 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700601 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700602 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2627,16 +2627,16 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 700700 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700611 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700609 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700607 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700605 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700603 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700604 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700606 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700608 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700610 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700612 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2671,16 +2671,16 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 700701 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700621 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700619 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700617 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700615 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700613 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700614 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700616 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700618 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700620 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700622 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2711,16 +2711,16 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 700702 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700651 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700649 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700647 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700645 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700643 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700644 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700646 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700648 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700650 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700652 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2749,16 +2749,16 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 700703 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700661 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700659 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700657 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700655 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700653 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700654 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700656 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700658 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700660 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700662 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -2781,16 +2781,16 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 700704 from default
 	[INITIAL TRIGGER TIMES: 10]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		2) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		3) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		4) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		5) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		6) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		7) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		8) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		9) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
-		10) {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		1) Unit 700671 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		2) Unit 700669 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		3) Unit 700667 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		4) Unit 700665 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		5) Unit 700663 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		6) Unit 700664 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		7) Unit 700666 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		8) Unit 700668 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		9) Unit 700670 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
+		10) Unit 700672 {units/world/architecture/hospital/props/patientpaper/patientpaper} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_015' [MissionScriptElement] 700705 from default
  
@@ -3058,15 +3058,15 @@
 'func_sequence_trigger_039' [ElementUnitSequenceTrigger] 701992 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		2) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		3) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		4) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		5) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		6) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		7) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		8) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
-		9) {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		1) Unit 102233 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		2) Unit 101739 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		3) Unit 101475 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		4) Unit 101569 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		5) Unit 101639 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		6) Unit 101834 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		7) Unit 101737 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		8) Unit 101959 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
+		9) Unit 101958 {units/world/architecture/hospital/props/ventbreakable01/ventbreakable01} runs 'release_vent'
 	Then perform:
 		Make teammates say 'hos_b_fwb_61'
  
@@ -3125,10 +3125,10 @@
 'placedSentrys' [ElementUnitSequenceTrigger] 700463 from default
 	[INITIAL TRIGGER TIMES: 4]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
-		2) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
-		3) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
-		4) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		1) Unit 701609 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		2) Unit 701610 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		3) Unit 701607 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		4) Unit 701608 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
 	Then perform:
 		Execute element 'SentrysPlacedCounter' [ElementCounter] 700465 from default
  
@@ -3142,7 +3142,7 @@
  
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 701232 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100479 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (-1609, 3559, 169.67500305176) 
  
@@ -3166,7 +3166,7 @@
  
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 701233 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100479 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (-1609, 3559, 169.67500305176) 
  
@@ -3196,7 +3196,7 @@
 'elevatorButtonPressed' [ElementUnitSequenceTrigger] 700724 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons_roof_top_access} runs 'interact'
+		1) Unit 100080 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons_roof_top_access} runs 'interact'
 	Then perform:
 		Play sound 'hos_elevator_button_inside'
 		Roll the dice with 50% chance to succeed.	(DELAY 2)
@@ -3355,7 +3355,7 @@
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 702264 from default
 	[INITIALLY DISABLED]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Toggle OFF element 'hos_ban_76c' [ElementDialogue] 702263 from default
 		Toggle OFF element 'hos_ban_076c' [ElementDialogue] 702256 from default
@@ -3460,7 +3460,7 @@
  
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 701246 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100478 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (-1050, -500, 175) 
  
@@ -3472,7 +3472,7 @@
  
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 701247 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100477 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (3304, 650, 133.20399475098) 
  
@@ -3487,7 +3487,7 @@
  
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 701248 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100476 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (-2782, 996, 158.69599914551) 
  
@@ -3506,7 +3506,7 @@
  
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 701249 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100474 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (-50, 1806, 153.95100402832) 
  
@@ -3533,7 +3533,7 @@
  
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 701250 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100396 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (-225, -995, 161.30000305176) 
  
@@ -3543,7 +3543,7 @@
 'hatchInteractive' [ElementUnitSequenceTrigger] 702274 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/hospital_elevator} runs 'enable_interaction'
+		1) Unit 200050 {units/world/architecture/hospital/hospital_elevator} runs 'enable_interaction'
 	Then perform:
 		Make teammates say 'g09'	(DELAY 4)
 				Allow AI nav sections 60
@@ -3579,7 +3579,7 @@
  
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 701251 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
+		1) Unit 100475 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'turn_off'
 	Then perform:
 		Add waypoint with text 'Get the Power Back Up' and icon wp_powersupply at (2104, 774, 167.61199951172) 
  
@@ -3592,14 +3592,14 @@
  
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 701252 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100478 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (-1050, -500, 175) 
  
 'func_sequence_trigger_050' [ElementUnitSequenceTrigger] 702276 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_1'
+		1) Unit 200050 {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_1'
 	Then perform:
 		Make teammates say 'g07'	(DELAY 1)
  
@@ -3631,13 +3631,13 @@
  
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 701253 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100477 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (3304, 650, 133.20399475098) 
  
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 701254 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100476 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (-2782, 996, 158.69599914551) 
  
@@ -3669,20 +3669,20 @@
  
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 701255 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100474 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (-50, 1806, 153.95100402832) 
  
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 701256 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100396 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (-225, -995, 161.30000305176) 
  
 'func_sequence_trigger_040' [ElementUnitSequenceTrigger] 702024 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Toggle ON element 'func_sequence_trigger_041' [ElementUnitSequenceTrigger] 702026 from default	(DELAY 1)
 		Toggle ON element 'func_sequence_trigger_045' [ElementUnitSequenceTrigger] 702171 from default	(DELAY 1)
@@ -3704,7 +3704,7 @@
  
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 701257 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
+		1) Unit 100475 {units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Get the Power Back Up' and icon wp_powersupply from (2104, 774, 167.61199951172) 
  
@@ -3728,7 +3728,7 @@
 'func_sequence_trigger_041' [ElementUnitSequenceTrigger] 702026 from default
 	[INITIALLY DISABLED]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_fwb_10'
 		Play sound 'hos_elevator_button_outside'
@@ -3915,7 +3915,7 @@
 'func_sequence_trigger_051' [ElementUnitSequenceTrigger] 702288 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_2_morgue'
+		1) Unit 200050 {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_2_morgue'
 	Then perform:
 		Create navigation link for friendlies from position (-2574, 2849, 7.6293899837765e-006) to (-3002.1999511719, 2841.8200683594, -700.00897216797) with action jump_down_elevator_bot
  
@@ -4010,7 +4010,7 @@
 'func_sequence_trigger_052' [ElementUnitSequenceTrigger] 702291 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_2'
+		1) Unit 200050 {units/world/architecture/hospital/hospital_elevator} runs 'open_hatch_2'
 	Then perform:
 				Allow AI nav sections 62
 		Create navigation link for friendlies from position (-2575, 2849, 0) to (-2955.419921875, 2832.830078125, -186) with action jump_down_elevator_top
@@ -4052,7 +4052,7 @@
 'func_sequence_trigger_031' [ElementUnitSequenceTrigger] 701269 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		1) Unit 701608 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Set up the Sentry Guns' and icon wp_sentry from (1681.0300292969, 1282.0300292969, 102.5) 
 		Remove element 'SOAlarmEntranceMale' [ElementSpecialObjective] 700214 from default
@@ -4122,7 +4122,7 @@
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 701272 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		1) Unit 701609 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Set up the Sentry Guns' and icon wp_sentry from (3350, 1350, 186.90100097656) 
 		Play sound 'hos_fake_sentry_place'
@@ -4142,7 +4142,7 @@
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 701273 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		1) Unit 701610 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Set up the Sentry Guns' and icon wp_sentry from (3575, -50, 102.5) 
 		Remove element 'SOAlarmCafeteriaMale002' [ElementSpecialObjective] 700218 from default
@@ -4242,7 +4242,7 @@
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 701276 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
+		1) Unit 701607 {units/world/props/hospital_sentry_gun/hospital_sentry_gun} runs 'interact'
 	Then perform:
 		Remove waypoint with text 'Set up the Sentry Guns' and icon wp_sentry from (700, 0, 152.95199584961) 
 		Remove element 'SOAlarmReceptopnMale001' [ElementSpecialObjective] 700216 from default
@@ -4449,9 +4449,9 @@
 'glassBrokenRoom2' [ElementUnitSequenceTrigger] 702045 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		2) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		3) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		1) Unit 500981 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		2) Unit 500980 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		3) Unit 500979 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
 	Then perform:
 		Run sequence 'destroy_1' on unit 500979 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1011.1799316406, 1735.5999755859, 2.1353759765625) 	(DELAY 0.1)
 		Run sequence 'destroy_1' on unit 500980 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1004.25, 1833.3800048828, 4.6264495849609) 	(DELAY 0.1)
@@ -4509,9 +4509,9 @@
 'func_sequence_trigger_042' [ElementUnitSequenceTrigger] 702048 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		2) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		3) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		1) Unit 501551 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		2) Unit 501550 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		3) Unit 501548 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
 	Then perform:
 		Run sequence 'destroy_1' on unit 501548 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1352.3299560547, 2185.5, 2.1353759765625) 	(DELAY 0.2)
 		Run sequence 'destroy_1' on unit 501550 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1359.2600097656, 2280.0300292969, 4.6264495849609) 	(DELAY 0.2)
@@ -4543,9 +4543,9 @@
 'func_sequence_trigger_043' [ElementUnitSequenceTrigger] 702049 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		2) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
-		3) {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		1) Unit 501549 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		2) Unit 501547 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
+		3) Unit 501546 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} runs 'destroy_1'
 	Then perform:
 		Run sequence 'destroy_1' on unit 501549 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1011.1799316406, 2452.4799804688, 2.1353759765625) 	(DELAY 0.1)
 		Run sequence 'destroy_1' on unit 501547 {units/world/architecture/hospital/props/glass_corridor/glass_corridor_3} at (-1004.2600097656, 2357.9599609375, 4.6264495849609) 	(DELAY 0.1)
@@ -4855,7 +4855,7 @@
 'reachedTop' [ElementUnitSequenceTrigger] 701288 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props_env/hospital_elevator_shaft} runs 'top_floor_reached'
+		1) Unit 200028 {units/world/architecture/hospital/props_env/hospital_elevator_shaft} runs 'top_floor_reached'
 	Then perform:
 		Execute element 'StopSounds' [MissionScriptElement] 701289 from default
 		Perform 'canBeCrowbared': 	(DELAY 4)
@@ -4990,7 +4990,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 701128 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'open_hatch_1' on unit 200050 {units/world/architecture/hospital/hospital_elevator} at (-2282.919921875, 2732.5600585938, -0.0050048800185323) 
 		Run sequence 'open_hatch_2' on unit 200050 {units/world/architecture/hospital/hospital_elevator} at (-2282.919921875, 2732.5600585938, -0.0050048800185323) 	(DELAY 2)
@@ -5118,7 +5118,7 @@
 'func_sequence_trigger_053' [ElementUnitSequenceTrigger] 702320 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/hospital_ceiling_hole_office_300x300} runs 'seq_var1'
+		1) Unit 101747 {units/world/architecture/hospital/hospital_ceiling_hole_office_300x300} runs 'seq_var1'
 	Then perform:
 		Run sequence 'animate' on unit 500340 {units/world/props/office/roof_lamp/roof_lamp} at (-759, 136, 293.49798583984) 
  
@@ -5219,7 +5219,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'foundCorrectRoom' [MissionScriptElement] 700026 from default
  
@@ -5235,7 +5235,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'foundCorrectRoom' [MissionScriptElement] 700026 from default
  
@@ -5251,7 +5251,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'foundCorrectRoom' [MissionScriptElement] 700026 from default
  
@@ -5278,7 +5278,7 @@
  
 'pickedUpValidatedSample' [ElementUnitSequenceTrigger] 701305 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 701311 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 701311 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-152.90800476074, 3560.9499511719, 91.459297180176) 
 		Run sequence 'state_cleanup' on unit 101728 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-153, 3564, 79.764198303223) 
@@ -5330,7 +5330,7 @@
 'ICUsawDone' [ElementUnitSequenceTrigger] 700028 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300022 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open_in_90' on unit 101412 {units/world/architecture/hospital/hospital_door_1} at (-1077, 1448, 0) 
 		Run sequence 'open_out_90' on unit 101411 {units/world/architecture/hospital/hospital_door_1} at (-1285, 1438, 0) 
@@ -5390,15 +5390,15 @@
 'SawStarted' [ElementUnitSequenceTrigger] 700030 from default
 	[INITIAL TRIGGER TIMES: 3]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
-		2) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
-		3) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		2) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		3) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'hideUnusedSaws' [MissionScriptElement] 700032 from default	(DELAY 0.10000000149012)
  
 'donecleanup' [ElementUnitSequenceTrigger] 701310 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101728 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -5413,9 +5413,9 @@
 'sawFinished' [ElementUnitSequenceTrigger] 700031 from default
 	[INITIAL TRIGGER TIMES: 3]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
-		2) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
-		3) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		2) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		3) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Give instigator 1 of equipment 'saw' 
 		Execute element 'checkIfItIsTheCorrectDude' [MissionScriptElement] 701410 from default
@@ -5426,7 +5426,7 @@
 'CrowbarUsed' [ElementUnitSequenceTrigger] 700287 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 700269 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'hide' on unit 700269 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} at (423, -221, 77) 
  
@@ -5473,7 +5473,7 @@
 'doneCrowbarDoor2' [ElementUnitSequenceTrigger] 700291 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 700288 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'closed' on unit 101427 {units/world/architecture/hospital/hospital_door_1} at (3186, 110, 0) 
 		Run sequence 'hide' on unit 700288 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} at (3101, 100, 74.999900817871) 
@@ -5502,7 +5502,7 @@
 'crowbarusedDoctorDoor3' [ElementUnitSequenceTrigger] 700292 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 700270 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'closed' on unit 101426 {units/world/architecture/hospital/hospital_door_1} at (1691, -239, 0) 
 		Run sequence 'hide' on unit 700270 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} at (1775, -225, 75) 
@@ -5546,7 +5546,7 @@
 'crowbarInteractedDoor4' [ElementUnitSequenceTrigger] 700295 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 700293 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'closed' on unit 101388 {units/world/architecture/hospital/hospital_door_1} at (229.05798339844, -733, 0) 
 		Run sequence 'hide' on unit 700293 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} at (175, -700, 75) 
@@ -5554,9 +5554,9 @@
 'oneWireCut' [ElementUnitSequenceTrigger] 700551 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue} runs 'break_blue'
-		2) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_red} runs 'break_red'
-		3) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_green} runs 'break_green'
+		1) Unit 100037 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue} runs 'break_blue'
+		2) Unit 100050 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_red} runs 'break_red'
+		3) Unit 100040 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_green} runs 'break_green'
 	Then perform:
 		Run sequence 'disable_interaction' on unit 100037 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue} at (-1463.2399902344, 3598.830078125, 144.55499267578) 
 		Run sequence 'disable_interaction' on unit 100040 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_green} at (-1470.2600097656, 3598.669921875, 144.42199707031) 
@@ -5595,7 +5595,7 @@
 'saw1Interacted' [ElementUnitSequenceTrigger] 700040 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Toggle OFF element 'hideSaw1' [ElementUnitSequence] 700034 from default
 		Toggle OFF element 'showSaw1' [ElementUnitSequence] 700043 from default
@@ -5611,7 +5611,7 @@
 'saw2Interacted' [ElementUnitSequenceTrigger] 700041 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Toggle OFF element 'hideSaw2' [ElementUnitSequence] 700035 from default
 		Toggle OFF element 'showSaw2' [ElementUnitSequence] 700044 from default
@@ -5619,7 +5619,7 @@
 'redWireCut' [ElementUnitSequenceTrigger] 700553 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_red} runs 'break_red'
+		1) Unit 100050 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_red} runs 'break_red'
 	Then perform:
 		Toggle OFF element 'closeSecurityDoor1' [ElementUnitSequence] 700047 from default
 		Toggle OFF element 'spawnSaw1' [ElementUnitSequence] 700010 from default
@@ -5637,7 +5637,7 @@
 'saw3Interacted' [ElementUnitSequenceTrigger] 700042 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Toggle OFF element 'hideSaw3' [ElementUnitSequence] 700036 from default
 		Toggle OFF element 'showSaw3' [ElementUnitSequence] 700045 from default
@@ -5656,7 +5656,7 @@
 'greenWireCut' [ElementUnitSequenceTrigger] 700555 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_green} runs 'break_green'
+		1) Unit 100040 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_green} runs 'break_green'
 	Then perform:
 		Toggle OFF element 'closeSecurityDoor2' [ElementUnitSequence] 700546 from default
 		Toggle OFF element 'spawnSaw2' [ElementUnitSequence] 700567 from default
@@ -5683,7 +5683,7 @@
 'blueWireCut' [ElementUnitSequenceTrigger] 700557 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue} runs 'break_blue'
+		1) Unit 100037 {units/world/architecture/hospital/props/securitycables/securitycable_interaction_blue} runs 'break_blue'
 	Then perform:
 		Toggle OFF element 'closeSecurityDoor3' [ElementUnitSequence] 700547 from default
 		Toggle OFF element 'spawnSaw3' [ElementUnitSequence] 700568 from default
@@ -5696,7 +5696,7 @@
  
 'doneCleanup001' [ElementUnitSequenceTrigger] 701325 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101699 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -5723,7 +5723,7 @@
 'sawPickedUp' [ElementUnitSequenceTrigger] 700303 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw_teddy} runs 'interact'
+		1) Unit 700302 {units/equipment/hospital_saw/hospital_saw_teddy} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'saw' 
 		Toggle OFF element 'hos_ban_69' [ElementDialogue] 701705 from default
@@ -5737,7 +5737,7 @@
 'func_sequence_trigger_044' [ElementUnitSequenceTrigger] 702095 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw_teddy} runs 'interact'
+		1) Unit 700302 {units/equipment/hospital_saw/hospital_saw_teddy} runs 'interact'
 	Then perform:
 		Run sequence 'hide' on unit 700302 {units/equipment/hospital_saw/hospital_saw_teddy} at (1022, 1416.1600341797, 64.236801147461) 
 		Remove waypoint with text 'Pick up the Saw' and icon wp_saw from (1025, 1400, 123.19599914551) 
@@ -5756,7 +5756,7 @@
 'Saw1Finished' [ElementUnitSequenceTrigger] 700049 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300025 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open' on unit 101889 {units/world/architecture/hospital/hospital_securitydoor_1} at (-1350, 2071, 300.39199829102) 
 		Run sequence 'disable_collision' on unit 100954 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1355, 2264, 0) 
@@ -5845,7 +5845,7 @@
  
 'doneComplete001' [ElementUnitSequenceTrigger] 701331 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101699 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated001': 	(DELAY 1.5)
 			Run sequence 'show' on unit 102040 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (3078.9099121094, -477.94500732422, 91.695098876953) 
@@ -5879,7 +5879,7 @@
 'Saw2Finished' [ElementUnitSequenceTrigger] 700052 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300023 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open' on unit 101887 {units/world/architecture/hospital/hospital_securitydoor_1} at (-1014, 2043, 299.97399902344) 
 		Run sequence 'disable_collision' on unit 100870 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1008, 1889, 0) 
@@ -5919,7 +5919,7 @@
  
 'doneFail001' [ElementUnitSequenceTrigger] 701332 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101699 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup001': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101699 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (3079, -481, 80) 
@@ -5955,7 +5955,7 @@
 'Saw3Finished' [ElementUnitSequenceTrigger] 700053 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
+		1) Unit 300024 {units/equipment/hospital_saw/hospital_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open' on unit 101626 {units/world/architecture/hospital/hospital_securitydoor_1} at (-1013, 2571, 300.29000854492) 
 		Run sequence 'disable_collision' on unit 100872 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1008, 2414, 0) 
@@ -5993,7 +5993,7 @@
  
 'pickedUpValidatedSample001' [ElementUnitSequenceTrigger] 701335 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 102040 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 102040 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (3078.9099121094, -477.94500732422, 91.695098876953) 
 		Run sequence 'state_cleanup' on unit 101699 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (3079, -481, 80) 
@@ -6026,7 +6026,7 @@
  
 'doneCleanup002' [ElementUnitSequenceTrigger] 701337 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101719 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -6290,7 +6290,7 @@
  
 'doneComplete002' [ElementUnitSequenceTrigger] 701343 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101719 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated002': 	(DELAY 1.5)
 			Run sequence 'show' on unit 102021 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (2204.4699707031, -654.20001220703, 91.695098876953) 
@@ -6320,7 +6320,7 @@
  
 'doneFail002' [ElementUnitSequenceTrigger] 701344 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101719 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup002': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101719 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (2205.0900878906, -657.19201660156, 80) 
@@ -6394,7 +6394,7 @@
 'func_sequence_trigger_036' [ElementUnitSequenceTrigger] 701602 from default
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_container_01/hospital_veil_container_01} runs 'interact'
+		1) Unit 100213 {units/world/props/hospital_veil_container_01/hospital_veil_container_01} runs 'interact'
 	Then perform:
 		Execute element '1' [ElementCounter] 701612 from default
 		Execute element '2' [ElementCounter] 701613 from default
@@ -6403,7 +6403,7 @@
 'interactedWithkeyboard' [ElementUnitSequenceTrigger] 700323 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction} runs 'interact'
+		1) Unit 100141 {units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction} runs 'interact'
 	Then perform:
 		Run sequence 'searching' on unit 100452 {units/world/architecture/hospital/props/hospital_computer_monitor_02/hospital_computer_monitor_02} at (717, 275, 79.656303405762) 
 		Execute element 'activateTelephoneEvent' [MissionScriptElement] 700352 from default
@@ -6432,7 +6432,7 @@
  
 'pickedUpValidatedSample002' [ElementUnitSequenceTrigger] 701347 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 102021 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 102021 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (2204.4699707031, -654.20001220703, 91.695098876953) 
 		Run sequence 'state_cleanup' on unit 101719 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (2205.0900878906, -657.19201660156, 80) 
@@ -6506,7 +6506,7 @@
  
 'doneCleanup003' [ElementUnitSequenceTrigger] 701349 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101729 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -6625,7 +6625,7 @@
  
 'doneComplete003' [ElementUnitSequenceTrigger] 701355 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101729 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated003': 	(DELAY 1.5)
 			Run sequence 'show' on unit 102000 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-1601.0899658203, -70.945198059082, 91.459197998047) 
@@ -6633,7 +6633,7 @@
  
 'doneFail003' [ElementUnitSequenceTrigger] 701356 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101729 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup003': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101729 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-1601, -74, 79.764099121094) 
@@ -6993,7 +6993,7 @@
  
 'pickedUpValidatedSample003' [ElementUnitSequenceTrigger] 701359 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 102000 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 102000 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-1601.0899658203, -70.945198059082, 91.459197998047) 
 		Run sequence 'state_cleanup' on unit 101729 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-1601, -74, 79.764099121094) 
@@ -7077,7 +7077,7 @@
  
 'doneCleanup004' [ElementUnitSequenceTrigger] 701361 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101633 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -7341,7 +7341,7 @@
  
 'doneComplete004' [ElementUnitSequenceTrigger] 701367 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101633 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated004': 	(DELAY 1.5)
 			Run sequence 'show' on unit 101981 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-2350.8999023438, 93.919097900391, 91.448600769043) 
@@ -7357,7 +7357,7 @@
  
 'doneFail004' [ElementUnitSequenceTrigger] 701368 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101633 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup004': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101633 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-2350, 91, 79.75350189209) 
@@ -7368,9 +7368,9 @@
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 702392 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
-		2) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
-		3) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		1) Unit 100117 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		2) Unit 100112 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
+		3) Unit 100113 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_done} runs 'interact'
 	Then perform:
 		Play dialogue 'hos_ban_143'	(DELAY 1)
  
@@ -7423,7 +7423,7 @@
  
 'pickedUpValidatedSample004' [ElementUnitSequenceTrigger] 701371 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 101981 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 101981 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-2350.8999023438, 93.919097900391, 91.448600769043) 
 		Run sequence 'state_cleanup' on unit 101633 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-2350, 91, 79.75350189209) 
@@ -7447,7 +7447,7 @@
  
 'doneCleanup005' [ElementUnitSequenceTrigger] 701373 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101727 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -7502,7 +7502,7 @@
  
 'doneComplete005' [ElementUnitSequenceTrigger] 701379 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101727 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated005': 	(DELAY 1.5)
 			Run sequence 'show' on unit 102007 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-501.09201049805, -48.945201873779, 91.459297180176) 
@@ -7519,13 +7519,13 @@
 'func_sequence_trigger_055' [ElementUnitSequenceTrigger] 702403 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 701124 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Play sound 'hos_elevator_door_pry_open'
  
 'doneFail005' [ElementUnitSequenceTrigger] 701380 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
+		1) Unit 101727 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_failed'
 	Then perform:
 		Perform 'Cleanup005': 	(DELAY 1.5)
 			Run sequence 'state_cleanup' on unit 101727 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-501, -52, 79.764198303223) 
@@ -7622,7 +7622,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 4]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
+		1) Unit 101883 {units/world/architecture/hospital/props/elevator_buttons/elevator_buttons} runs 'interact'
 	Then perform:
 		Start timer 'startCallElevatorTimer'
 		Run sequence 'resume' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
@@ -7645,7 +7645,7 @@
  
 'pickedUpValidatedSample005' [ElementUnitSequenceTrigger] 701383 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
+		1) Unit 102007 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} runs 'got_blood_sample'
 	Then perform:
 		Run sequence 'hide' on unit 102007 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (-501.09201049805, -48.945201873779, 91.459297180176) 
 		Run sequence 'state_cleanup' on unit 101727 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} at (-501, -52, 79.764198303223) 
@@ -7705,7 +7705,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 701128 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'open_hatch_1' on unit 200050 {units/world/architecture/hospital/hospital_elevator} at (-2282.919921875, 2732.5600585938, -0.0050048800185323) 
 		Run sequence 'open_hatch_2_morgue' on unit 200050 {units/world/architecture/hospital/hospital_elevator} at (-2282.919921875, 2732.5600585938, -0.0050048800185323) 	(DELAY 1)
@@ -7717,7 +7717,7 @@
  
 'doneCleanup006' [ElementUnitSequenceTrigger] 701385 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
+		1) Unit 101723 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_cleanup'
 	Then perform:
 		Roll the dice with 28% chance to succeed.
 		On success, perform:
@@ -7909,7 +7909,7 @@
 'crowbaredElevatorMorgueDoor' [ElementUnitSequenceTrigger] 701134 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
+		1) Unit 701124 {units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template} runs 'done_crowbar'
 	Then perform:
 		Run sequence 'open' on unit 102187 {units/world/architecture/hospital/hospital_elevator_doors} at (-2228, 2720, -700) 
 		Make teammates say 'g13'
@@ -7919,7 +7919,7 @@
 'func_sequence_trigger_056' [ElementUnitSequenceTrigger] 702414 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
+		1) Unit 300022 {units/equipment/hospital_saw/hospital_saw} runs 'first_interact'
 	Then perform:
 		Make teammates close to instigator say 'hos_b_bri_06'
  
@@ -7948,7 +7948,7 @@
  
 'doneComplete006' [ElementUnitSequenceTrigger] 701391 from default
 	If any of the following sequences get triggered:
-		1) {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
+		1) Unit 101723 {units/world/props/hospital_veil_interaction/hospital_sample_validation_machine} runs 'done_sample_validated'
 	Then perform:
 		Perform 'spawnValidated006': 	(DELAY 1.5)
 			Run sequence 'show' on unit 102014 {units/world/props/hospital_veil_interaction/hospital_veil_interaction_full} at (358.31399536133, 1226.9799804688, 91.44580078125) 

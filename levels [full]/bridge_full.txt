@@ -379,7 +379,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 100716 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100941 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -433,7 +433,7 @@
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 101836 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100953 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -521,7 +521,7 @@
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 100717 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100613 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -569,7 +569,7 @@
 'func_sequence_trigger_035' [ElementUnitSequenceTrigger] 101837 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100934 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -740,7 +740,7 @@
 'func_sequence_trigger_036' [ElementUnitSequenceTrigger] 101838 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100954 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -811,7 +811,7 @@
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 101839 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100935 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -930,7 +930,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 101648 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101814 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open' on unit 101709 {units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event} at (-1036.6700439453, -2113.7600097656, 5599.4599609375) 
 		Run sequence 'hide_dummy' on unit 101814 {units/equipment/apartment_saw/apartment_saw} at (-676.60498046875, -2594.0500488281, 5756) 
@@ -947,7 +947,7 @@
 'func_sequence_trigger_038' [ElementUnitSequenceTrigger] 101840 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100684 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1048,14 +1048,14 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 101825 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 101116 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
 'func_sequence_trigger_039' [ElementUnitSequenceTrigger] 101841 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100833 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1350,7 +1350,7 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 101826 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100948 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1386,7 +1386,7 @@
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 100243 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
+		1) Unit 101814 {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100251 from default
 		Execute element 'logic_counter_002' [ElementCounter] 100252 from default
@@ -1482,7 +1482,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 101651 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101812 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open_light' on unit 101646 {units/vehicles/prisoner_truck/vehicle_prisoner_truck} at (-2090.3999023438, -7209.8598632813, 5873.2099609375) 
 		Run sequence 'hide_dummy' on unit 101812 {units/equipment/apartment_saw/apartment_saw} at (-2325.7099609375, -6805.41015625, 5867.8198242188) 
@@ -1493,7 +1493,7 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 101715 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101813 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'done' on unit 101813 {units/equipment/apartment_saw/apartment_saw} at (-1061.0400390625, -1762.3100585938, 5593.1899414063) 
 		Run sequence 'hide_dummy' on unit 101813 {units/equipment/apartment_saw/apartment_saw} at (-1061.0400390625, -1762.3100585938, 5593.1899414063) 	(DELAY 0.1)
@@ -1502,7 +1502,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 101827 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100837 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1581,7 +1581,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 100244 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
+		1) Unit 101812 {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100251 from default
 		Execute element 'logic_counter_002' [ElementCounter] 100252 from default
@@ -1675,7 +1675,7 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 101652 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101810 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open_light' on unit 101273 {units/vehicles/prisoner_truck/vehicle_prisoner_truck} at (-614.01300048828, -9081.8095703125, 5785.330078125) 
 		Run sequence 'hide_dummy' on unit 101810 {units/equipment/apartment_saw/apartment_saw} at (-826.28002929688, -9489.1904296875, 5923.75) 
@@ -1686,7 +1686,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 101828 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100983 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1723,7 +1723,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 100245 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
+		1) Unit 101810 {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100251 from default
 		Execute element 'logic_counter_002' [ElementCounter] 100252 from default
@@ -1785,7 +1785,7 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 101717 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101813 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100264 from default
 		Execute element 'logic_link_024' [MissionScriptElement] 100178 from default
@@ -1797,7 +1797,7 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 101829 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100969 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1833,7 +1833,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 100246 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
+		1) Unit 101811 {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100251 from default
 		Execute element 'logic_counter_002' [ElementCounter] 100252 from default
@@ -1904,7 +1904,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 101702 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/ejection_seat/ejection_seat} runs 'interact'
+		1) Unit 101470 {units/world/props/ejection_seat/ejection_seat} runs 'interact'
 	Then perform:
 		Print debug string 'fitta'
 		Execute element 'logic_link_086' [MissionScriptElement] 101710 from default
@@ -1941,7 +1941,7 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 101830 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100955 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -1958,7 +1958,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 100247 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101814 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_024' [MissionScriptElement] 100178 from default
 		Execute element 'logic_counter_005' [ElementCounter] 100264 from default
@@ -2016,7 +2016,7 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 101655 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101811 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Run sequence 'open' on unit 100236 {units/vehicles/prisoner_truck/vehicle_prisoner_truck} at (-2044, -9670.3896484375, 5789.3999023438) 
 		Run sequence 'hide_dummy' on unit 101811 {units/equipment/apartment_saw/apartment_saw} at (-1972.9399414063, -10121.599609375, 5933.2700195313) 
@@ -2024,7 +2024,7 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 101719 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event} runs 'done_slide_on_bridge'
+		1) Unit 101709 {units/vehicles/animated_cars/prisoner_truck_drill_event/prisoner_truck_drill_event} runs 'done_slide_on_bridge'
 	Then perform:
 		Run sequence 'disable_collision' on unit 101732 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1077, -1921, 6282.3500976563) 
 		Run sequence 'disable_collision' on unit 101733 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-906.86499023438, -1824.8800048828, 6240.3500976563) 
@@ -2040,14 +2040,14 @@
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 101831 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100938 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
 'func_sequence_trigger_045' [ElementUnitSequenceTrigger] 101847 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100945 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -2073,7 +2073,7 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 100248 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101812 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_023' [MissionScriptElement] 100177 from default
 		Execute element 'logic_counter_005' [ElementCounter] 100264 from default
@@ -2120,7 +2120,7 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 100712 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100946 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -2202,7 +2202,7 @@
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 101816 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
+		1) Unit 101813 {units/equipment/apartment_saw/apartment_saw} runs 'first_interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100251 from default
 		Execute element 'logic_counter_002' [ElementCounter] 100252 from default
@@ -2212,7 +2212,7 @@
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 101832 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100836 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -2248,7 +2248,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 100249 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101810 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_022' [MissionScriptElement] 100176 from default
 		Execute element 'logic_counter_005' [ElementCounter] 100264 from default
@@ -2321,7 +2321,7 @@
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/ejection_seat/ejection_seat} runs 'interact'
+		1) Unit 101470 {units/world/props/ejection_seat/ejection_seat} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_082' [MissionScriptElement] 101666 from default
 		Toggle OFF element 'bri_ban_13' [ElementDialogue] 102094 from default
@@ -2343,14 +2343,14 @@
 'func_sequence_trigger_031' [ElementUnitSequenceTrigger] 101833 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100835 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 101849 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100933 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -2371,7 +2371,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 100250 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 101811 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_021' [MissionScriptElement] 100168 from default
 		Execute element 'logic_counter_005' [ElementCounter] 100264 from default
@@ -2474,7 +2474,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 101706 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/alaska_plane/alaska_plane} runs 'cought'
+		1) Unit 100225 {units/vehicles/alaska_plane/alaska_plane} runs 'cought'
 	Then perform:
 		Run sequence 'fly_away' on unit 101470 {units/world/props/ejection_seat/ejection_seat} at (-3318.6799316406, -22575.900390625, 7121.4799804688) 
 		Remove/Kill unit {units/characters/civilians/escort_guy_2/escort_guy_2} from element 'ai_spawn_civilian_044'
@@ -2491,7 +2491,7 @@
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 101834 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100951 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
@@ -2686,7 +2686,7 @@
 'func_sequence_trigger_040' [ElementUnitSequenceTrigger] 101675 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/ejection_seat/ejection_seat} runs 'fly_away'
+		1) Unit 101470 {units/world/props/ejection_seat/ejection_seat} runs 'fly_away'
 	Then perform:
 		Make teammates say 'bri_35'	(DELAY 4)
 		Print debug string 'MISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUE'
@@ -2702,14 +2702,14 @@
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 101835 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100937 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 101851 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 100115 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Execute element 'logic_counter_010' [ElementCounter] 101844 from default
  

@@ -384,7 +384,7 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 100300 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
+		1) Unit 101596 {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/gangster6/gangster6} at position (-665.9580078125, 1189.0400390625, 49.999599456787) with rotation (-0, 0, 175.00004577637)
 		Create objective for instigator around position (-1978, 1845, -28)
@@ -504,7 +504,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 102204 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/helicopter/apartment_helicopter/apartment_helicopter} runs 'none'
+		1) Unit 103677 {units/vehicles/helicopter/apartment_helicopter/apartment_helicopter} runs 'none'
 	Then perform:
  
 'logic_link_095' [MissionScriptElement] 100333 from default
@@ -608,7 +608,7 @@
 '011' [ElementUnitSequenceTrigger] 100414 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100385 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor5' [ElementCounter] 100257 from default
 		Complete objective 'ap_c4' at position (-1458, 1086, 5213) 
@@ -1052,7 +1052,7 @@
 '013' [ElementUnitSequenceTrigger] 100416 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100387 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor5' [ElementCounter] 100257 from default
 		Complete objective 'ap_c4' at position (-1491, 1215, 5219) 
@@ -1126,7 +1126,7 @@
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 101552 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 100139 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_counter_007' [ElementCounter] 101553 from default
  
@@ -1189,7 +1189,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 100033 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/apartment/police/apartment_police_animated} runs 'animation01'
+		1) Unit 104690 {units/vehicles/apartment/police/apartment_police_animated} runs 'animation01'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-45.808799743652, -1379.6800537109, -37) with rotation (-0, -0, 16.999948501587)	(DELAY 5.8299999237061)
 		Create objective for instigator around position (-712, 230, 50.399700164795) with action AI_hunt	(DELAY 1)
@@ -1354,7 +1354,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 101409 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_out'
+		1) Unit 100124 {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_out'
 	Then perform:
 		Play sound 'door_wooden_kicked_in'
  
@@ -1493,7 +1493,7 @@
 '  001' [ElementUnitSequenceTrigger] 100402 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100392 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor4' [ElementCounter] 100258 from default
 		Complete objective 'ap_c4' at position (-1591, 1115, 4648) 
@@ -1505,7 +1505,7 @@
 'use key' [ElementUnitSequenceTrigger] 100450 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/apartment_key_dummy/apartment_key_dummy} runs 'interact'
+		1) Unit 100363 {units/world/props/apartment/apartment_key_dummy/apartment_key_dummy} runs 'interact'
 	Then perform:
 				Allow AI nav sections 158
 		Run sequence 'hide_dummy' on unit 100363 {units/world/props/apartment/apartment_key_dummy/apartment_key_dummy} at (-1740.9998779297, 802, 822.26202392578) 
@@ -1741,7 +1741,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 100195 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_03} runs 'open_out'
+		1) Unit 101384 {units/world/architecture/apartment/door/apartment_door_03} runs 'open_out'
 	Then perform:
 		Play sound 'metal_door_open'
  
@@ -1763,7 +1763,7 @@
 '001' [ElementUnitSequenceTrigger] 100403 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100393 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor4' [ElementCounter] 100258 from default
 		Complete objective 'ap_c4' at position (-1591, 1015, 4652) 
@@ -1780,7 +1780,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 102962 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01_crowbar_interaction} runs 'interact'
+		1) Unit 102957 {units/world/architecture/apartment/door/apartment_door_01_crowbar_interaction} runs 'interact'
 	Then perform:
 		Run sequence 'open_in' on unit 102957 {units/world/architecture/apartment/door/apartment_door_01_crowbar_interaction} at (-1230, 440, 374.99996948242) 
 		Execute element 'logic_link_131' [MissionScriptElement] 103243 from default
@@ -1819,7 +1819,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 101411 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 100136 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_counter_007' [ElementCounter] 101553 from default
 		Execute element 'logic_counter_039' [ElementCounter] 100193 from default
@@ -2132,7 +2132,7 @@
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 101813 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_03} runs 'open_out'
+		1) Unit 100306 {units/world/architecture/apartment/door/apartment_door_03} runs 'open_out'
 	Then perform:
 		Play sound 'metal_door_open'
  
@@ -2165,7 +2165,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 100198 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 100138 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_counter_007' [ElementCounter] 101553 from default
 		Execute element 'logic_counter_039' [ElementCounter] 100193 from default
@@ -2387,7 +2387,7 @@
 '  ' [ElementUnitSequenceTrigger] 100401 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100391 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor4' [ElementCounter] 100258 from default
 		Complete objective 'ap_c4' at position (-1591, 1215, 4654) 
@@ -2395,7 +2395,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 100167 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'interact'
+		1) Unit 100136 {units/equipment/apartment_saw/apartment_saw} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 100250 from default
 		Execute element 'logic_counter_038' [ElementCounter] 100131 from default
@@ -2439,7 +2439,7 @@
 '019' [ElementUnitSequenceTrigger] 100423 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100135 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'roof' [ElementCounter] 100249 from default
 		Complete objective 'ap_c4' at position (-1491, 1051, 5625) 
@@ -2447,7 +2447,7 @@
 '025' [ElementUnitSequenceTrigger] 100429 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100150 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'roof' [ElementCounter] 100249 from default
 		Complete objective 'ap_c4' at position (-1474, 921, 5622) 
@@ -2545,7 +2545,7 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 103398 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
+		1) Unit 103123 {units/world/props/apartment/hanging_lightbulb/hanging_lightbulb} runs 'kill_light_bulb'
 	Then perform:
 		Toggle OFF element 'logic_link_139' [MissionScriptElement] 103390 from default
 		Toggle OFF element 'logic_link_141' [MissionScriptElement] 103394 from default
@@ -2580,14 +2580,14 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 101495 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_in'
+		1) Unit 101342 {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_in'
 	Then perform:
 		Play sound 'door_wooden_kicked_in'
  
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 101511 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_out'
+		1) Unit 103184 {units/world/architecture/apartment/door/apartment_door_01} runs 'slam_out'
 	Then perform:
 		Play sound 'door_wooden_kicked_in'
  
@@ -2649,7 +2649,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 100207 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/helicopter/apartment_helicopter/apartment_helicopter} runs 'interact'
+		1) Unit 101431 {units/vehicles/helicopter/apartment_helicopter/apartment_helicopter} runs 'interact'
 	Then perform:
 		Play sound 'magnet_attach'
 		Run sequence 'show_panic_room' on unit 101431 {units/vehicles/helicopter/apartment_helicopter/apartment_helicopter} at (-1383, 966, 500) 
@@ -2682,7 +2682,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 100168 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'interact'
+		1) Unit 100139 {units/equipment/apartment_saw/apartment_saw} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 100250 from default
  
@@ -2815,7 +2815,7 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 101400 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
+		1) Unit 103228 {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
 	Then perform:
 		Play sound 'door_wooden_kicked_in'
  
@@ -2931,21 +2931,21 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 102136 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_reinforced_01} runs 'open_in'
+		1) Unit 101673 {units/world/architecture/apartment/door/apartment_door_reinforced_01} runs 'open_in'
 	Then perform:
 		Play sound 'metal_door_open'
  
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 100153 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'interact'
+		1) Unit 100137 {units/equipment/apartment_saw/apartment_saw} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 100250 from default
  
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 100201 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/street/plywood_fence/plywood_fence_door} runs 'open'
+		1) Unit 100100 {units/world/props/street/plywood_fence/plywood_fence_door} runs 'open'
 	Then perform:
 		Play sound 'gate_fence_open'
 		Spawn civilian unit {units/characters/civilians/casual_male_2/casual_male_2} at position (-2491, 2110, 375) with rotation (-0, -0, 3.0735860491404e-005)
@@ -2954,7 +2954,7 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 101113 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 100314 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Toggle ON element 'trigger_area_021' [ElementAreaTrigger] 101683 from default
 		Toggle OFF element 'func_dialogue_009' [ElementDialogue] 101976 from default
@@ -3003,14 +3003,14 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 100617 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/street/plywood_fence/plywood_fence_door} runs 'close'
+		1) Unit 100246 {units/world/props/street/plywood_fence/plywood_fence_door} runs 'close'
 	Then perform:
 		Play sound 'gate_fence_close'
  
 '009' [ElementUnitSequenceTrigger] 100412 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100389 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'floor5' [ElementCounter] 100257 from default
 		Complete objective 'ap_c4' at position (-1481, 930, 5204) 
@@ -3018,7 +3018,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 102872 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
+		1) Unit 101596 {units/world/architecture/apartment/door/apartment_door_01} runs 'open_out'
 	Then perform:
 		Play sound 'metal_door_open'
  
@@ -3060,7 +3060,7 @@
 '' [ElementUnitSequenceTrigger] 100421 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
+		1) Unit 100291 {units/equipment/c4_charge_special/c4_plantable_special} runs 'interact'
 	Then perform:
 		Execute element 'roof' [ElementCounter] 100249 from default
 		Complete objective 'ap_c4' at position (-1491, 815, 5631) 
@@ -3068,7 +3068,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 100042 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/apartment/police/apartment_police_animated} runs 'animation02'
+		1) Unit 104590 {units/vehicles/apartment/police/apartment_police_animated} runs 'animation02'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-767.51397705078, -1568.9499511719, -37.007099151611) with rotation (-0, 0, -103.00011444092)	(DELAY 5.6999998092651)
 		Create objective for instigator around position (-712, 230, 50.399700164795) with action AI_hunt	(DELAY 1)
@@ -3136,7 +3136,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 100154 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'interact'
+		1) Unit 100138 {units/equipment/apartment_saw/apartment_saw} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 100250 from default
 		Execute element 'logic_counter_038' [ElementCounter] 100131 from default
@@ -3256,7 +3256,7 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 103049 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/apartment/door/apartment_door_02_crowbar_interaction} runs 'interact'
+		1) Unit 102963 {units/world/architecture/apartment/door/apartment_door_02_crowbar_interaction} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_131': 	(DELAY 0.25)
 			Run sequence 'open_out' on unit 102963 {units/world/architecture/apartment/door/apartment_door_02_crowbar_interaction} at (-1068, -248, 374.99996948242) 
@@ -3285,7 +3285,7 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 101385 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
+		1) Unit 100137 {units/equipment/apartment_saw/apartment_saw} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_counter_007' [ElementCounter] 101553 from default
  
@@ -3338,7 +3338,7 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 100043 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/apartment/police/apartment_police_animated} runs 'animation03'
+		1) Unit 104597 {units/vehicles/apartment/police/apartment_police_animated} runs 'animation03'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop3/cop3} at position (-1418.6500244141, -1512.9799804688, -37.00659942627) with rotation (-0, 0, -126.99995422363)	(DELAY 4.6999998092651)
 		Create objective for instigator around position (-712, 230, 50.399700164795) with action AI_hunt	(DELAY 1)

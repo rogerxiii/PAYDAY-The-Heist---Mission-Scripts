@@ -653,7 +653,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 100049 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_street_drill_pickup_event/vehicle_street_drill_pickup_event} runs 'interact'
+		1) Unit 101389 {units/vehicles/animated_cars/vehicle_street_drill_pickup_event/vehicle_street_drill_pickup_event} runs 'interact'
 	Then perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
@@ -1297,7 +1297,7 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 102869 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 100194 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Run sequence 'hide' on unit 100194 {units/equipment/gas/gas_can_interact} at (-11754.200195313, -12135.599609375, 68.499908447266) 
 		Play effect {effects/particles/environment/static_fire} at position Vector3(-11807, -12201, 53.5)
@@ -1372,7 +1372,7 @@
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 101062 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn1'
+		1) Unit 100508 {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn1'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop/cop} at position (14302.900390625, 9257.419921875, 50) with rotation (-0, -0, 70.999870300293)	(DELAY 4)
 		Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (14382.900390625, 8906.5302734375, 37.975200653076) with rotation (-0, 0, 123.00006103516)	(DELAY 5)
@@ -1495,7 +1495,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 102870 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 100193 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Run sequence 'hide' on unit 100193 {units/equipment/gas/gas_can_interact} at (-11672.200195313, -12250.799804688, 68.5) 
 		Perform 'func_sequence_029': 	(DELAY 60)
@@ -1670,7 +1670,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 102871 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 100176 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Run sequence 'hide' on unit 100176 {units/equipment/gas/gas_can_interact} at (-11770.299804688, -12444.700195313, 68.5) 
 		Perform 'func_sequence_030': 	(DELAY 60)
@@ -1847,7 +1847,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 100040 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/street/consulate_exit/consulate_door} runs 'interact'
+		1) Unit 102516 {units/world/architecture/street/consulate_exit/consulate_door} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 102516 {units/world/architecture/street/consulate_exit/consulate_door} at (13349.299804688, 12820, -123.15899658203) 
 				Allow AI nav sections 129
@@ -1904,7 +1904,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 101147 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn2'
+		1) Unit 100511 {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn2'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop3/cop3} at position (14073, 8757.6201171875, 37.975200653076) with rotation (-0, -0, 54.999923706055)	(DELAY 5.3299999237061)
 		Spawn enemy unit {units/characters/enemies/cop/cop} at position (13968, 8443, 50) with rotation (-0, -0, 90)	(DELAY 6.3299999237061)
@@ -1912,7 +1912,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 102552 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/street/plywood_fence/plywood_fence_door} runs 'open_fast'
+		1) Unit 100993 {units/world/props/street/plywood_fence/plywood_fence_door} runs 'open_fast'
 	Then perform:
 		Play sound 'gate_fence_street_open'
  
@@ -1951,7 +1951,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 102712 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 102718 from default
 		Execute element 'logic_counter_012' [ElementCounter] 102719 from default
@@ -1975,7 +1975,7 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 102872 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 100064 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Run sequence 'hide' on unit 100064 {units/equipment/gas/gas_can_interact} at (-11858, -12512.200195313, 68.5) 
 		Execute element 'logic_link_022' [MissionScriptElement] 101608 from default	(DELAY 80)
@@ -2138,7 +2138,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 102713 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 102718 from default
 		Execute element 'logic_counter_012' [ElementCounter] 102719 from default
@@ -2435,7 +2435,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 100423 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn1'
+		1) Unit 103484 {units/vehicles/animated_cars/police_ny_street_anim} runs 'anim_turn1'
 	Then perform:
 		Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-8734.7001953125, 1204.1400146484, 36.992900848389) with rotation (-0, 0, -153.00004577637)	(DELAY 4)
 		Spawn enemy unit {units/characters/enemies/cop/cop} at position (-9047.9296875, 1111.5999755859, 36.988800048828) with rotation (-0, 0, -176.99998474121)	(DELAY 4)

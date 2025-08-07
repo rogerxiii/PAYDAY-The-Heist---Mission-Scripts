@@ -458,7 +458,7 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 102411 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 102190 from deafult
 		Execute element 'logic_counter_010' [ElementCounter] 100918 from deafult
@@ -466,7 +466,7 @@
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 102459 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102452 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102484 {core/units/light_omni_seq/light_omni_seq} at (-8545, 6564, 38.704898834229) 
@@ -555,14 +555,14 @@
 'func_sequence_trigger_057' [ElementUnitSequenceTrigger] 103771 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 102529 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 101964 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 101631 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Play effect {effects/particles/environment/heavy_smoke_and_fire} at position Vector3(-22517.1, 4858.26, -10.8999)	(DELAY 1)
  
@@ -602,7 +602,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 102444 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100349 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'interact_enable' on unit 100244 {units/world/props/slaughterhouse/gold_bar/gold_bar} at (-8371.080078125, 6445.3798828125, 65.694396972656) 
 		Run sequence 'interact_enable' on unit 102452 {units/equipment/gold_bag/gold_bag} at (-8542, 6566, 4.9963998794556) 
@@ -613,7 +613,7 @@
 'func_sequence_trigger_045' [ElementUnitSequenceTrigger] 102460 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102453 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102477 {core/units/light_omni_seq/light_omni_seq} at (-8566, 6483, 40.704898834229) 
@@ -657,7 +657,7 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 100845 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'trigger_area_016' [ElementAreaTrigger] 100957 from deafult
@@ -876,7 +876,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 102189 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 101999 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 102190 from deafult	(DELAY 5)
 		Execute element 'logic_counter_010' [ElementCounter] 100918 from deafult
@@ -909,7 +909,7 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 102253 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gas/gas_can_interact} runs 'interact'
+		1) Unit 100772 {units/equipment/gas/gas_can_interact} runs 'interact'
 	Then perform:
 		Toggle ON element 'trigger_area_009' [ElementAreaTrigger] 103481 from deafult
 		Toggle OFF element 'point_special_objective_105' [ElementSpecialObjective] 101575 from deafult
@@ -948,7 +948,7 @@
 'func_sequence_trigger_046' [ElementUnitSequenceTrigger] 102461 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102454 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102476 {core/units/light_omni_seq/light_omni_seq} at (-8569, 6433, 45.704898834229) 
@@ -995,7 +995,7 @@
 'func_sequence_trigger_079' [ElementUnitSequenceTrigger] 101086 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 101546 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -1003,7 +1003,7 @@
 'func_sequence_trigger_truck_c4_done' [ElementUnitSequenceTrigger] 101502 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 100258 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Execute element 'logic_link_001_hanging_exp' [MissionScriptElement] 101503 from deafult
 		Run sequence 'flickering' on unit 100141 {units/world/props/apartment/facade_light/facade_light} at (-8651, 7553, 270.84399414063) 	(DELAY 1)
@@ -1051,7 +1051,7 @@
 'func_sequence_trigger_058' [ElementUnitSequenceTrigger] 103773 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 102532 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
@@ -1082,7 +1082,7 @@
 'func_sequence_trigger_084' [ElementUnitSequenceTrigger] 104061 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_2'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_2'
 	Then perform:
 		Run sequence 'pickup_anim_2_pickup' on unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} at (0, 0, 0) 
  
@@ -1125,7 +1125,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 102254 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 				Forbid AI nav sections 175
 		Toggle OFF element 'point_special_objective_106' [ElementSpecialObjective] 101583 from deafult
@@ -1177,7 +1177,7 @@
 'func_sequence_trigger_036' [ElementUnitSequenceTrigger] 102798 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car4_reversed'
+		1) Unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car4_reversed'
 	Then perform:
 		Execute element 'logic_link_076' [MissionScriptElement] 102808 from alley_ambush
 		Execute element 'logic_counter_014' [ElementCounter] 102846 from alley_ambush
@@ -1268,14 +1268,14 @@
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 103774 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'on'
+		1) Unit 100365 {units/world/props/apartment/facade_light/facade_light} runs 'on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 103806 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_before_main'
+		1) Unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_before_main'
 	Then perform:
 		Run sequence 'disable_hitbox1' on unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4528, 6360, 1054) 	(DELAY 0.2)
  
@@ -1286,7 +1286,7 @@
 'func_sequence_trigger_087' [ElementUnitSequenceTrigger] 104078 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
+		1) Unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
 	Then perform:
 		Run sequence 'done_background_turn_test' on unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4483, 6336, 1054) 
  
@@ -1333,7 +1333,7 @@
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 102207 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_2'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_2'
 	Then perform:
 		Run sequence 'hide' on unit 100887 {units/world/props/container/slaughterhouse_container_two_doors} at (-18143.5, 7140.8999023438, -73) 
  
@@ -1357,7 +1357,7 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 102447 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100244 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'interact_enable' on unit 102448 {units/equipment/gold_bag/gold_bag} at (-8571.740234375, 6622.990234375, 4.9963998794556) 
 		Run sequence 'money_bag_full' on unit 102448 {units/equipment/gold_bag/gold_bag} at (-8571.740234375, 6622.990234375, 4.9963998794556) 
@@ -1370,7 +1370,7 @@
 'func_sequence_trigger_073' [ElementUnitSequenceTrigger] 102479 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102842 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-8029, 7464, 5.9964900016785) to (-8094.2099609375, 7659.669921875, 328) with action so_climb_1floor_through_window
  
@@ -1429,7 +1429,7 @@
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 102783 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_hitbox'
+		1) Unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_hitbox'
 	Then perform:
 		Toggle OFF element 'logic_link_098' [MissionScriptElement] 100591 from alley_ambush
 		Execute element 'logic_link_097' [MissionScriptElement] 100479 from alley_ambush
@@ -1437,7 +1437,7 @@
 'func_sequence_trigger_039' [ElementUnitSequenceTrigger] 102815 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
+		1) Unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
 	Then perform:
 		Run sequence 'car4_reverse' on unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4525, 6339, 1054) 
  
@@ -1497,14 +1497,14 @@
 'func_sequence_trigger_052' [ElementUnitSequenceTrigger] 103743 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'on'
+		1) Unit 100485 {units/world/props/apartment/facade_light/facade_light} runs 'on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_060' [ElementUnitSequenceTrigger] 103775 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 100139 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'insert_containerhide_voice' [MissionScriptElement] 100161 from deafult
@@ -1514,7 +1514,7 @@
 'func_sequence_trigger_listen_01' [ElementUnitSequenceTrigger] 102368 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 102192 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 102399 {units/equipment/gold_bag/gold_bag} at (-7770.6401367188, 6398.3598632813, 4.9963898658752) 	(DELAY 1)
 		Run sequence 'light_on' on unit 102412 {core/units/light_omni_seq/light_omni_seq} at (-7766, 6397, 34.784198760986) 	(DELAY 1)
@@ -1669,7 +1669,7 @@
 'func_sequence_trigger_061' [ElementUnitSequenceTrigger] 103776 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 101421 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'logic_link_115' [MissionScriptElement] 103840 from alley_ambush
@@ -1682,14 +1682,14 @@
 'func_sequence_trigger_085' [ElementUnitSequenceTrigger] 104064 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_leave_container_anim_1'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_leave_container_anim_1'
 	Then perform:
 		Run sequence 'pickup_anim_1_leave' on unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} at (0, 0, 0) 
  
 'func_sequence_trigger_088' [ElementUnitSequenceTrigger] 104080 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
+		1) Unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
 	Then perform:
 		Run sequence 'done_background_turn_test' on unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4528, 6360, 1054) 
  
@@ -1720,7 +1720,7 @@
 'func_sequence_trigger_038' [ElementUnitSequenceTrigger] 102801 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
+		1) Unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
 	Then perform:
 		Toggle OFF element 'logic_link_076' [MissionScriptElement] 102808 from alley_ambush
 		Execute element 'logic_counter_014' [ElementCounter] 102846 from alley_ambush
@@ -1764,7 +1764,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 101266 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_anim_1'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_anim_1'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100363 {units/world/props/slaughterhouse_controlpanel/slaughterhouse_controlpanel} at (-17895.80078125, 7841.919921875, 41.212299346924) 
 		Execute element 'logic_counter_005' [ElementCounter] 101717 from deafult
@@ -1795,7 +1795,7 @@
 'func_sequence_trigger_072' [ElementUnitSequenceTrigger] 101634 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102839 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-8204, 7464, 5.9964900016785) to (-8258.33984375, 7665.3100585938, 328) with action so_climb_1floor_through_window
  
@@ -1826,7 +1826,7 @@
 'func_sequence_trigger_062' [ElementUnitSequenceTrigger] 103777 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'on'
+		1) Unit 100483 {units/world/props/apartment/facade_light/facade_light} runs 'on'
 	Then perform:
  
 'logic_link_126' [MissionScriptElement] 103953 from deafult
@@ -1841,14 +1841,14 @@
 'func_sequence_trigger_086' [ElementUnitSequenceTrigger] 104065 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_1'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_1'
 	Then perform:
 		Run sequence 'pickup_anim_1_pickup' on unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} at (0, 0, 0) 
  
 'func_sequence_trigger_089' [ElementUnitSequenceTrigger] 104081 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'logic_link_052' [MissionScriptElement] 100684 from entrance_yard_event
@@ -1920,7 +1920,7 @@
 'func_sequence_trigger_035' [ElementUnitSequenceTrigger] 102738 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
+		1) Unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
 	Then perform:
 		Run sequence 'car3_crash' on unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4506, 6300, 1054) 
 		Play effect {effects/particles/explosions/explosion_grenade} at position Vector3(-4550, 8075, 1108.5)
@@ -1942,7 +1942,7 @@
 'func_sequence_trigger_043' [ElementUnitSequenceTrigger] 102892 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/c4_charge/c4_plantable} runs 'interact'
+		1) Unit 103010 {units/equipment/c4_charge/c4_plantable} runs 'interact'
 	Then perform:
 		Perform 'func_sequence_197': 	(DELAY 6.3000001907349)
 			Run sequence 'open' on unit 102865 {units/vehicles/animated_cars/vehicle_slaughterhouse_hanging_armored_truck/vehicle_slaughterhouse_hanging_armored_truck} at (-8271.01953125, 6643.16015625, 2.9959716796875) 
@@ -2013,7 +2013,7 @@
 'func_sequence_trigger_056' [ElementUnitSequenceTrigger] 103770 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 100995 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
@@ -2034,13 +2034,13 @@
 'func_sequence_trigger_063' [ElementUnitSequenceTrigger] 103778 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/dev_tools/level_tools/shadow_caster_5x5} runs 'none'
+		1) Unit 103364 {units/dev_tools/level_tools/shadow_caster_5x5} runs 'none'
 	Then perform:
  
 'func_sequence_trigger_071' [ElementUnitSequenceTrigger] 103810 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_before_main'
+		1) Unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_before_main'
 	Then perform:
 		Run sequence 'disable_hitbox1' on unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4483, 6336, 1054) 	(DELAY 0.2)
  
@@ -2098,7 +2098,7 @@
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 102706 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
+		1) Unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 102722 from alley_ambush
 		Toggle OFF element 'logic_link_067' [MissionScriptElement] 102724 from alley_ambush
@@ -2153,7 +2153,7 @@
 'func_sequence_trigger_031' [ElementUnitSequenceTrigger] 102771 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'main_animation'
+		1) Unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'main_animation'
 	Then perform:
 		Perform 'func_sequence_092': 	(DELAY 16)
 			Run sequence 'hide' on unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} at (-4527, 6336, 1054) 
@@ -2164,7 +2164,7 @@
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 101129 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_main'
+		1) Unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_main'
 	Then perform:
  
 'logic_link_spawn_tank_armored' [MissionScriptElement] 102198 from alley_ambush
@@ -2307,7 +2307,7 @@
 'func_sequence_trigger_064' [ElementUnitSequenceTrigger] 103779 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 103572 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'trigger_special_objective_004' [ElementSpecialObjectiveTrigger] 103552 from alley_ambush
@@ -2322,7 +2322,7 @@
 'func_sequence_trigger_051' [ElementUnitSequenceTrigger] 100478 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_main'
+		1) Unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} runs 'done_main'
 	Then perform:
 		Execute element 'logic_counter_013' [ElementCounter] 102784 from alley_ambush
 		Toggle OFF element 'logic_link_097' [MissionScriptElement] 100479 from alley_ambush
@@ -2333,7 +2333,7 @@
 'func_sequence_trigger_044' [ElementUnitSequenceTrigger] 102012 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table_anim} runs 'fall_on_back_table'
+		1) Unit 102010 {units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table_anim} runs 'fall_on_back_table'
 	Then perform:
 		Play effect {effects/particles/environment/sparks_world_col} at position Vector3(-8212, 6311.88, 31.9167)	(DELAY 3.4000000953674)
 		Play effect {effects/particles/environment/sparks_world_col} at position Vector3(-8208, 6519.36, 23.7724)	(DELAY 3.4000000953674)
@@ -2353,7 +2353,7 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 101909 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
+		1) Unit 101906 {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_003' [ElementCounter] 102420 from deafult
 		Run sequence 'light_on' on unit 102517 {core/units/light_omni_seq/light_omni_seq} at (-17477, 7625, 5.6108999252319) 
@@ -2374,7 +2374,7 @@
 'func_sequence_trigger_listen_02' [ElementUnitSequenceTrigger] 102372 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 102186 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 102398 {units/equipment/gold_bag/gold_bag} at (-7731.009765625, 6458.0600585938, 4.9963898658752) 	(DELAY 1)
 		Run sequence 'interact_enable' on unit 102398 {units/equipment/gold_bag/gold_bag} at (-7731.009765625, 6458.0600585938, 4.9963898658752) 	(DELAY 1)
@@ -2389,7 +2389,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 102404 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102399 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102412 {core/units/light_omni_seq/light_omni_seq} at (-7766, 6397, 34.784198760986) 
@@ -2416,7 +2416,7 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 102458 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102448 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102485 {core/units/light_omni_seq/light_omni_seq} at (-8565, 6616, 45.704898834229) 
@@ -2516,7 +2516,7 @@
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 101173 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table_anim} runs 'fall_on_front_table'
+		1) Unit 102008 {units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table_anim} runs 'fall_on_front_table'
 	Then perform:
 		Play effect {effects/particles/environment/sparks_world_col} at position Vector3(-7920, 6306.97, 31.038)	(DELAY 0.5)
 		Play effect {effects/particles/environment/sparks_world_col} at position Vector3(-7925, 6521.57, 22.2803)	(DELAY 0.5)
@@ -2571,7 +2571,7 @@
 'func_sequence_trigger_065' [ElementUnitSequenceTrigger] 103780 from deafult
 	[INITIAL TRIGGER TIMES: 2]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 100472 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'logic_link_080' [MissionScriptElement] 102825 from alley_ambush
@@ -2583,7 +2583,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 101781 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102818 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-8085.4301757813, 7504.490234375, 4.9964799880981) to (-8082, 7674.830078125, 4.9965000152588) with action tank_jump_over_1m
  
@@ -2618,14 +2618,14 @@
 'func_sequence_trigger_090' [ElementUnitSequenceTrigger] 104084 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
+		1) Unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
 	Then perform:
 		Run sequence 'done_background_turn_test' on unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4506, 6300, 1054) 
  
 'func_sequence_trigger_011_end' [ElementUnitSequenceTrigger] 102261 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Perform 'env_effect_stop_003':	(DELAY 0.066666699945927)
 		Complete objective 'slaughterhouse_load_gas' at position (-17675, 7563, -73) 
@@ -2663,7 +2663,7 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 102405 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102398 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102414 {core/units/light_omni_seq/light_omni_seq} at (-7732, 6459, 41.058498382568) 
@@ -2784,7 +2784,7 @@
 'func_sequence_trigger_076' [ElementUnitSequenceTrigger] 101062 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 101061 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -2825,14 +2825,14 @@
 'func_sequence_trigger_066' [ElementUnitSequenceTrigger] 103781 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'on'
+		1) Unit 102841 {units/world/props/apartment/facade_light/facade_light} runs 'on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_050' [ElementUnitSequenceTrigger] 101044 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_loader_slaughterhouse_ambush_event} runs 'crash1'
+		1) Unit 102766 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_loader_slaughterhouse_ambush_event} runs 'crash1'
 	Then perform:
 		Perform 'func_sequence_022': 	(DELAY 1.6599999666214)
 			Run sequence 'main_animation' on unit 102765 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_armored_truck_slaughterhouse_ambush_event} at (-4527, 6336, 1054) 
@@ -2851,7 +2851,7 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 101910 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
+		1) Unit 101908 {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_003' [ElementCounter] 102420 from deafult
 		Run sequence 'light_on' on unit 102519 {core/units/light_omni_seq/light_omni_seq} at (-17296, 7498, -2.3891000747681) 
@@ -2898,7 +2898,7 @@
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 102406 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102397 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'light_off' on unit 102416 {core/units/light_omni_seq/light_omni_seq} at (-7764, 6507, 38.173400878906) 
@@ -2908,7 +2908,7 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 102422 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
+		1) Unit 100348 {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_003' [ElementCounter] 102420 from deafult
 		Run sequence 'light_on' on unit 102516 {core/units/light_omni_seq/light_omni_seq} at (-17479, 7579, -0.38910099864006) 
@@ -2968,7 +2968,7 @@
 'lyssnar_efter_main_anim' [ElementUnitSequenceTrigger] 102710 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
+		1) Unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car1_main'
 	Then perform:
 		Execute element 'logic_counter_012' [ElementCounter] 102713 from alley_ambush
 		Toggle OFF element 'logic_link_063' [MissionScriptElement] 102559 from alley_ambush
@@ -3009,7 +3009,7 @@
 'func_sequence_trigger_042' [ElementUnitSequenceTrigger] 102870 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_hanging_armored_truck/vehicle_slaughterhouse_hanging_armored_truck} runs 'done_hitbox'
+		1) Unit 102865 {units/vehicles/animated_cars/vehicle_slaughterhouse_hanging_armored_truck/vehicle_slaughterhouse_hanging_armored_truck} runs 'done_hitbox'
 	Then perform:
 		Run sequence 'fall_anim' on unit 102865 {units/vehicles/animated_cars/vehicle_slaughterhouse_hanging_armored_truck/vehicle_slaughterhouse_hanging_armored_truck} at (-8271.01953125, 6643.16015625, 2.9959716796875) 	(DELAY 0.3)
 		Perform 'func_sequence_094': 	(DELAY 5)
@@ -3060,14 +3060,14 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 102902 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'first_interact'
+		1) Unit 102895 {units/equipment/vault_drill/vault_drill} runs 'first_interact'
 	Then perform:
 		Execute element 'func_sequence_trigger_first_interact_safe_drill' [ElementUnitSequenceTrigger] 101081 from deafult
  
 'func_sequence_trigger_041' [ElementUnitSequenceTrigger] 102824 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
+		1) Unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
 	Then perform:
 		Toggle OFF element 'logic_link_068' [MissionScriptElement] 102725 from alley_ambush
 		Toggle OFF element 'logic_link_102' [MissionScriptElement] 102964 from alley_ambush
@@ -3087,7 +3087,7 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 101175 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_leave_container_anim_2'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_leave_container_anim_2'
 	Then perform:
 		Execute element 'func_sequence_trigger_011_end' [ElementUnitSequenceTrigger] 102261 from deafult
 		Remove waypoint with text 'Lift the Gas' and icon wp_standard from (-17901, 7848, 75.731201171875) 
@@ -3132,20 +3132,20 @@
 'func_sequence_trigger_067' [ElementUnitSequenceTrigger] 103782 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 101422 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'func_sequence_trigger_092' [ElementUnitSequenceTrigger] 101799 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102857 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-7553.1899414063, 7747.259765625, 8.968279838562) to (-8101.6401367188, 7671.8798828125, 4.9965000152588) with action jump_over_1m_var8
  
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 101895 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_1'
+		1) Unit 100517 {units/world/architecture/slaughterhouse/slaughterhouse_container_crane} runs 'done_pickup_container_anim_1'
 	Then perform:
 		Run sequence 'hide' on unit 102191 {units/world/props/container/slaughterhouse_container_two_doors} at (-17389, 7563, -73) 
 		Perform 'func_sequence_124': 	(DELAY 6)
@@ -3153,7 +3153,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 101911 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
+		1) Unit 101907 {units/equipment/gold_bag/requires_gold_bag} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_003' [ElementCounter] 102420 from deafult
 		Run sequence 'light_on' on unit 102518 {core/units/light_omni_seq/light_omni_seq} at (-17303, 7450, -0.38910099864006) 
@@ -3170,7 +3170,7 @@
 'func_sequence_trigger_listen_03' [ElementUnitSequenceTrigger] 102375 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100701 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 102397 {units/equipment/gold_bag/gold_bag} at (-7763.9702148438, 6510.2998046875, 4.9963998794556) 	(DELAY 1)
 		Run sequence 'interact_enable' on unit 102397 {units/equipment/gold_bag/gold_bag} at (-7763.9702148438, 6510.2998046875, 4.9963998794556) 	(DELAY 1)
@@ -3181,7 +3181,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 102407 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/gold_bag/gold_bag} runs 'interact'
+		1) Unit 102396 {units/equipment/gold_bag/gold_bag} runs 'interact'
 	Then perform:
 		Give instigator 1 of equipment 'gold_bag_equip' 
 		Run sequence 'hide' on unit 102396 {units/equipment/gold_bag/gold_bag} at (-7855, 6434, 133.99099731445) 
@@ -3191,7 +3191,7 @@
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 102695 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
+		1) Unit 102691 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 102722 from alley_ambush
 		Toggle OFF element 'logic_link_069' [MissionScriptElement] 102733 from alley_ambush	(DELAY 0.0099999997764826)
@@ -3201,7 +3201,7 @@
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 102711 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
+		1) Unit 100045 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_hitbox1'
 	Then perform:
 		Execute element 'logic_counter_012' [ElementCounter] 102713 from alley_ambush
 		Toggle OFF element 'logic_link_066' [MissionScriptElement] 102715 from alley_ambush	(DELAY 0.0099999997764826)
@@ -3220,7 +3220,7 @@
 'func_sequence_trigger_040' [ElementUnitSequenceTrigger] 102823 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car3_crashed'
+		1) Unit 102735 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_car3_crashed'
 	Then perform:
 		Execute element 'logic_link_068' [MissionScriptElement] 102725 from alley_ambush
 		Execute element 'logic_link_079' [MissionScriptElement] 102822 from alley_ambush
@@ -3243,14 +3243,14 @@
 'func_sequence_trigger_075' [ElementUnitSequenceTrigger] 103175 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102855 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-7857, 7723, 5.9964900016785) to (-8076.1098632813, 7724.1499023438, 328) with action so_climb_1floor_through_window
  
 'func_sequence_trigger_safe_drill_done' [ElementUnitSequenceTrigger] 101240 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'timer_done'
+		1) Unit 101238 {units/equipment/vault_drill/vault_drill} runs 'timer_done'
 	Then perform:
 		Execute element 'logic_link_090' [MissionScriptElement] 102906 from deafult
 		Make teammates say 'slh_34'	(DELAY 7)
@@ -3309,14 +3309,14 @@
 'func_sequence_trigger_053' [ElementUnitSequenceTrigger] 103767 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 102558 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_068' [ElementUnitSequenceTrigger] 103783 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 100433 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'roof_prefered_remove' [MissionScriptElement] 100914 from roof_event
@@ -3327,7 +3327,7 @@
 'func_sequence_trigger_093' [ElementUnitSequenceTrigger] 101800 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102856 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-7828.1098632813, 7813.5400390625, 4.9965100288391) to (-8081.5698242188, 7832.2202148438, 4.9965100288391) with action jump_over_1m_var3
  
@@ -3363,7 +3363,7 @@
 'func_sequence_trigger_083' [ElementUnitSequenceTrigger] 101110 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102184 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
@@ -3371,7 +3371,7 @@
 'func_sequence_trigger_091' [ElementUnitSequenceTrigger] 104087 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
+		1) Unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} runs 'done_background_turn'
 	Then perform:
 		Run sequence 'done_background_turn_test' on unit 102814 {units/vehicles/animated_cars/vehicle_slaughterhouse_ambush_event/vehicle_slaughterhouse_ambush_event} at (-4525, 6339, 1054) 
  
@@ -3444,7 +3444,7 @@
  
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 101677 from deafult
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse_controlpanel/slaughterhouse_controlpanel} runs 'interact'
+		1) Unit 100363 {units/world/props/slaughterhouse_controlpanel/slaughterhouse_controlpanel} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_004' [ElementCounter] 101715 from deafult
 		Execute element 'logic_counter_005' [ElementCounter] 101717 from deafult
@@ -3458,7 +3458,7 @@
 'func_sequence_trigger_listen_04' [ElementUnitSequenceTrigger] 102376 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100699 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'money_bag_full' on unit 102396 {units/equipment/gold_bag/gold_bag} at (-7855, 6434, 133.99099731445) 	(DELAY 1)
 		Run sequence 'interact_enable' on unit 102396 {units/equipment/gold_bag/gold_bag} at (-7855, 6434, 133.99099731445) 	(DELAY 1)
@@ -3477,7 +3477,7 @@
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 102440 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100695 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'interact_enable' on unit 100351 {units/world/props/slaughterhouse/gold_bar/gold_bar} at (-8368.5400390625, 6445.41015625, 99.608001708984) 
 		Run sequence 'interact_enable' on unit 102454 {units/equipment/gold_bag/gold_bag} at (-8568.3603515625, 6430.7099609375, 4.9963998794556) 
@@ -3540,7 +3540,7 @@
 'func_sequence_trigger_first_interact_safe_drill' [ElementUnitSequenceTrigger] 101081 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'first_interact'
+		1) Unit 101238 {units/equipment/vault_drill/vault_drill} runs 'first_interact'
 	Then perform:
 		Make teammates say 'g21'	(DELAY 2)
 		Toggle OFF element 'func_dialogue_006' [ElementDialogue] 103851 from deafult
@@ -3572,13 +3572,13 @@
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 103768 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 102761 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
  
 'func_sequence_trigger_069' [ElementUnitSequenceTrigger] 103784 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'on'
+		1) Unit 101682 {units/world/props/apartment/facade_light/facade_light} runs 'on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
@@ -3625,7 +3625,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 102441 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
+		1) Unit 100351 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Run sequence 'interact_enable' on unit 100349 {units/world/props/slaughterhouse/gold_bar/gold_bar} at (-8369.150390625, 6447.2099609375, 82.456596374512) 
 		Run sequence 'interact_enable' on unit 102453 {units/equipment/gold_bag/gold_bag} at (-8564, 6484, 4.9963998794556) 
@@ -3666,7 +3666,7 @@
 'func_sequence_trigger_080' [ElementUnitSequenceTrigger] 101087 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 100067 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -3674,7 +3674,7 @@
 'func_sequence_trigger_082' [ElementUnitSequenceTrigger] 101102 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 101521 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -3682,7 +3682,7 @@
 'func_sequence_trigger_044_drill_done' [ElementUnitSequenceTrigger] 102905 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/vault_drill/vault_drill} runs 'timer_done'
+		1) Unit 102895 {units/equipment/vault_drill/vault_drill} runs 'timer_done'
 	Then perform:
 		Execute element 'func_sequence_trigger_safe_drill_done' [ElementUnitSequenceTrigger] 101240 from deafult
 		Remove waypoint with text 'Drill' and icon wp_standard from (-8467, 6436, 152.4049987793) 
@@ -3712,7 +3712,7 @@
 'func_sequence_trigger_078' [ElementUnitSequenceTrigger] 101066 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 101547 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -3819,7 +3819,7 @@
 'func_sequence_trigger_081' [ElementUnitSequenceTrigger] 101101 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 103136 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
@@ -3827,20 +3827,20 @@
 'func_sequence_trigger_055' [ElementUnitSequenceTrigger] 103769 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
+		1) Unit 101758 {units/world/props/office/roof_lamp/roof_lamp_broken} runs 'light_on'
 	Then perform:
 		Play sound 'slaughterhouse_lights_on'
  
 'func_sequence_trigger_070' [ElementUnitSequenceTrigger] 103785 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/apartment/facade_light/facade_light} runs 'none'
+		1) Unit 101768 {units/world/props/apartment/facade_light/facade_light} runs 'none'
 	Then perform:
  
 'func_sequence_trigger_077' [ElementUnitSequenceTrigger] 101063 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102183 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_025' [ElementCounter] 101103 from deafult
 		Execute element 'logic_counter_026' [ElementCounter] 101106 from deafult
@@ -3859,7 +3859,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 102410 from deafult
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_001' [ElementCounter] 102190 from deafult
 		Execute element 'logic_counter_010' [ElementCounter] 100918 from deafult
@@ -3920,7 +3920,7 @@
 'func_sequence_trigger_074' [ElementUnitSequenceTrigger] 102762 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102816 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-7857, 7894, 5.9964900016785) to (-8060.33984375, 7874.3500976563, 328) with action so_climb_1floor_through_window
  
@@ -4065,7 +4065,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 101771 from alley_ambush
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
+		1) Unit 102858 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} runs 'kill_window_02'
 	Then perform:
 		Create navigation link for enemies from position (-8289.58984375, 7440.7900390625, 4.9964299201965) to (-8315.849609375, 7696.1499023438, 4.9965000152588) with action jump_over_1m_var3
  

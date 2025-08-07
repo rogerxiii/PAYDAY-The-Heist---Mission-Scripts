@@ -291,7 +291,7 @@
 'func_sequence_trigger_076' [ElementUnitSequenceTrigger] 100966 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100492 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100950 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2867, -5440, -143.7140045166) 
  
@@ -307,7 +307,7 @@
 'func_sequence_trigger_100' [ElementUnitSequenceTrigger] 101094 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101081 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'show_interact' on unit 101123 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-3295, -2699, 375) 
 		Run sequence 'open' on unit 101081 {units/world/props/diamond_stand/diamond_stand_05} at (-3295, -2699, 375) 
@@ -316,7 +316,7 @@
 'func_sequence_trigger_111' [ElementUnitSequenceTrigger] 101126 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101120 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -325,7 +325,7 @@
 'func_sequence_trigger_127' [ElementUnitSequenceTrigger] 101190 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700625 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-925, -1900, 375) to (-890.22601318359, -1584.8399658203, 375) with action so_jump_through_var2
 		Create navigation link for enemies from position (-871, -1688, 375) to (-865.10601806641, -1925.3800048828, 375) with action so_jump_through_var2
@@ -381,7 +381,7 @@
 'func_sequence_trigger_086' [ElementUnitSequenceTrigger] 101638 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100500 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -554,7 +554,7 @@
 'func_sequence_trigger_077' [ElementUnitSequenceTrigger] 100967 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100494 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100922 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-3734, -5424, -143.7140045166) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -567,7 +567,7 @@
 'func_sequence_trigger_101' [ElementUnitSequenceTrigger] 101095 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101082 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101082 {units/world/props/diamond_stand/diamond_stand_05} at (-3304, -443, 375) 
 		Run sequence 'show_interact' on unit 101120 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-3304, -443, 375) 
@@ -576,7 +576,7 @@
 'func_sequence_trigger_112' [ElementUnitSequenceTrigger] 101127 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101119 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -585,7 +585,7 @@
 'func_sequence_trigger_128' [ElementUnitSequenceTrigger] 101191 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700676 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-621, -1688, 375) to (-623.89599609375, -1944.3800048828, 375) with action so_jump_through_var2
  
@@ -604,7 +604,7 @@
 'func_sequence_trigger_134' [ElementUnitSequenceTrigger] 101511 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'timer_done'
+		1) Unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'timer_done'
 	Then perform:
 		Run sequence 'hide_dummy' on unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-6377, -4600, -305) 
 		Run sequence 'interactive' on unit 101471 {units/world/props/red_diamond_room/big_red_glass_cut} at (-6377, -4600, -305) 
@@ -623,7 +623,7 @@
 'func_sequence_trigger_090' [ElementUnitSequenceTrigger] 101639 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100607 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -736,7 +736,7 @@
 'func_sequence_trigger_102' [ElementUnitSequenceTrigger] 101096 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101085 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101085 {units/world/props/diamond_stand/diamond_stand_05} at (-3457.7900390625, -2764.2399902344, 775) 
 		Run sequence 'show_interact' on unit 101117 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-3457.7900390625, -2764.2399902344, 775) 
@@ -745,7 +745,7 @@
 'func_sequence_trigger_113' [ElementUnitSequenceTrigger] 101128 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101118 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -754,7 +754,7 @@
 'func_sequence_trigger_129' [ElementUnitSequenceTrigger] 101192 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700575 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-1113, -1688, 375) to (-1110.4699707031, -1916.6500244141, 375) with action so_jump_through_var2
  
@@ -806,7 +806,7 @@
 'func_sequence_trigger_138' [ElementUnitSequenceTrigger] 101640 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100608 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -922,7 +922,7 @@
 'func_sequence_trigger_161' [ElementUnitSequenceTrigger] 100969 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 101915 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -930,7 +930,7 @@
 'func_sequence_trigger_103' [ElementUnitSequenceTrigger] 101097 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101084 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101084 {units/world/props/diamond_stand/diamond_stand_05} at (-2266, -2916, 375) 
 		Run sequence 'show_interact' on unit 101118 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-2266, -2916, 375) 
@@ -939,7 +939,7 @@
 'func_sequence_trigger_114' [ElementUnitSequenceTrigger] 101129 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101117 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -951,7 +951,7 @@
 'func_sequence_trigger_130' [ElementUnitSequenceTrigger] 101193 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700463 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-4425, -3200, 375) to (-4868.3500976563, -3205.3601074219, 375) with action so_jump_through_var1
  
@@ -983,7 +983,7 @@
 'func_sequence_trigger_135' [ElementUnitSequenceTrigger] 101513 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_glass_cut} runs 'interact'
+		1) Unit 101471 {units/world/props/red_diamond_room/big_red_glass_cut} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101471 {units/world/props/red_diamond_room/big_red_glass_cut} at (-6377, -4600, -305) 
 		Run sequence 'show_interact' on unit 101143 {units/world/props/red_diamond_room/big_red_diamond} at (-6377, -4600, -305) 
@@ -1020,7 +1020,7 @@
 'func_sequence_trigger_142' [ElementUnitSequenceTrigger] 101897 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01b} runs 'destroy_02'
+		1) Unit 700741 {units/world/architecture/diamondheist/diamondheist_exterior_window_01b} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-2450, -542, 226.85400390625) to (-2266.7399902344, -474.99600219727, 375) with action so_climb_1_5m
 		Create navigation link for enemies from position (-2275, -325, 375) to (-2438.169921875, -305.19500732422, 225) with action so_jumpdown_1_5m_var2
@@ -1083,7 +1083,7 @@
 'func_sequence_trigger_162' [ElementUnitSequenceTrigger] 100970 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 101916 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -1091,7 +1091,7 @@
 'func_sequence_trigger_104' [ElementUnitSequenceTrigger] 101098 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101083 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101083 {units/world/props/diamond_stand/diamond_stand_05} at (-5200, -1775, 775.0009765625) 
 		Run sequence 'show_interact' on unit 101119 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-5200, -1775, 775.0009765625) 
@@ -1100,7 +1100,7 @@
 'func_sequence_trigger_115' [ElementUnitSequenceTrigger] 101130 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101116 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -1128,14 +1128,14 @@
 'func_sequence_trigger_131' [ElementUnitSequenceTrigger] 101194 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700434 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-5964, -2606, 375) to (-5938.6499023438, -3156.6999511719, 375) with action so_jump_through_var1
  
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 101226 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101330 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_009' [ElementUnitSequence] 101212 from default
 		Toggle OFF element 'logic_toggle_001' [ElementToggle] 101205 from default
@@ -1190,7 +1190,7 @@
 'func_sequence_trigger_119' [ElementUnitSequenceTrigger] 101354 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101338 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101324 {units/world/props/hack_box/hack_box} at (-1132, -2225, 475.58200073242) 
 		Make teammates close to instigator say 'dia_46'
@@ -1199,7 +1199,7 @@
 'func_sequence_trigger_167' [ElementUnitSequenceTrigger] 101386 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
+		1) Unit 101141 {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
 	Then perform:
 		Toggle OFF element 'func_sequence_199' [ElementUnitSequence] 101514 from default
 		Toggle OFF element 'func_sequence_trigger_135' [ElementUnitSequenceTrigger] 101513 from default
@@ -1243,7 +1243,7 @@
 'func_sequence_trigger_143' [ElementUnitSequenceTrigger] 101898 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
+		1) Unit 700697 {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-2450, 50, 225) to (-2232.5300292969, 69.681098937988, 375) with action so_climb_1_5m
 		Create navigation link for enemies from position (-2300, 200, 375) to (-2487.2900390625, 317.35501098633, 230.5890045166) with action so_jumpdown_1_5m_var1
@@ -1285,7 +1285,7 @@
 'func_sequence_trigger_105' [ElementUnitSequenceTrigger] 101099 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101091 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'show_interact' on unit 101114 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-700, -1075, 375) 
 		Run sequence 'open' on unit 101091 {units/world/props/diamond_stand/diamond_stand_05} at (-700, -1075, 375) 
@@ -1294,7 +1294,7 @@
 'func_sequence_trigger_116' [ElementUnitSequenceTrigger] 101131 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101115 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -1308,7 +1308,7 @@
 'func_sequence_trigger_002' [ElementUnitSequenceTrigger] 101227 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101329 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_010' [ElementUnitSequence] 101213 from default
 		Toggle OFF element 'logic_toggle_002' [ElementToggle] 101206 from default
@@ -1330,7 +1330,7 @@
 'func_sequence_trigger_120' [ElementUnitSequenceTrigger] 101355 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101339 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101325 {units/world/props/hack_box/hack_box} at (-1993, -4950, 1278.5200195313) 
 		Make teammates close to instigator say 'dia_46'
@@ -1382,7 +1382,7 @@
 'func_sequence_trigger_144' [ElementUnitSequenceTrigger] 101899 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
+		1) Unit 701035 {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-2425, 1200, 225) to (-2253.3798828125, 1215.5500488281, 375) with action so_climb_1_5m
 		Create navigation link for enemies from position (-2275, 1300, 375) to (-2441.6599121094, 1309.0600585938, 225) with action so_jumpdown_1_5m_var1
@@ -1432,7 +1432,7 @@
 'func_sequence_trigger_106' [ElementUnitSequenceTrigger] 101100 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101090 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101090 {units/world/props/diamond_stand/diamond_stand_05} at (-2393.3100585938, -897.25598144531, 775) 
 		Run sequence 'show_interact' on unit 101115 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-2393.3100585938, -897.25598144531, 775) 
@@ -1441,7 +1441,7 @@
 'func_sequence_trigger_117' [ElementUnitSequenceTrigger] 101132 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101114 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -1453,7 +1453,7 @@
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 101228 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101328 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_011' [ElementUnitSequence] 101214 from default
 		Toggle OFF element 'logic_toggle_003' [ElementToggle] 101207 from default
@@ -1471,7 +1471,7 @@
 'func_sequence_trigger_121' [ElementUnitSequenceTrigger] 101356 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101340 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101326 {units/world/props/hack_box/hack_box} at (-2443, -4625, 890.50201416016) 
 		Make teammates close to instigator say 'dia_46'
@@ -1558,7 +1558,7 @@
 'func_sequence_trigger_083' [ElementUnitSequenceTrigger] 100973 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100503 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100497 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-4902, -5371, -143.16900634766) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -1567,7 +1567,7 @@
 'func_sequence_trigger_107' [ElementUnitSequenceTrigger] 101101 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101089 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'open' on unit 101089 {units/world/props/diamond_stand/diamond_stand_05} at (-2394.3400878906, -2328.4699707031, 775) 
 		Run sequence 'show_interact' on unit 101116 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-2394.3400878906, -2328.4699707031, 775) 
@@ -1576,7 +1576,7 @@
 'func_sequence_trigger_118' [ElementUnitSequenceTrigger] 101133 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101113 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -1585,7 +1585,7 @@
 'func_sequence_trigger_004' [ElementUnitSequenceTrigger] 101229 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101327 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_012' [ElementUnitSequence] 101215 from default
 		Toggle OFF element 'logic_toggle_004' [ElementToggle] 101208 from default
@@ -1603,7 +1603,7 @@
 'func_sequence_trigger_122' [ElementUnitSequenceTrigger] 101357 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101341 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101327 {units/world/props/hack_box/hack_box} at (-3399.8701171875, -2876, 907.44201660156) 
 		Make teammates close to instigator say 'dia_46'
@@ -1622,7 +1622,7 @@
 'func_sequence_trigger_136' [ElementUnitSequenceTrigger] 101517 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_diamond} runs 'trigger_used'
+		1) Unit 101143 {units/world/props/red_diamond_room/big_red_diamond} runs 'trigger_used'
 	Then perform:
 		Perform 'func_execute_in_other_mission_003': 	(DELAY 1)
 			Execute element 'logic_link_152_have_diamond' [MissionScriptElement] 101518 from escape
@@ -1718,7 +1718,7 @@
 'func_sequence_trigger_057' [ElementUnitSequenceTrigger] 100910 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100391 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100887 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-4125, -4646, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100886 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} at (-4031, -4650, -185.65899658203) 
@@ -1735,7 +1735,7 @@
 'func_sequence_trigger_084' [ElementUnitSequenceTrigger] 100974 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100505 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -1754,7 +1754,7 @@
 'func_sequence_trigger_108' [ElementUnitSequenceTrigger] 101102 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 101092 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'show_interact' on unit 101113 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-5015, -1355, 375.45999145508) 
 		Run sequence 'open' on unit 101092 {units/world/props/diamond_stand/diamond_stand_05} at (-5015, -1355, 375.45999145508) 
@@ -1772,7 +1772,7 @@
 'func_sequence_trigger_005' [ElementUnitSequenceTrigger] 101230 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101326 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_016' [ElementUnitSequence] 101219 from default
 		Toggle OFF element 'logic_toggle_005' [ElementToggle] 101209 from default
@@ -1790,7 +1790,7 @@
 'func_sequence_trigger_123' [ElementUnitSequenceTrigger] 101358 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101342 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101328 {units/world/props/hack_box/hack_box} at (-5650, -5107, 458.99099731445) 
 		Make teammates close to instigator say 'dia_46'
@@ -1863,7 +1863,7 @@
 'func_sequence_trigger_016' [ElementUnitSequenceTrigger] 100623 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100885 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -1889,7 +1889,7 @@
 'func_sequence_trigger_058' [ElementUnitSequenceTrigger] 100911 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100608 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100891 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-4337, -4646, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100890 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} at (-4300, -4651.8598632813, -186.6490020752) 
@@ -1899,7 +1899,7 @@
 'func_sequence_trigger_085' [ElementUnitSequenceTrigger] 100975 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -1907,7 +1907,7 @@
 'func_sequence_trigger_006' [ElementUnitSequenceTrigger] 101231 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101325 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_014' [ElementUnitSequence] 101217 from default
 		Toggle OFF element 'logic_toggle_007' [ElementToggle] 101211 from default
@@ -1925,7 +1925,7 @@
 'func_sequence_trigger_124' [ElementUnitSequenceTrigger] 101359 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101343 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101329 {units/world/props/hack_box/hack_box} at (-4708, -3375, 529.53198242188) 
 		Make teammates close to instigator say 'dia_46'
@@ -1988,7 +1988,7 @@
 'func_sequence_trigger_079' [ElementUnitSequenceTrigger] 100528 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701054 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -2006,7 +2006,7 @@
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 100624 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100641 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -2036,7 +2036,7 @@
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 100912 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100607 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100879 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-4325, -4560.0698242188, -185.65600585938) 
 		Run sequence 'interactive_on' on unit 100880 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-4267, -4557.0698242188, -185.65699768066) 
@@ -2080,7 +2080,7 @@
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 101232 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_box} runs 'interact'
+		1) Unit 101324 {units/world/props/hack_box/hack_box} runs 'interact'
 	Then perform:
 		Toggle OFF element 'func_sequence_015' [ElementUnitSequence] 101218 from default
 		Toggle OFF element 'logic_toggle_006' [ElementToggle] 101210 from default
@@ -2108,7 +2108,7 @@
 'func_sequence_trigger_125' [ElementUnitSequenceTrigger] 101360 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
+		1) Unit 101344 {units/world/props/hack_box/hack_ipad_unit} runs 'first_interact'
 	Then perform:
 		Run sequence 'open_door' on unit 101330 {units/world/props/hack_box/hack_box} at (-3831.0500488281, -2762.6201171875, 513.94396972656) 
 		Make teammates close to instigator say 'dia_46'
@@ -2163,7 +2163,7 @@
 'func_sequence_trigger_147' [ElementUnitSequenceTrigger] 102128 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'first_interact'
+		1) Unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'first_interact'
 	Then perform:
 		If the difficulty is {Overkill 145+} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:	(DELAY 2)
 			Roll the dice with 50% chance to succeed.
@@ -2221,7 +2221,7 @@
 'func_sequence_trigger_018' [ElementUnitSequenceTrigger] 100625 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100874 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -2239,7 +2239,7 @@
 'func_sequence_trigger_060' [ElementUnitSequenceTrigger] 100913 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100500 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100882 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} at (-4080.0002441406, -4560.3500976563, -185.62899780273) 
 		Run sequence 'interactive_on' on unit 100883 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-4132.1201171875, -4563.830078125, -185.01499938965) 
@@ -2255,7 +2255,7 @@
 'func_sequence_trigger_087' [ElementUnitSequenceTrigger] 100977 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100511 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100926 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-4336, -5380, -142.7140045166) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -2411,7 +2411,7 @@
 'func_sequence_trigger_019' [ElementUnitSequenceTrigger] 100626 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100875 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -2435,7 +2435,7 @@
 'func_sequence_trigger_061' [ElementUnitSequenceTrigger] 100914 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100502 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100878 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2550, -4560, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100877 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2500, -4560, -185.65899658203) 
@@ -2444,7 +2444,7 @@
 'func_sequence_trigger_088' [ElementUnitSequenceTrigger] 100978 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100512 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100947 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-4032, -5371, -142.7140045166) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -2513,7 +2513,7 @@
 'func_sequence_trigger_166' [ElementUnitSequenceTrigger] 102194 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700071 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_link_211' [MissionScriptElement] 102192 from default
  
@@ -2567,14 +2567,14 @@
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 100627 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100886 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_036' [ElementUnitSequenceTrigger] 100723 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700861 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-575, -450, 1175) to (-868.56097412109, -539.66802978516, 775) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100721 {units/equipment/c4_charge/c4_plantable} at (-712, -444, 1195.7800292969) 
@@ -2601,7 +2601,7 @@
 'func_sequence_trigger_062' [ElementUnitSequenceTrigger] 100915 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100527 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100875 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} at (-2350, -4560, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100874 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-2300, -4560, -185.65899658203) 
@@ -2610,7 +2610,7 @@
 'func_sequence_trigger_089' [ElementUnitSequenceTrigger] 100979 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -2729,7 +2729,7 @@
 'func_sequence_trigger_021' [ElementUnitSequenceTrigger] 100628 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100887 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -2748,7 +2748,7 @@
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 100724 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700862 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-600, 375, 1175) to (-922.40502929688, 417.42401123047, 775) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100722 {units/equipment/c4_charge/c4_plantable} at (-708, 343, 1194.6999511719) 
@@ -2774,7 +2774,7 @@
 'func_sequence_trigger_148' [ElementUnitSequenceTrigger] 100852 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701057 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -2782,7 +2782,7 @@
 'func_sequence_trigger_063' [ElementUnitSequenceTrigger] 100916 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100606 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100619 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2349, -4649, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100620 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} at (-2300, -4646.1201171875, -185.66600036621) 
@@ -2791,7 +2791,7 @@
 'func_sequence_trigger_158' [ElementUnitSequenceTrigger] 100948 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700362 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -2829,7 +2829,7 @@
 'func_sequence_trigger_137' [ElementUnitSequenceTrigger] 101524 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'first_interact'
+		1) Unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} runs 'first_interact'
 	Then perform:
 		Trigger global AI event 'hunt'
  
@@ -2856,7 +2856,7 @@
 'func_sequence_trigger_145' [ElementUnitSequenceTrigger] 102004 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_heist/control_panel/diamond_control_panel} runs 'interact'
+		1) Unit 101450 {units/world/props/diamond_heist/control_panel/diamond_control_panel} runs 'interact'
 	Then perform:
 		Make teammates close to instigator say 'dia_20'
 		Remove waypoint with text 'Enter Codes' and icon wp_standard from (-3652, -2316, 150) 
@@ -2933,7 +2933,7 @@
 'func_sequence_trigger_080' [ElementUnitSequenceTrigger] 100533 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701055 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -2944,7 +2944,7 @@
 'func_sequence_trigger_022' [ElementUnitSequenceTrigger] 100629 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100888 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -2963,7 +2963,7 @@
 'func_sequence_trigger_038' [ElementUnitSequenceTrigger] 100725 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700870 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-1750, -825, 1175) to (-1462.0400390625, -807.72302246094, 775) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100720 {units/equipment/c4_charge/c4_plantable} at (-1625, -850, 1196.1099853516) 
@@ -2990,7 +2990,7 @@
 'func_sequence_trigger_064' [ElementUnitSequenceTrigger] 100917 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
+		1) Unit 100616 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01b'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100615 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2440, -4646, -185.65899658203) 
 		Run sequence 'interactive_on' on unit 100613 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2475, -4646, -185.65899658203) 
@@ -3000,7 +3000,7 @@
 'func_sequence_trigger_159' [ElementUnitSequenceTrigger] 100949 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700071 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3008,7 +3008,7 @@
 'func_sequence_trigger_091' [ElementUnitSequenceTrigger] 100981 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100515 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100946 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-3451.9399414063, -5365.75, -144.82299804688) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -3016,7 +3016,7 @@
 'func_sequence_trigger_165' [ElementUnitSequenceTrigger] 101173 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700128 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3119,7 +3119,7 @@
 'func_sequence_trigger_023' [ElementUnitSequenceTrigger] 100630 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100889 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -3140,7 +3140,7 @@
 'func_sequence_trigger_039' [ElementUnitSequenceTrigger] 100726 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700868 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-1775, -425, 1175) to (-1450.4000244141, -445.21600341797, 775) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100719 {units/equipment/c4_charge/c4_plantable} at (-1625, -450, 1195.9200439453) 
@@ -3162,7 +3162,7 @@
 'func_sequence_trigger_092' [ElementUnitSequenceTrigger] 100982 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100517 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100929 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-3168.5500488281, -5356.5, -143.82299804688) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -3340,7 +3340,7 @@
 'func_sequence_trigger_024' [ElementUnitSequenceTrigger] 100631 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100890 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -3361,14 +3361,14 @@
 'func_sequence_trigger_040' [ElementUnitSequenceTrigger] 100855 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100640 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100495 {units/world/props/diamondheist_diamond_pickups/jewelry_bust_1} at (-2500, -4950, -158.16900634766) 
  
 'func_sequence_trigger_150' [ElementUnitSequenceTrigger] 100919 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700184 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3383,7 +3383,7 @@
 'func_sequence_trigger_093' [ElementUnitSequenceTrigger] 100983 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -3505,7 +3505,7 @@
 'func_sequence_trigger_025' [ElementUnitSequenceTrigger] 100632 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100891 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -3518,14 +3518,14 @@
 'func_sequence_trigger_146' [ElementUnitSequenceTrigger] 100824 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
+		1) Unit 101141 {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
 	Then perform:
 		Run sequence 'hide' on unit 101143 {units/world/props/red_diamond_room/big_red_diamond} at (-6377, -4600, -305) 
  
 'func_sequence_trigger_041' [ElementUnitSequenceTrigger] 100856 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100519 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100854 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-2552.1899414063, -5369.3500976563, -143.05599975586) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -3534,7 +3534,7 @@
 'func_sequence_trigger_152' [ElementUnitSequenceTrigger] 100920 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701059 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3542,7 +3542,7 @@
 'func_sequence_trigger_094' [ElementUnitSequenceTrigger] 100984 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'logic_link_006' [MissionScriptElement] 101176 from default
@@ -3560,7 +3560,7 @@
 'func_sequence_trigger_008' [ElementUnitSequenceTrigger] 101240 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101338 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101331 {units/world/props/hack_box/hack_unit} at (-1132, -2225, 475.58200073242) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101338 {units/world/props/hack_box/hack_ipad_unit} at (-1132, -2225, 475.58200073242) 
@@ -3620,7 +3620,7 @@
 'func_sequence_trigger_171' [ElementUnitSequenceTrigger] 102360 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_01} runs 'destroy_02'
+		1) Unit 702511 {units/world/architecture/diamondheist/diamondheist_interior_window_01} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-2571, -3038, 775.0009765625) to (-2368.5900878906, -3195.1298828125, 775.0009765625) with action so_cbt_force_door
 		Create navigation link for enemies from position (-2375, -3200, 775.0009765625) to (-2522.7399902344, -3003.1398925781, 775.0009765625) with action so_cbt_force_door
@@ -3678,7 +3678,7 @@
 'func_sequence_trigger_026' [ElementUnitSequenceTrigger] 100633 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100884 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -3688,7 +3688,7 @@
 'func_sequence_trigger_042' [ElementUnitSequenceTrigger] 100857 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -3696,7 +3696,7 @@
 'func_sequence_trigger_160' [ElementUnitSequenceTrigger] 100953 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700414 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3704,7 +3704,7 @@
 'func_sequence_trigger_095' [ElementUnitSequenceTrigger] 100985 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100499 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 102009 {units/world/props/diamondheist_diamond_pickups/jewelry_bust_2} at (-3217, -4948, -158.16900634766) 
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -3724,7 +3724,7 @@
 'func_sequence_trigger_009' [ElementUnitSequenceTrigger] 101241 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101339 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101332 {units/world/props/hack_box/hack_unit} at (-1993, -4950, 1278.5200195313) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101339 {units/world/props/hack_box/hack_ipad_unit} at (-1993, -4950, 1278.5200195313) 
@@ -3771,14 +3771,14 @@
 'func_sequence_trigger_149' [ElementUnitSequenceTrigger] 102265 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/bank/vault/vault_door_set} runs 'open_door'
+		1) Unit 700300 {units/world/props/bank/vault/vault_door_set} runs 'open_door'
 	Then perform:
 		Cause screen shake with camera shake and with rumble 	(DELAY 5)
  
 'func_sequence_trigger_172' [ElementUnitSequenceTrigger] 102361 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_01} runs 'destroy_02'
+		1) Unit 702512 {units/world/architecture/diamondheist/diamondheist_interior_window_01} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-2661, -3190, 775.0009765625) to (-2376.1298828125, -3214.1899414063, 775.0009765625) with action so_cbt_force_door
  
@@ -3859,14 +3859,14 @@
 'func_sequence_trigger_027' [ElementUnitSequenceTrigger] 100634 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100883 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_034' [ElementUnitSequenceTrigger] 100698 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700937 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-4840, 545, 1175) to (-5145.7700195313, 560.04901123047, 775.0009765625) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100702 {units/equipment/c4_charge/c4_plantable} at (-4975, 550, 1197.6300048828) 
@@ -3880,14 +3880,14 @@
 'func_sequence_trigger_096' [ElementUnitSequenceTrigger] 100986 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100496 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 102175 {units/world/props/diamondheist_diamond_pickups/jewelry_bust_2} at (-3384, -4948, -158.16900634766) 
  
 'func_sequence_trigger_163' [ElementUnitSequenceTrigger] 101018 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700568 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3907,7 +3907,7 @@
 'func_sequence_trigger_010' [ElementUnitSequenceTrigger] 101242 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101340 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101333 {units/world/props/hack_box/hack_unit} at (-2443, -4625, 890.50201416016) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101340 {units/world/props/hack_box/hack_ipad_unit} at (-2443, -4625, 890.50201416016) 
@@ -4027,14 +4027,14 @@
 'func_sequence_trigger_028' [ElementUnitSequenceTrigger] 100635 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100882 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_035' [ElementUnitSequenceTrigger] 100699 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700938 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-4850, 125, 1175) to (-4850, 350, 1175) with action so_hos_jumpdown
 		Run sequence 'hide' on unit 100701 {units/equipment/c4_charge/c4_plantable} at (-4975, 150, 1200) 
@@ -4048,7 +4048,7 @@
 'func_sequence_trigger_153' [ElementUnitSequenceTrigger] 100923 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701061 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -4056,7 +4056,7 @@
 'func_sequence_trigger_065' [ElementUnitSequenceTrigger] 100955 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_02} runs 'destroy_02'
+		1) Unit 100520 {units/world/props/diamond_stand/diamond_stand_02} runs 'destroy_02'
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -4064,7 +4064,7 @@
 'func_sequence_trigger_097' [ElementUnitSequenceTrigger] 100987 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100534 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 102008 {units/world/props/diamondheist_diamond_pickups/jewelry_bust_1} at (-4090, -4949, -158.16900634766) 
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -4072,7 +4072,7 @@
 'func_sequence_trigger_164' [ElementUnitSequenceTrigger] 101019 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 701053 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -4094,7 +4094,7 @@
 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 101243 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101341 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101334 {units/world/props/hack_box/hack_unit} at (-3399.8701171875, -2876, 907.44201660156) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101341 {units/world/props/hack_box/hack_ipad_unit} at (-3399.8701171875, -2876, 907.44201660156) 
@@ -4143,7 +4143,7 @@
 'func_sequence_trigger_169' [ElementUnitSequenceTrigger] 102395 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_heist/elevator_doors/diamond_heist_elevator_doors} runs 'open'
+		1) Unit 700578 {units/world/props/diamond_heist/elevator_doors/diamond_heist_elevator_doors} runs 'open'
 	Then perform:
 		Execute element 'start_elevator_navlink2' [MissionScriptElement] 102358 from prefereds
  
@@ -4192,7 +4192,7 @@
 'func_sequence_trigger_029' [ElementUnitSequenceTrigger] 100636 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100881 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -4202,14 +4202,14 @@
 'func_sequence_trigger_047' [ElementUnitSequenceTrigger] 100892 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100876 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_154' [ElementUnitSequenceTrigger] 100924 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700255 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -4221,7 +4221,7 @@
 'func_sequence_trigger_098' [ElementUnitSequenceTrigger] 100988 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
  
@@ -4231,7 +4231,7 @@
 'func_sequence_trigger_012' [ElementUnitSequenceTrigger] 101244 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101342 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101335 {units/world/props/hack_box/hack_unit} at (-5650, -5107, 458.99099731445) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101342 {units/world/props/hack_box/hack_ipad_unit} at (-5650, -5107, 458.99099731445) 
@@ -4298,7 +4298,7 @@
 'func_sequence_trigger_078' [ElementUnitSequenceTrigger] 101756 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_security_door} runs 'interact'
+		1) Unit 101455 {units/world/props/red_diamond_room/big_red_security_door} runs 'interact'
 	Then perform:
 		Toggle OFF element 'logic_random_032' [ElementRandom] 101751 from default
 		Toggle OFF element 'dia_76' [ElementTeammateComment] 101749 from default
@@ -4317,7 +4317,7 @@
 'func_sequence_trigger_139' [ElementUnitSequenceTrigger] 101884 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01b} runs 'destroy_02'
+		1) Unit 700696 {units/world/architecture/diamondheist/diamondheist_exterior_window_01b} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-4325, -475, 375) to (-4106.509765625, -488.44799804688, 225) with action so_jumpdown_1_5m_var1
 		Create navigation link for enemies from position (-4175, -300, 225) to (-4338.58984375, -268.55499267578, 375) with action so_climb_1_5m
@@ -4325,7 +4325,7 @@
 'func_sequence_trigger_170' [ElementUnitSequenceTrigger] 102396 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_heist/elevator_doors/diamond_heist_elevator_doors} runs 'open'
+		1) Unit 700542 {units/world/props/diamond_heist/elevator_doors/diamond_heist_elevator_doors} runs 'open'
 	Then perform:
 		Execute element 'start_elevator_navlink' [MissionScriptElement] 102359 from prefereds
  
@@ -4353,7 +4353,7 @@
 'func_sequence_trigger_030' [ElementUnitSequenceTrigger] 100637 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100880 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -4386,7 +4386,7 @@
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 100893 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100877 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -4400,7 +4400,7 @@
 'func_sequence_trigger_067' [ElementUnitSequenceTrigger] 100957 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100522 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100943 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} at (-1978, -5441, -143.71499633789) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -4409,7 +4409,7 @@
 'func_sequence_trigger_066' [ElementUnitSequenceTrigger] 101021 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/vase_chinese/vase_chinese} runs 'break'
+		1) Unit 700381 {units/world/props/vase_chinese/vase_chinese} runs 'break'
 	Then perform:
 		Make teammates close to instigator say 'dia_67'	(DELAY 1)
  
@@ -4419,7 +4419,7 @@
 'func_sequence_trigger_126' [ElementUnitSequenceTrigger] 101149 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 700465 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-1400, -1900, 375) to (-1369.2199707031, -1598.1999511719, 375) with action so_jump_through_var2
 		Create navigation link for enemies from position (-1338, -1688, 375) to (-1352.9699707031, -1932.4499511719, 375) with action so_jump_through_var2
@@ -4439,7 +4439,7 @@
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 101245 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101343 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101336 {units/world/props/hack_box/hack_unit} at (-4708, -3375, 529.53198242188) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101343 {units/world/props/hack_box/hack_ipad_unit} at (-4708, -3375, 529.53198242188) 
@@ -4485,7 +4485,7 @@
 'func_sequence_trigger_140' [ElementUnitSequenceTrigger] 101885 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
+		1) Unit 700681 {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-4321, 50, 375) to (-4083.2600097656, 28.692499160767, 225) with action so_jumpdown_1_5m_var1
 		Create navigation link for enemies from position (-4321, 350, 375) to (-4098.3798828125, 347.80499267578, 225) with action so_jumpdown_1_5m_var2
@@ -4534,7 +4534,7 @@
 'func_sequence_trigger_031' [ElementUnitSequenceTrigger] 100638 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100879 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -4544,14 +4544,14 @@
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 100894 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100878 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_068' [ElementUnitSequenceTrigger] 100958 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -4563,7 +4563,7 @@
 'func_sequence_trigger_014' [ElementUnitSequenceTrigger] 101246 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
+		1) Unit 101344 {units/world/props/hack_box/hack_ipad_unit} runs 'timer_done'
 	Then perform:
 		Run sequence 'interact' on unit 101337 {units/world/props/hack_box/hack_unit} at (-3831.0500488281, -2762.6201171875, 513.94396972656) 	(DELAY 1.1)
 		Run sequence 'hide_dummy' on unit 101344 {units/world/props/hack_box/hack_ipad_unit} at (-3831.0500488281, -2762.6201171875, 513.94396972656) 
@@ -4585,7 +4585,7 @@
 'func_sequence_trigger_141' [ElementUnitSequenceTrigger] 101886 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
+		1) Unit 700660 {units/world/architecture/diamondheist/diamondheist_exterior_window_01c} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-4175, 1225, 225) to (-4368.8500976563, 1234.8699951172, 375) with action so_climb_1_5m
 		Create navigation link for enemies from position (-4175, 975, 225) to (-4391.6401367188, 1012.6799926758, 375) with action so_climb_1_5m
@@ -4658,7 +4658,7 @@
 'func_sequence_trigger_050' [ElementUnitSequenceTrigger] 100895 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100621 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -4768,14 +4768,14 @@
 'func_sequence_trigger_051' [ElementUnitSequenceTrigger] 100896 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100620 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_157' [ElementUnitSequenceTrigger] 100928 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700407 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 101175 from prefereds
 		Execute element 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -4783,7 +4783,7 @@
 'func_sequence_trigger_070' [ElementUnitSequenceTrigger] 100960 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100525 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100918 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-1673, -5373, -142.7140045166) 
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
@@ -4796,7 +4796,7 @@
 'func_sequence_trigger_132' [ElementUnitSequenceTrigger] 101216 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
+		1) Unit 101195 {units/world/architecture/diamondheist/diamondheist_interior_window_02} runs 'destroy_02'
 	Then perform:
 		Create navigation link for enemies from position (-1850, -2400, 775.0009765625) to (-1855.9399414063, -3025.5900878906, 775.0009765625) with action so_jump_through_var1
  
@@ -4821,7 +4821,7 @@
 'func_sequence_trigger_151' [ElementUnitSequenceTrigger] 102272 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700507 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_018' [ElementCounter] 102274 from default
  
@@ -4855,7 +4855,7 @@
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 100417 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_heist/control_panel/diamond_control_panel} runs 'interact'
+		1) Unit 101450 {units/world/props/diamond_heist/control_panel/diamond_control_panel} runs 'interact'
 	Then perform:
 		Complete objective 'diamond_codes' at position (-3826, -1918, 175) 
 		Execute element 'logic_link_049_delay_for_dialoge_etc' [MissionScriptElement] 100419 from default
@@ -4879,14 +4879,14 @@
 'func_sequence_trigger_052' [ElementUnitSequenceTrigger] 100897 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
+		1) Unit 100612 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_02} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_071' [ElementUnitSequenceTrigger] 100961 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
 		Execute element 'logic_counter_015' [ElementCounter] 100956 from default
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -4894,7 +4894,7 @@
 'func_sequence_trigger_109' [ElementUnitSequenceTrigger] 101121 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101122 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -4922,7 +4922,7 @@
 'func_sequence_trigger_069' [ElementUnitSequenceTrigger] 101633 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100527 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -4960,7 +4960,7 @@
 'func_sequence_trigger_168' [ElementUnitSequenceTrigger] 102273 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/security_camera/security_camera_white} runs 'stop'
+		1) Unit 700505 {units/world/props/security_camera/security_camera_white} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_018' [ElementCounter] 102274 from default
  
@@ -5011,13 +5011,13 @@
 'func_sequence_trigger_043' [ElementUnitSequenceTrigger] 100866 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'func_sequence_trigger_053' [ElementUnitSequenceTrigger] 100898 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100613 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -5065,7 +5065,7 @@
 'func_sequence_trigger_072' [ElementUnitSequenceTrigger] 101634 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100502 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -5151,7 +5151,7 @@
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 100675 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700972 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-6000, 175, 1175) to (-5725.419921875, 184.21600341797, 775) with action so_climb_down_4m
 		Remove element 'point_special_objective_061' [ElementSpecialObjective] 100680 from prefereds
@@ -5165,13 +5165,13 @@
 'func_sequence_trigger_044' [ElementUnitSequenceTrigger] 100867 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 100899 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100615 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -5198,7 +5198,7 @@
 'func_sequence_trigger_073' [ElementUnitSequenceTrigger] 101635 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100616 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -5309,7 +5309,7 @@
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 100676 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
+		1) Unit 700936 {units/world/architecture/diamondheist/windows/diamondheist_rooftop_window} runs 'destroy_dmg_02'
 	Then perform:
 		Create navigation link for enemies from position (-6000, 550, 1175) to (-5661.8798828125, 349.32901000977, 775) with action so_hos_jumpdown
 		Remove element 'point_special_objective_061' [ElementSpecialObjective] 100680 from prefereds
@@ -5320,13 +5320,13 @@
 'func_sequence_trigger_045' [ElementUnitSequenceTrigger] 100868 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'func_sequence_trigger_055' [ElementUnitSequenceTrigger] 100900 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
+		1) Unit 100619 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_03} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
@@ -5342,7 +5342,7 @@
 'func_sequence_trigger_074' [ElementUnitSequenceTrigger] 100964 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
+		1) Unit 100531 {units/world/props/diamond_stand/diamond_stand} runs 'destroy_02'
 	Then perform:
 		Run sequence 'interactive_on' on unit 100921 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} at (-2271, -5376, -143.71499633789) 
 		Execute element 'logic_counter_019' [ElementCounter] 101865 from default
@@ -5350,7 +5350,7 @@
 'func_sequence_trigger_110' [ElementUnitSequenceTrigger] 101124 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
+		1) Unit 101123 {units/world/props/diamond_stand/diamond_stand_05_diamond} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_006' [ElementCounter] 101134 from default
 		Execute element 'logic_counter_017' [ElementCounter] 101736 from default
@@ -5371,7 +5371,7 @@
 'func_sequence_trigger_081' [ElementUnitSequenceTrigger] 101636 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100606 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
@@ -5590,26 +5590,26 @@
 'func_sequence_trigger_046' [ElementUnitSequenceTrigger] 100869 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'func_sequence_trigger_056' [ElementUnitSequenceTrigger] 100901 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
+		1) Unit 100611 {units/world/props/diamondheist_diamond_pickups/diamond_pickup_01} runs 'interact'
 	Then perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100639 from default
  
 'func_sequence_trigger_075' [ElementUnitSequenceTrigger] 100965 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) no unit runs 'none'		(probably deprecated or for debugging only)
+		1) No unit runs 'none'		(probably deprecated or for debugging only)
 	Then perform:
  
 'func_sequence_trigger_099' [ElementUnitSequenceTrigger] 101093 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
+		1) Unit 100865 {units/world/props/diamond_stand/diamond_stand_05} runs 'interact'
 	Then perform:
 		Run sequence 'show_interact' on unit 101122 {units/world/props/diamond_stand/diamond_stand_05_diamond} at (-2038, 388, 375) 
 		Run sequence 'open' on unit 100865 {units/world/props/diamond_stand/diamond_stand_05} at (-2038, 388, 375) 
@@ -5623,7 +5623,7 @@
 'func_sequence_trigger_133' [ElementUnitSequenceTrigger] 101509 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
+		1) Unit 101141 {units/world/props/red_diamond_room/big_red_diamond_stand} runs 'lock_down'
 	Then perform:
 		Run sequence 'hidden' on unit 101471 {units/world/props/red_diamond_room/big_red_glass_cut} at (-6377, -4600, -305) 
 		Run sequence 'hide_dummy' on unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-6377, -4600, -305) 
@@ -5644,7 +5644,7 @@
 'func_sequence_trigger_082' [ElementUnitSequenceTrigger] 101637 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
+		1) Unit 100391 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
